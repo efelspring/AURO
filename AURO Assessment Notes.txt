@@ -1,0 +1,86 @@
+AURO Assessment Notes
+The assessment focuses on the retrieval of items by autonomous mobile robot(s)
+
+you are given a world which contains items of different types distributed throughout the environment which the robot(s) must collect and deposit in appropriate zone(s)
+
+world also contains obstacles that the robot needs to avoid. 
+
+to collect an item, the robot needs to drive into it, then use a function to "collect" it is then "holding" the item until it uses another function to "drop" the item. 
+
+Once an item has been collected and deposited, another will be spawned to replace
+
+I need to:
+	design and implement a solution to the task
+		using mobile robot(s) that autonomously collect and deliver items in an efficient way.
+	solution should be implemented in simulation using ROS2 Humble Hawksbill, Gazebo Classic 11, and python client library rlcpy.
+	the solution needs to be autonomously controlled, and use TurtleBot3 WafflePi robot(s)
+	
+	you may use up to 3 robots
+	
+	you must include a readme file that describes how to run your code, details any packages or environment variables that you solution depends on.
+	It should also detail what scenarios your implementation should be exercised on, including values to config nodes and launch files as appropriate
+	
+	
+I will be assessed on the following:
+	-How effectively the task is achieved (the intelligence of the system and how effectively it addresses different aspects of the task)
+	{multi-robot systems arent inherently more sophisticated, only if they use their numbers to increase efficiency.} 
+	-appropriateness of the obstacle avoidance solution
+	-effectiveness of the search strategy (at most 3/5 for a single robot)
+	-effectiveness of collection strategy (at most 3/5 for single robot)
+	-efficiency of the task and how correctly it achieves the goals (6/10 tops for single)
+	-modularity of the solution and breadth of ROS features i use
+	-how well you've demonstrated your understanding of them (through correct usage)
+	-implementation should be easy to understand
+	-code should be well structured, sensible naming conventions & comments throughtout
+	-a comprehensive README file
+	-instructions for running your solution should specify the simulation scenarios you specifically considered
+	-at most 1 mark per valid scenario, diversity of scenarios will be taken into account
+	
+	
+I will be provided with code that defines the assessment task which can be downloaded from the vle
+This code sets up the world, runs a ROS node that spawns items and keeps track of when they are collected and returned.
+I will also be provided with a ROS node that processes images from the robot's camera and publishes information about items detected. [you MUST use this code, WITHOUT MODIFICATION, as it defines the parameters of the task]
+I am allowed to use any of the example code provided as part of the teaching dilivery for the AURO module, including the solutions to practical exercises. 
+The use of 3rd party packages is also permitted AS LONG as you cite the original source and instructions on how to build them.
+If the solution doesnt build correctly you get 0
+
+
+Report:
+- write a report that details the design and implementation of the solution.
+- describe the design
+- analyse the performance
+- present results in the report
+- evaluate strengths and weaknesses of the solution
+- reflect on related safety implications and ethical considerations.
+
+Must be structured as follows:
+OVERVIEW
+	high level description of methodology used, explain what influenced you approach
+	[200 words]
+ARCHITECTURE
+	diagram illustrating the architecture and description of said diagram. 
+	identify the nodes responsible for implementing the control strategy
+	[300 words]
+CONTROL
+	provide RoboChart state machines for the control nodes identified above
+	explain the state machines used
+	[300 words]
+EVALUATION
+	provide an evaluation of solution, through one or more methodologies (choose 3)
+	(simulation, complexity analysis, data analysis, descriptive, experimental)
+	[600 words]
+SAFETY AND ETHICS
+	discussion of the ethical and safety implications of my solution in particular
+	reflect on how these topics relate to your solution's approach, if it were real-world
+	[300 words]
+SIMULATION SCENARIO
+	include screenshot(s) of the simulation and explain and reflect on the overall strategy used
+	justify the choice of simulation scenarios
+	[300 words]
+	
+remaining marks are allocated based on presentation (structure, figures, adherence to the brief, referencing)
+
+report formatted on A4, min font size 12pt, minimum margins of at least 2cm, referencing follows IEEE referencing style. report must not exceed 2000 words total (excluding refs)
+
+Must fully anonymize the solution, including ROS packages, metadata, env variables, linux terinal prompts, etc.
+	
