@@ -1,0 +1,21 @@
+AURO ASSESSMENT DOCUMENT
+
+Overview
+[200 words]
+
+Architecture
+[300 words]
+
+Control
+[300 words]
+
+Evalution
+[600 words]
+
+Safety and Ethics
+[300 words]
+
+Simulation Scenario
+[300 words]
+
+
