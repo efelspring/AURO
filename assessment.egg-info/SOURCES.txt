@@ -1,0 +1,8 @@
+README.md
+assessment.egg-info/PKG-INFO
+assessment.egg-info/SOURCES.txt
+assessment.egg-info/dependency_links.txt
+assessment.egg-info/entry_points.txt
+assessment.egg-info/requires.txt
+assessment.egg-info/top_level.txt
+assessment.egg-info/zip-safe

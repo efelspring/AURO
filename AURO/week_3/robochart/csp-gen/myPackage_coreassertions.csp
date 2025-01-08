@@ -1,0 +1,98 @@
+
+--
+-- RoboChart generator version 3.0.0.202408051513
+-- Automatically generated on 14-10-2024 14:42:16
+--
+-- Iterated compression status: true
+-- Assertions compression status: false
+--
+
+include "myPackage.csp"
+
+
+-- generate myPackage_OP_move
+P_myPackage_OP_move = let
+	id__ = 0
+	
+	param_lvel = 0
+	param_avel = 0
+	
+	
+	
+within
+	myPackage::OP_move::O__(id__,
+				param_lvel,
+				param_avel)
+assert P_myPackage_OP_move :[deadlock-free]	
+assert P_myPackage_OP_move;RUN({r__}) :[deadlock-free]
+assert P_myPackage_OP_move :[deterministic]
+assert P_myPackage_OP_move :[divergence-free]
+
+-- generate myPackage_Driving
+P_myPackage_Driving = let
+	id__ = 0
+	
+	
+	
+		
+within
+	myPackage::Driving::O__(id__,
+			    const_myPackage_Driving_TurtleBot3FSMRC_lvel,
+			    const_myPackage_Driving_TurtleBot3FSMRC_avel)
+
+assert P_myPackage_Driving :[deadlock-free]	
+assert P_myPackage_Driving;RUN({r__}) :[deadlock-free]
+assert P_myPackage_Driving :[deterministic]
+assert P_myPackage_Driving :[divergence-free]
+
+-- generate myPackage_Driving_TurtleBot3FSMRC
+P_myPackage_Driving_TurtleBot3FSMRC = let
+	id__ = 0
+	
+	
+	
+within
+	myPackage::Driving::TurtleBot3FSMRC::O__(
+		id__,
+		const_myPackage_Driving_TurtleBot3FSMRC_lvel,
+		const_myPackage_Driving_TurtleBot3FSMRC_avel
+	)
+assert P_myPackage_Driving_TurtleBot3FSMRC :[deadlock-free]	
+assert P_myPackage_Driving_TurtleBot3FSMRC;RUN({r__}) :[deadlock-free]
+assert P_myPackage_Driving_TurtleBot3FSMRC :[deterministic]
+assert P_myPackage_Driving_TurtleBot3FSMRC :[divergence-free]
+
+-- generate myPackage_Module
+P_myPackage_Module = let
+	id__ = 0
+	
+	
+	
+		
+	
+within
+	myPackage::Module::O__(id__,
+			    const_myPackage_Driving_TurtleBot3FSMRC_lvel,
+			    const_myPackage_Driving_TurtleBot3FSMRC_avel)
+assert P_myPackage_Module :[deadlock-free]	
+assert P_myPackage_Module;RUN({r__}) :[deadlock-free]
+assert P_myPackage_Module :[deterministic]
+assert P_myPackage_Module :[divergence-free]
+
+-- generate myPackage_Module_ctrl_ref0
+P_myPackage_Module_ctrl_ref0 = let
+	id__ = 0
+	
+	
+	
+		
+within
+	myPackage::Module::ctrl_ref0::O__(id__,
+			    const_myPackage_Driving_TurtleBot3FSMRC_lvel,
+			    const_myPackage_Driving_TurtleBot3FSMRC_avel)
+
+assert P_myPackage_Module_ctrl_ref0 :[deadlock-free]	
+assert P_myPackage_Module_ctrl_ref0;RUN({r__}) :[deadlock-free]
+assert P_myPackage_Module_ctrl_ref0 :[deterministic]
+assert P_myPackage_Module_ctrl_ref0 :[divergence-free]
+
