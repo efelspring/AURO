@@ -1,1 +1,0 @@
-/workspace/AURO/week_6/launch/week_6_launch.py

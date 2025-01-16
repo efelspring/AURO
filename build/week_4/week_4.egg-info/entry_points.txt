@@ -1,5 +1,0 @@
-[console_scripts]
-rc_driving = week_4.rc_driving:main
-rc_obstacle_detector = week_4.rc_obstacle_detector:main
-robot_controller = week_4.robot_controller:main
-
