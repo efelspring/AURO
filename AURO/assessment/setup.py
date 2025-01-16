@@ -51,6 +51,10 @@ setup(
             'item_sensor = assessment.item_sensor:main',
             'zone_sensor = assessment.zone_sensor:main',
             'robot_sensor = assessment.robot_sensor:main',
+            'collision_detector = assessment.collision_detector:main',
+            'lidar_sensor = assessment.lidar_sensor:main',
+            'priority_manager = assessment.priority_manager:main',
+            'robot_controller = assessment.robot_controller:main',
         ],
     },
 )
