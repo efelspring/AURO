@@ -2,6 +2,9 @@
 build/*
 install/*
 log/*
+assessment/assessment/build/*
+assessment/assessment/install/*
+assessment/assessment/log/*
 week_6/robochart/buffer-example/csp-gen/file_broken_coreassertions.csp
 week_6/robochart/buffer-example/csp-gen/file_broken.csp
 week_6/robochart/buffer-example/csp-gen/file_main_coreassertions.csp
