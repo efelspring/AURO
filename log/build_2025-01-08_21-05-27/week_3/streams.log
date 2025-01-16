@@ -1,0 +1,22 @@
+[1.633s] Invoking command in '/workspace/build/week_3': PYTHONPATH=/workspace/build/week_3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/week_3/build --no-deps symlink_data
+[2.146s] running develop
+[2.147s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.147s]   warnings.warn(
+[2.377s] running egg_info
+[2.379s] writing week_3.egg-info/PKG-INFO
+[2.379s] writing dependency_links to week_3.egg-info/dependency_links.txt
+[2.380s] writing entry points to week_3.egg-info/entry_points.txt
+[2.380s] writing requirements to week_3.egg-info/requires.txt
+[2.380s] writing top-level names to week_3.egg-info/top_level.txt
+[2.381s] reading manifest file 'week_3.egg-info/SOURCES.txt'
+[2.385s] writing manifest file 'week_3.egg-info/SOURCES.txt'
+[2.386s] running build_ext
+[2.387s] Creating /workspace/install/week_3/lib/python3.10/site-packages/week-3.egg-link (link to .)
+[2.389s] Installing rviz_text_marker script to /workspace/install/week_3/lib/week_3
+[2.390s] Installing turtlebot3_fsm script to /workspace/install/week_3/lib/week_3
+[2.390s] Installing turtlebot3_fsm_rc script to /workspace/install/week_3/lib/week_3
+[2.390s] Installing turtlebot3_random_walk script to /workspace/install/week_3/lib/week_3
+[2.390s] 
+[2.390s] Installed /workspace/build/week_3
+[2.390s] running symlink_data
+[2.870s] Invoked command in '/workspace/build/week_3' returned '0': PYTHONPATH=/workspace/build/week_3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/week_3/build --no-deps symlink_data

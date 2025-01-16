@@ -1,0 +1,14 @@
+{
+  "package_name": "assessment_interfaces",
+  "non_idl_tuples": [
+    "/workspace/AURO/assessment_interfaces:msg/ItemLog.msg",
+    "/workspace/AURO/assessment_interfaces:msg/ItemHolder.msg",
+    "/workspace/AURO/assessment_interfaces:msg/ItemHolders.msg",
+    "/workspace/AURO/assessment_interfaces:msg/Item.msg",
+    "/workspace/AURO/assessment_interfaces:msg/ItemList.msg",
+    "/workspace/AURO/assessment_interfaces:msg/Zone.msg",
+    "/workspace/AURO/assessment_interfaces:msg/ZoneList.msg",
+    "/workspace/AURO/assessment_interfaces:msg/Robot.msg",
+    "/workspace/AURO/assessment_interfaces:msg/RobotList.msg"
+  ]
+}

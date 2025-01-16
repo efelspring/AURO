@@ -1,0 +1,1 @@
+/workspace/build/auro_interfaces/rosidl_generator_py/auro_interfaces/msg/_direction.py

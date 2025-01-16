@@ -1,0 +1,1 @@
+/workspace/build/auro_interfaces/rosidl_typesupport_fastrtps_cpp/auro_interfaces/srv/detail/item_request__rosidl_typesupport_fastrtps_cpp.hpp

@@ -1,0 +1,19 @@
+[3.052s] Invoking command in '/workspace/build/week_2': PYTHONPATH=/workspace/build/week_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/week_2/build --no-deps symlink_data
+[3.666s] running develop
+[3.667s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.667s]   warnings.warn(
+[4.008s] running egg_info
+[4.010s] writing week_2.egg-info/PKG-INFO
+[4.010s] writing dependency_links to week_2.egg-info/dependency_links.txt
+[4.010s] writing entry points to week_2.egg-info/entry_points.txt
+[4.010s] writing requirements to week_2.egg-info/requires.txt
+[4.010s] writing top-level names to week_2.egg-info/top_level.txt
+[4.014s] reading manifest file 'week_2.egg-info/SOURCES.txt'
+[4.014s] writing manifest file 'week_2.egg-info/SOURCES.txt'
+[4.020s] running build_ext
+[4.020s] Creating /workspace/install/week_2/lib/python3.10/site-packages/week-2.egg-link (link to .)
+[4.020s] Installing turtlebot3_drive_python script to /workspace/install/week_2/lib/week_2
+[4.020s] 
+[4.024s] Installed /workspace/build/week_2
+[4.024s] running symlink_data
+[4.474s] Invoked command in '/workspace/build/week_2' returned '0': PYTHONPATH=/workspace/build/week_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/week_2/build --no-deps symlink_data

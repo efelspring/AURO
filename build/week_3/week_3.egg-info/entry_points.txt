@@ -1,0 +1,6 @@
+[console_scripts]
+rviz_text_marker = week_3.rviz_text_marker:main
+turtlebot3_fsm = week_3.turtlebot3_fsm:main
+turtlebot3_fsm_rc = week_3.turtlebot3_fsm_rc:main
+turtlebot3_random_walk = week_3.turtlebot3_random_walk:main
+

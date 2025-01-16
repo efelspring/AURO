@@ -1,0 +1,13 @@
+setup.py
+auro_interfaces/__init__.py
+auro_interfaces.egg-info/PKG-INFO
+auro_interfaces.egg-info/SOURCES.txt
+auro_interfaces.egg-info/dependency_links.txt
+auro_interfaces.egg-info/top_level.txt
+auro_interfaces/msg/__init__.py
+auro_interfaces/msg/_direction.py
+auro_interfaces/msg/_item.py
+auro_interfaces/msg/_item_list.py
+auro_interfaces/msg/_string_with_pose.py
+auro_interfaces/srv/__init__.py
+auro_interfaces/srv/_item_request.py

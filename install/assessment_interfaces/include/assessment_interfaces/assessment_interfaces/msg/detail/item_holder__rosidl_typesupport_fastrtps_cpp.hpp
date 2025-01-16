@@ -1,0 +1,1 @@
+/workspace/build/assessment_interfaces/rosidl_typesupport_fastrtps_cpp/assessment_interfaces/msg/detail/item_holder__rosidl_typesupport_fastrtps_cpp.hpp

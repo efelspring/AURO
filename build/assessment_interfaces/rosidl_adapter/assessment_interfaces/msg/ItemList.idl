@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from assessment_interfaces/msg/ItemList.msg
+// generated code does not contain a copyright notice
+
+#include "assessment_interfaces/msg/Item.idl"
+
+module assessment_interfaces {
+  module msg {
+    struct ItemList {
+      sequence<assessment_interfaces::msg::Item> data;
+    };
+  };
+};

@@ -1,0 +1,6 @@
+[console_scripts]
+item_manager = assessment.item_manager:main
+item_sensor = assessment.item_sensor:main
+robot_sensor = assessment.robot_sensor:main
+zone_sensor = assessment.zone_sensor:main
+

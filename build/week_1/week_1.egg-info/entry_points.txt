@@ -1,0 +1,4 @@
+[console_scripts]
+turtle_controller = week_1.turtle_controller:main
+turtle_listener = week_1.turtle_listener:main
+

@@ -1,0 +1,1 @@
+/workspace/build/auro_interfaces/rosidl_generator_py/auro_interfaces/srv/_item_request_s.c

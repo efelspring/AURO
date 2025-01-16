@@ -1,0 +1,11 @@
+// generated from rosidl_generator_cpp/resource/idl.hpp.em
+// generated code does not contain a copyright notice
+
+#ifndef ASSESSMENT_INTERFACES__MSG__ITEM_HPP_
+#define ASSESSMENT_INTERFACES__MSG__ITEM_HPP_
+
+#include "assessment_interfaces/msg/detail/item__struct.hpp"
+#include "assessment_interfaces/msg/detail/item__builder.hpp"
+#include "assessment_interfaces/msg/detail/item__traits.hpp"
+
+#endif  // ASSESSMENT_INTERFACES__MSG__ITEM_HPP_

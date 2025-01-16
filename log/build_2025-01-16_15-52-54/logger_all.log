@@ -1,0 +1,837 @@
+[0.132s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.132s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x70f0980a4970>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70f098077fd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70f098077fd0>>, mixin_verb=('build',))
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.288s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.289s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.289s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/workspace'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(AURO) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(AURO) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(AURO) by extension 'ignore_ament_install'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(AURO) by extensions ['colcon_pkg']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(AURO) by extension 'colcon_pkg'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(AURO) by extensions ['colcon_meta']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(AURO) by extension 'colcon_meta'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(AURO) by extensions ['ros']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(AURO) by extension 'ros'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(AURO) by extensions ['cmake', 'python']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(AURO) by extension 'cmake'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(AURO) by extension 'python'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(AURO) by extensions ['python_setup_py']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(AURO) by extension 'python_setup_py'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment) by extension 'ignore_ament_install'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment) by extension 'colcon_meta'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment) by extensions ['ros']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment) by extension 'ros'
+[0.307s] DEBUG:colcon.colcon_core.package_identification:Package 'AURO/assessment' with type 'ros.ament_python' and name 'assessment'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment_interfaces) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment_interfaces) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment_interfaces) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment_interfaces) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment_interfaces) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment_interfaces) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment_interfaces) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment_interfaces) by extension 'ros'
+[0.308s] DEBUG:colcon.colcon_core.package_identification:Package 'AURO/assessment_interfaces' with type 'ros.ament_cmake' and name 'assessment_interfaces'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/auro_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/auro_interfaces) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/auro_interfaces) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/auro_interfaces) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/auro_interfaces) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/auro_interfaces) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/auro_interfaces) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/auro_interfaces) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/auro_interfaces) by extension 'ros'
+[0.310s] DEBUG:colcon.colcon_core.package_identification:Package 'AURO/auro_interfaces' with type 'ros.ament_cmake' and name 'auro_interfaces'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/build) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/build) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/build) ignored
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/install) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/install) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/install) ignored
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/log) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/log) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/log) ignored
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/solution) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/solution) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/solution) by extension 'ignore_ament_install'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/solution) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/solution) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/solution) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/solution) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/solution) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/solution) by extension 'ros'
+[0.313s] DEBUG:colcon.colcon_core.package_identification:Package 'AURO/solution' with type 'ros.ament_python' and name 'solution'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/tf_relay) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/tf_relay) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/tf_relay) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/tf_relay) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/tf_relay) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/tf_relay) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/tf_relay) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/tf_relay) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/tf_relay) by extension 'ros'
+[0.314s] DEBUG:colcon.colcon_core.package_identification:Package 'AURO/tf_relay' with type 'ros.ament_python' and name 'tf_relay'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_1) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_1) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_1) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_1) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_1) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_1) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_1) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_1) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_1) by extension 'ros'
+[0.315s] DEBUG:colcon.colcon_core.package_identification:Package 'AURO/week_1' with type 'ros.ament_python' and name 'week_1'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_2) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_2) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_2) by extension 'ignore_ament_install'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_2) by extensions ['colcon_pkg']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_2) by extension 'colcon_pkg'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_2) by extensions ['colcon_meta']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_2) by extension 'colcon_meta'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_2) by extensions ['ros']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_2) by extension 'ros'
+[0.317s] DEBUG:colcon.colcon_core.package_identification:Package 'AURO/week_2' with type 'ros.ament_python' and name 'week_2'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_3) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_3) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_3) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_3) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_3) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_3) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_3) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_3) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_3) by extension 'ros'
+[0.318s] DEBUG:colcon.colcon_core.package_identification:Package 'AURO/week_3' with type 'ros.ament_python' and name 'week_3'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_4) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_4) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_4) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_4) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_4) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_4) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_4) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_4) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_4) by extension 'ros'
+[0.319s] DEBUG:colcon.colcon_core.package_identification:Package 'AURO/week_4' with type 'ros.ament_python' and name 'week_4'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_5) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_5) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_5) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_5) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_5) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_5) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_5) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_5) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_5) by extension 'ros'
+[0.321s] DEBUG:colcon.colcon_core.package_identification:Package 'AURO/week_5' with type 'ros.ament_python' and name 'week_5'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_6) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_6) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_6) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_6) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_6) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_6) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_6) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_6) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_6) by extension 'ros'
+[0.322s] DEBUG:colcon.colcon_core.package_identification:Package 'AURO/week_6' with type 'ros.ament_python' and name 'week_6'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_7) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_7) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_7) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_7) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_7) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_7) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_7) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_7) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_7) by extension 'ros'
+[0.324s] DEBUG:colcon.colcon_core.package_identification:Package 'AURO/week_7' with type 'ros.ament_python' and name 'week_7'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_8) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_8) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_8) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_8) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_8) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_8) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_8) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_8) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/week_8) by extension 'ros'
+[0.325s] DEBUG:colcon.colcon_core.package_identification:Package 'AURO/week_8' with type 'ros.ament_python' and name 'week_8'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(assessment.egg-info) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(assessment.egg-info) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(assessment.egg-info) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(assessment.egg-info) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(assessment.egg-info) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(assessment.egg-info) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(assessment.egg-info) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(assessment.egg-info) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(assessment.egg-info) by extension 'ros'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(assessment.egg-info) by extensions ['cmake', 'python']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(assessment.egg-info) by extension 'cmake'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(assessment.egg-info) by extension 'python'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(assessment.egg-info) by extensions ['python_setup_py']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(assessment.egg-info) by extension 'python_setup_py'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'assessment_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'assessment_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'assessment_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'assessment_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'assessment_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'assessment_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'assessment_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'assessment_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'assessment_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.350s] DEBUG:colcon.colcon_core.verb:Building package 'assessment_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/build/assessment_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/install/assessment_interfaces', 'merge_install': False, 'path': '/workspace/AURO/assessment_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'auro_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'auro_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'auro_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'auro_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'auro_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'auro_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'auro_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'auro_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'auro_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.351s] DEBUG:colcon.colcon_core.verb:Building package 'auro_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/build/auro_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/install/auro_interfaces', 'merge_install': False, 'path': '/workspace/AURO/auro_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'solution' build argument 'cmake_args' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'solution' build argument 'cmake_target' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'solution' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'solution' build argument 'cmake_clean_cache' from command line to 'False'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'solution' build argument 'cmake_clean_first' from command line to 'False'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'solution' build argument 'cmake_force_configure' from command line to 'False'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'solution' build argument 'ament_cmake_args' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'solution' build argument 'catkin_cmake_args' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'solution' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.351s] DEBUG:colcon.colcon_core.verb:Building package 'solution' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/build/solution', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/install/solution', 'merge_install': False, 'path': '/workspace/AURO/solution', 'symlink_install': True, 'test_result_base': None}
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'tf_relay' build argument 'cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'tf_relay' build argument 'cmake_target' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'tf_relay' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'tf_relay' build argument 'cmake_clean_cache' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'tf_relay' build argument 'cmake_clean_first' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'tf_relay' build argument 'cmake_force_configure' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'tf_relay' build argument 'ament_cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'tf_relay' build argument 'catkin_cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'tf_relay' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.352s] DEBUG:colcon.colcon_core.verb:Building package 'tf_relay' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/build/tf_relay', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/install/tf_relay', 'merge_install': False, 'path': '/workspace/AURO/tf_relay', 'symlink_install': True, 'test_result_base': None}
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'week_1' build argument 'cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'week_1' build argument 'cmake_target' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'week_1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'week_1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'week_1' build argument 'cmake_clean_first' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'week_1' build argument 'cmake_force_configure' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'week_1' build argument 'ament_cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'week_1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'week_1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.353s] DEBUG:colcon.colcon_core.verb:Building package 'week_1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/build/week_1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/install/week_1', 'merge_install': False, 'path': '/workspace/AURO/week_1', 'symlink_install': True, 'test_result_base': None}
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'week_2' build argument 'cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'week_2' build argument 'cmake_target' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'week_2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'week_2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'week_2' build argument 'cmake_clean_first' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'week_2' build argument 'cmake_force_configure' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'week_2' build argument 'ament_cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'week_2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'week_2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.354s] DEBUG:colcon.colcon_core.verb:Building package 'week_2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/build/week_2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/install/week_2', 'merge_install': False, 'path': '/workspace/AURO/week_2', 'symlink_install': True, 'test_result_base': None}
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'week_3' build argument 'cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'week_3' build argument 'cmake_target' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'week_3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'week_3' build argument 'cmake_clean_cache' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'week_3' build argument 'cmake_clean_first' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'week_3' build argument 'cmake_force_configure' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'week_3' build argument 'ament_cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'week_3' build argument 'catkin_cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'week_3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.355s] DEBUG:colcon.colcon_core.verb:Building package 'week_3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/build/week_3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/install/week_3', 'merge_install': False, 'path': '/workspace/AURO/week_3', 'symlink_install': True, 'test_result_base': None}
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'week_6' build argument 'cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'week_6' build argument 'cmake_target' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'week_6' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'week_6' build argument 'cmake_clean_cache' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'week_6' build argument 'cmake_clean_first' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'week_6' build argument 'cmake_force_configure' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'week_6' build argument 'ament_cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'week_6' build argument 'catkin_cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'week_6' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.356s] DEBUG:colcon.colcon_core.verb:Building package 'week_6' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/build/week_6', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/install/week_6', 'merge_install': False, 'path': '/workspace/AURO/week_6', 'symlink_install': True, 'test_result_base': None}
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'week_7' build argument 'cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'week_7' build argument 'cmake_target' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'week_7' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'week_7' build argument 'cmake_clean_cache' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'week_7' build argument 'cmake_clean_first' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'week_7' build argument 'cmake_force_configure' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'week_7' build argument 'ament_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'week_7' build argument 'catkin_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'week_7' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.356s] DEBUG:colcon.colcon_core.verb:Building package 'week_7' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/build/week_7', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/install/week_7', 'merge_install': False, 'path': '/workspace/AURO/week_7', 'symlink_install': True, 'test_result_base': None}
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'week_8' build argument 'cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'week_8' build argument 'cmake_target' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'week_8' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'week_8' build argument 'cmake_clean_cache' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'week_8' build argument 'cmake_clean_first' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'week_8' build argument 'cmake_force_configure' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'week_8' build argument 'ament_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'week_8' build argument 'catkin_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'week_8' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.357s] DEBUG:colcon.colcon_core.verb:Building package 'week_8' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/build/week_8', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/install/week_8', 'merge_install': False, 'path': '/workspace/AURO/week_8', 'symlink_install': True, 'test_result_base': None}
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'assessment' build argument 'cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'assessment' build argument 'cmake_target' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'assessment' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'assessment' build argument 'cmake_clean_cache' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'assessment' build argument 'cmake_clean_first' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'assessment' build argument 'cmake_force_configure' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'assessment' build argument 'ament_cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'assessment' build argument 'catkin_cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'assessment' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.358s] DEBUG:colcon.colcon_core.verb:Building package 'assessment' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/build/assessment', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/install/assessment', 'merge_install': False, 'path': '/workspace/AURO/assessment', 'symlink_install': True, 'test_result_base': None}
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'week_4' build argument 'cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'week_4' build argument 'cmake_target' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'week_4' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'week_4' build argument 'cmake_clean_cache' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'week_4' build argument 'cmake_clean_first' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'week_4' build argument 'cmake_force_configure' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'week_4' build argument 'ament_cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'week_4' build argument 'catkin_cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'week_4' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.359s] DEBUG:colcon.colcon_core.verb:Building package 'week_4' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/build/week_4', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/install/week_4', 'merge_install': False, 'path': '/workspace/AURO/week_4', 'symlink_install': True, 'test_result_base': None}
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'week_5' build argument 'cmake_args' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'week_5' build argument 'cmake_target' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'week_5' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'week_5' build argument 'cmake_clean_cache' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'week_5' build argument 'cmake_clean_first' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'week_5' build argument 'cmake_force_configure' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'week_5' build argument 'ament_cmake_args' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'week_5' build argument 'catkin_cmake_args' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'week_5' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.360s] DEBUG:colcon.colcon_core.verb:Building package 'week_5' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/build/week_5', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/install/week_5', 'merge_install': False, 'path': '/workspace/AURO/week_5', 'symlink_install': True, 'test_result_base': None}
+[0.360s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.362s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.362s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/AURO/auro_interfaces' with build type 'ament_cmake'
+[0.362s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/AURO/auro_interfaces'
+[0.365s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.366s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.366s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.370s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/AURO/assessment_interfaces' with build type 'ament_cmake'
+[0.371s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/AURO/assessment_interfaces'
+[0.371s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.371s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.376s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspace/AURO/solution' with build type 'ament_python'
+[0.377s] Level 1:colcon.colcon_core.shell:create_environment_hook('solution', 'ament_prefix_path')
+[0.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/solution/share/solution/hook/ament_prefix_path.ps1'
+[0.378s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/solution/share/solution/hook/ament_prefix_path.dsv'
+[0.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/solution/share/solution/hook/ament_prefix_path.sh'
+[0.380s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.380s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.385s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspace/AURO/tf_relay' with build type 'ament_python'
+[0.385s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf_relay', 'ament_prefix_path')
+[0.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/tf_relay/share/tf_relay/hook/ament_prefix_path.ps1'
+[0.386s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/tf_relay/share/tf_relay/hook/ament_prefix_path.dsv'
+[0.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/tf_relay/share/tf_relay/hook/ament_prefix_path.sh'
+[0.387s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.387s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/build/auro_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/build/auro_interfaces -- -j4 -l4
+[0.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/build/assessment_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/build/assessment_interfaces -- -j4 -l4
+[1.088s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspace/AURO/solution'
+[1.089s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.089s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.404s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspace/AURO/tf_relay'
+[1.405s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.405s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/build/auro_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/build/auro_interfaces -- -j4 -l4
+[1.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/build/assessment_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/build/assessment_interfaces -- -j4 -l4
+[1.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/build/auro_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/build/auro_interfaces
+[1.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/build/assessment_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/build/assessment_interfaces
+[1.911s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(auro_interfaces)
+[1.918s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/auro_interfaces' for CMake module files
+[1.919s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/auro_interfaces' for CMake config files
+[1.920s] Level 1:colcon.colcon_core.shell:create_environment_hook('auro_interfaces', 'cmake_prefix_path')
+[1.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/auro_interfaces/share/auro_interfaces/hook/cmake_prefix_path.ps1'
+[1.923s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/auro_interfaces/share/auro_interfaces/hook/cmake_prefix_path.dsv'
+[1.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/auro_interfaces/share/auro_interfaces/hook/cmake_prefix_path.sh'
+[1.930s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/auro_interfaces/lib'
+[1.930s] Level 1:colcon.colcon_core.shell:create_environment_hook('auro_interfaces', 'ld_library_path_lib')
+[1.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/auro_interfaces/share/auro_interfaces/hook/ld_library_path_lib.ps1'
+[1.931s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/auro_interfaces/share/auro_interfaces/hook/ld_library_path_lib.dsv'
+[1.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/auro_interfaces/share/auro_interfaces/hook/ld_library_path_lib.sh'
+[1.932s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/auro_interfaces/bin'
+[1.933s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/auro_interfaces/lib/pkgconfig/auro_interfaces.pc'
+[1.933s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/auro_interfaces/lib/python3.10/site-packages'
+[1.934s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/auro_interfaces/bin'
+[1.934s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/auro_interfaces/share/auro_interfaces/package.ps1'
+[1.938s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/auro_interfaces/share/auro_interfaces/package.dsv'
+[1.939s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/auro_interfaces/share/auro_interfaces/package.sh'
+[1.943s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/auro_interfaces/share/auro_interfaces/package.bash'
+[1.945s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/build/auro_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/build/auro_interfaces
+[1.946s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/auro_interfaces/share/auro_interfaces/package.zsh'
+[1.947s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/auro_interfaces/share/colcon-core/packages/auro_interfaces)
+[2.103s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(assessment_interfaces)
+[2.104s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/assessment_interfaces' for CMake module files
+[2.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/build/assessment_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/build/assessment_interfaces
+[2.106s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/assessment_interfaces' for CMake config files
+[2.106s] Level 1:colcon.colcon_core.shell:create_environment_hook('assessment_interfaces', 'cmake_prefix_path')
+[2.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/assessment_interfaces/share/assessment_interfaces/hook/cmake_prefix_path.ps1'
+[2.108s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/assessment_interfaces/share/assessment_interfaces/hook/cmake_prefix_path.dsv'
+[2.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/assessment_interfaces/share/assessment_interfaces/hook/cmake_prefix_path.sh'
+[2.110s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/assessment_interfaces/lib'
+[2.110s] Level 1:colcon.colcon_core.shell:create_environment_hook('assessment_interfaces', 'ld_library_path_lib')
+[2.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/assessment_interfaces/share/assessment_interfaces/hook/ld_library_path_lib.ps1'
+[2.111s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/assessment_interfaces/share/assessment_interfaces/hook/ld_library_path_lib.dsv'
+[2.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/assessment_interfaces/share/assessment_interfaces/hook/ld_library_path_lib.sh'
+[2.112s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/assessment_interfaces/bin'
+[2.113s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/assessment_interfaces/lib/pkgconfig/assessment_interfaces.pc'
+[2.113s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/assessment_interfaces/lib/python3.10/site-packages'
+[2.114s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/assessment_interfaces/bin'
+[2.114s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/assessment_interfaces/share/assessment_interfaces/package.ps1'
+[2.116s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/assessment_interfaces/share/assessment_interfaces/package.dsv'
+[2.117s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/assessment_interfaces/share/assessment_interfaces/package.sh'
+[2.117s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/assessment_interfaces/share/assessment_interfaces/package.bash'
+[2.118s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/assessment_interfaces/share/assessment_interfaces/package.zsh'
+[2.118s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/assessment_interfaces/share/colcon-core/packages/assessment_interfaces)
+[2.166s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/build/solution': PYTHONPATH=/workspace/build/solution/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/solution/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/solution/build --no-deps symlink_data
+[2.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/build/tf_relay': PYTHONPATH=/workspace/build/tf_relay/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/tf_relay/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/tf_relay/build --no-deps symlink_data
+[2.239s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(auro_interfaces)
+[2.240s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/auro_interfaces' for CMake module files
+[2.241s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/auro_interfaces' for CMake config files
+[2.242s] Level 1:colcon.colcon_core.shell:create_environment_hook('auro_interfaces', 'cmake_prefix_path')
+[2.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/auro_interfaces/share/auro_interfaces/hook/cmake_prefix_path.ps1'
+[2.244s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/auro_interfaces/share/auro_interfaces/hook/cmake_prefix_path.dsv'
+[2.245s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/auro_interfaces/share/auro_interfaces/hook/cmake_prefix_path.sh'
+[2.246s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/auro_interfaces/lib'
+[2.246s] Level 1:colcon.colcon_core.shell:create_environment_hook('auro_interfaces', 'ld_library_path_lib')
+[2.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/auro_interfaces/share/auro_interfaces/hook/ld_library_path_lib.ps1'
+[2.247s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/auro_interfaces/share/auro_interfaces/hook/ld_library_path_lib.dsv'
+[2.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/auro_interfaces/share/auro_interfaces/hook/ld_library_path_lib.sh'
+[2.251s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/auro_interfaces/bin'
+[2.251s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/auro_interfaces/lib/pkgconfig/auro_interfaces.pc'
+[2.251s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/auro_interfaces/lib/python3.10/site-packages'
+[2.252s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/auro_interfaces/bin'
+[2.253s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/auro_interfaces/share/auro_interfaces/package.ps1'
+[2.254s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/auro_interfaces/share/auro_interfaces/package.dsv'
+[2.256s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/auro_interfaces/share/auro_interfaces/package.sh'
+[2.258s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/auro_interfaces/share/auro_interfaces/package.bash'
+[2.259s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/auro_interfaces/share/auro_interfaces/package.zsh'
+[2.260s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/auro_interfaces/share/colcon-core/packages/auro_interfaces)
+[2.261s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspace/AURO/week_1' with build type 'ament_python'
+[2.262s] Level 1:colcon.colcon_core.shell:create_environment_hook('week_1', 'ament_prefix_path')
+[2.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/week_1/share/week_1/hook/ament_prefix_path.ps1'
+[2.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/week_1/share/week_1/hook/ament_prefix_path.dsv'
+[2.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/week_1/share/week_1/hook/ament_prefix_path.sh'
+[2.267s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.267s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.760s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspace/AURO/week_1'
+[2.760s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.760s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.768s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(assessment_interfaces)
+[2.768s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/assessment_interfaces' for CMake module files
+[2.769s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/assessment_interfaces' for CMake config files
+[2.770s] Level 1:colcon.colcon_core.shell:create_environment_hook('assessment_interfaces', 'cmake_prefix_path')
+[2.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/assessment_interfaces/share/assessment_interfaces/hook/cmake_prefix_path.ps1'
+[2.771s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/assessment_interfaces/share/assessment_interfaces/hook/cmake_prefix_path.dsv'
+[2.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/assessment_interfaces/share/assessment_interfaces/hook/cmake_prefix_path.sh'
+[2.772s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/assessment_interfaces/lib'
+[2.772s] Level 1:colcon.colcon_core.shell:create_environment_hook('assessment_interfaces', 'ld_library_path_lib')
+[2.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/assessment_interfaces/share/assessment_interfaces/hook/ld_library_path_lib.ps1'
+[2.773s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/assessment_interfaces/share/assessment_interfaces/hook/ld_library_path_lib.dsv'
+[2.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/assessment_interfaces/share/assessment_interfaces/hook/ld_library_path_lib.sh'
+[2.774s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/assessment_interfaces/bin'
+[2.774s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/assessment_interfaces/lib/pkgconfig/assessment_interfaces.pc'
+[2.775s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/assessment_interfaces/lib/python3.10/site-packages'
+[2.775s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/assessment_interfaces/bin'
+[2.776s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/assessment_interfaces/share/assessment_interfaces/package.ps1'
+[2.777s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/assessment_interfaces/share/assessment_interfaces/package.dsv'
+[2.777s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/assessment_interfaces/share/assessment_interfaces/package.sh'
+[2.778s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/assessment_interfaces/share/assessment_interfaces/package.bash'
+[2.779s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/assessment_interfaces/share/assessment_interfaces/package.zsh'
+[2.780s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/assessment_interfaces/share/colcon-core/packages/assessment_interfaces)
+[2.781s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspace/AURO/week_2' with build type 'ament_python'
+[2.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('week_2', 'ament_prefix_path')
+[2.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/week_2/share/week_2/hook/ament_prefix_path.ps1'
+[2.782s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/week_2/share/week_2/hook/ament_prefix_path.dsv'
+[2.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/week_2/share/week_2/hook/ament_prefix_path.sh'
+[2.784s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.784s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.112s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspace/AURO/week_2'
+[3.112s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.112s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.119s] Level 1:colcon.colcon_core.shell:create_environment_hook('solution', 'pythonpath_develop')
+[3.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/build/solution/share/solution/hook/pythonpath_develop.ps1'
+[3.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/build/solution' returned '0': PYTHONPATH=/workspace/build/solution/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/solution/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/solution/build --no-deps symlink_data
+[3.121s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/build/solution/share/solution/hook/pythonpath_develop.dsv'
+[3.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/build/solution/share/solution/hook/pythonpath_develop.sh'
+[3.122s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/solution' for CMake module files
+[3.122s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/solution' for CMake config files
+[3.123s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/solution/lib'
+[3.123s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/solution/bin'
+[3.123s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/solution/lib/pkgconfig/solution.pc'
+[3.123s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/solution/lib/python3.10/site-packages'
+[3.123s] Level 1:colcon.colcon_core.shell:create_environment_hook('solution', 'pythonpath')
+[3.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/solution/share/solution/hook/pythonpath.ps1'
+[3.124s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/solution/share/solution/hook/pythonpath.dsv'
+[3.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/solution/share/solution/hook/pythonpath.sh'
+[3.126s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/solution/bin'
+[3.126s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(solution)
+[3.126s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/solution/share/solution/package.ps1'
+[3.127s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/solution/share/solution/package.dsv'
+[3.127s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/solution/share/solution/package.sh'
+[3.128s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/solution/share/solution/package.bash'
+[3.128s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/solution/share/solution/package.zsh'
+[3.128s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/solution/share/colcon-core/packages/solution)
+[3.129s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspace/AURO/week_3' with build type 'ament_python'
+[3.130s] Level 1:colcon.colcon_core.shell:create_environment_hook('week_3', 'ament_prefix_path')
+[3.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/week_3/share/week_3/hook/ament_prefix_path.ps1'
+[3.131s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/week_3/share/week_3/hook/ament_prefix_path.dsv'
+[3.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/week_3/share/week_3/hook/ament_prefix_path.sh'
+[3.132s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.132s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.136s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf_relay', 'pythonpath_develop')
+[3.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/build/tf_relay' returned '0': PYTHONPATH=/workspace/build/tf_relay/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/tf_relay/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/tf_relay/build --no-deps symlink_data
+[3.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/build/tf_relay/share/tf_relay/hook/pythonpath_develop.ps1'
+[3.138s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/build/tf_relay/share/tf_relay/hook/pythonpath_develop.dsv'
+[3.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/build/tf_relay/share/tf_relay/hook/pythonpath_develop.sh'
+[3.140s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/tf_relay' for CMake module files
+[3.141s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/tf_relay' for CMake config files
+[3.141s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/tf_relay/lib'
+[3.142s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/tf_relay/bin'
+[3.142s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/tf_relay/lib/pkgconfig/tf_relay.pc'
+[3.142s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/tf_relay/lib/python3.10/site-packages'
+[3.142s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf_relay', 'pythonpath')
+[3.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/tf_relay/share/tf_relay/hook/pythonpath.ps1'
+[3.143s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/tf_relay/share/tf_relay/hook/pythonpath.dsv'
+[3.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/tf_relay/share/tf_relay/hook/pythonpath.sh'
+[3.145s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/tf_relay/bin'
+[3.145s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tf_relay)
+[3.145s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/tf_relay/share/tf_relay/package.ps1'
+[3.146s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/tf_relay/share/tf_relay/package.dsv'
+[3.147s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/tf_relay/share/tf_relay/package.sh'
+[3.148s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/tf_relay/share/tf_relay/package.bash'
+[3.148s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/tf_relay/share/tf_relay/package.zsh'
+[3.148s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/tf_relay/share/colcon-core/packages/tf_relay)
+[3.149s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspace/AURO/week_6' with build type 'ament_python'
+[3.150s] Level 1:colcon.colcon_core.shell:create_environment_hook('week_6', 'ament_prefix_path')
+[3.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/week_6/share/week_6/hook/ament_prefix_path.ps1'
+[3.151s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/week_6/share/week_6/hook/ament_prefix_path.dsv'
+[3.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/week_6/share/week_6/hook/ament_prefix_path.sh'
+[3.152s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.153s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.490s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspace/AURO/week_3'
+[3.490s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.491s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.840s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspace/AURO/week_6'
+[3.840s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.840s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.849s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/build/week_1': PYTHONPATH=/workspace/build/week_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/week_1/build --no-deps symlink_data
+[3.854s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/build/week_2': PYTHONPATH=/workspace/build/week_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/week_2/build --no-deps symlink_data
+[4.641s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/build/week_3': PYTHONPATH=/workspace/build/week_3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/week_3/build --no-deps symlink_data
+[4.664s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/build/week_6': PYTHONPATH=/workspace/build/week_6/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_6/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/week_6/build --no-deps symlink_data
+[4.862s] Level 1:colcon.colcon_core.shell:create_environment_hook('week_1', 'pythonpath_develop')
+[4.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/build/week_1/share/week_1/hook/pythonpath_develop.ps1'
+[4.866s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/build/week_1' returned '0': PYTHONPATH=/workspace/build/week_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/week_1/build --no-deps symlink_data
+[4.870s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/build/week_1/share/week_1/hook/pythonpath_develop.dsv'
+[4.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/build/week_1/share/week_1/hook/pythonpath_develop.sh'
+[4.872s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_1' for CMake module files
+[4.880s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_1' for CMake config files
+[4.881s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_1/lib'
+[4.882s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_1/bin'
+[4.882s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_1/lib/pkgconfig/week_1.pc'
+[4.883s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_1/lib/python3.10/site-packages'
+[4.883s] Level 1:colcon.colcon_core.shell:create_environment_hook('week_1', 'pythonpath')
+[4.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/week_1/share/week_1/hook/pythonpath.ps1'
+[4.885s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/week_1/share/week_1/hook/pythonpath.dsv'
+[4.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/week_1/share/week_1/hook/pythonpath.sh'
+[4.887s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_1/bin'
+[4.887s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(week_1)
+[4.889s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/week_1/share/week_1/package.ps1'
+[4.891s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/week_1/share/week_1/package.dsv'
+[4.892s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/week_1/share/week_1/package.sh'
+[4.894s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/week_1/share/week_1/package.bash'
+[4.895s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/week_1/share/week_1/package.zsh'
+[4.897s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/week_1/share/colcon-core/packages/week_1)
+[4.899s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspace/AURO/week_7' with build type 'ament_python'
+[4.900s] Level 1:colcon.colcon_core.shell:create_environment_hook('week_7', 'ament_prefix_path')
+[4.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/week_7/share/week_7/hook/ament_prefix_path.ps1'
+[4.903s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/week_7/share/week_7/hook/ament_prefix_path.dsv'
+[4.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/week_7/share/week_7/hook/ament_prefix_path.sh'
+[4.906s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.907s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.472s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspace/AURO/week_7'
+[5.473s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.473s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.481s] Level 1:colcon.colcon_core.shell:create_environment_hook('week_2', 'pythonpath_develop')
+[5.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/build/week_2/share/week_2/hook/pythonpath_develop.ps1'
+[5.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/build/week_2' returned '0': PYTHONPATH=/workspace/build/week_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/week_2/build --no-deps symlink_data
+[5.483s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/build/week_2/share/week_2/hook/pythonpath_develop.dsv'
+[5.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/build/week_2/share/week_2/hook/pythonpath_develop.sh'
+[5.484s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_2' for CMake module files
+[5.485s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_2' for CMake config files
+[5.486s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_2/lib'
+[5.486s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_2/bin'
+[5.486s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_2/lib/pkgconfig/week_2.pc'
+[5.486s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_2/lib/python3.10/site-packages'
+[5.486s] Level 1:colcon.colcon_core.shell:create_environment_hook('week_2', 'pythonpath')
+[5.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/week_2/share/week_2/hook/pythonpath.ps1'
+[5.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/week_2/share/week_2/hook/pythonpath.dsv'
+[5.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/week_2/share/week_2/hook/pythonpath.sh'
+[5.489s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_2/bin'
+[5.489s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(week_2)
+[5.489s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/week_2/share/week_2/package.ps1'
+[5.490s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/week_2/share/week_2/package.dsv'
+[5.490s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/week_2/share/week_2/package.sh'
+[5.491s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/week_2/share/week_2/package.bash'
+[5.492s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/week_2/share/week_2/package.zsh'
+[5.492s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/week_2/share/colcon-core/packages/week_2)
+[5.493s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspace/AURO/week_8' with build type 'ament_python'
+[5.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('week_8', 'ament_prefix_path')
+[5.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/week_8/share/week_8/hook/ament_prefix_path.ps1'
+[5.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/week_8/share/week_8/hook/ament_prefix_path.dsv'
+[5.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/week_8/share/week_8/hook/ament_prefix_path.sh'
+[5.497s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.497s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.502s] Level 1:colcon.colcon_core.shell:create_environment_hook('week_3', 'pythonpath_develop')
+[5.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/build/week_3/share/week_3/hook/pythonpath_develop.ps1'
+[5.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/build/week_3' returned '0': PYTHONPATH=/workspace/build/week_3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/week_3/build --no-deps symlink_data
+[5.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/build/week_3/share/week_3/hook/pythonpath_develop.dsv'
+[5.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/build/week_3/share/week_3/hook/pythonpath_develop.sh'
+[5.507s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_3' for CMake module files
+[5.508s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_3' for CMake config files
+[5.509s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_3/lib'
+[5.509s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_3/bin'
+[5.509s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_3/lib/pkgconfig/week_3.pc'
+[5.509s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_3/lib/python3.10/site-packages'
+[5.509s] Level 1:colcon.colcon_core.shell:create_environment_hook('week_3', 'pythonpath')
+[5.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/week_3/share/week_3/hook/pythonpath.ps1'
+[5.510s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/week_3/share/week_3/hook/pythonpath.dsv'
+[5.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/week_3/share/week_3/hook/pythonpath.sh'
+[5.511s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_3/bin'
+[5.511s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(week_3)
+[5.512s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/week_3/share/week_3/package.ps1'
+[5.513s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/week_3/share/week_3/package.dsv'
+[5.513s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/week_3/share/week_3/package.sh'
+[5.514s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/week_3/share/week_3/package.bash'
+[5.514s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/week_3/share/week_3/package.zsh'
+[5.515s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/week_3/share/colcon-core/packages/week_3)
+[5.516s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspace/AURO/assessment' with build type 'ament_python'
+[5.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('assessment', 'ament_prefix_path')
+[5.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/assessment/share/assessment/hook/ament_prefix_path.ps1'
+[5.518s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/assessment/share/assessment/hook/ament_prefix_path.dsv'
+[5.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/assessment/share/assessment/hook/ament_prefix_path.sh'
+[5.520s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.520s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.947s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspace/AURO/week_8'
+[5.948s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.948s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.285s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspace/AURO/assessment'
+[6.285s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.285s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.290s] Level 1:colcon.colcon_core.shell:create_environment_hook('week_6', 'pythonpath_develop')
+[6.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/build/week_6/share/week_6/hook/pythonpath_develop.ps1'
+[6.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/build/week_6' returned '0': PYTHONPATH=/workspace/build/week_6/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_6/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/week_6/build --no-deps symlink_data
+[6.292s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/build/week_6/share/week_6/hook/pythonpath_develop.dsv'
+[6.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/build/week_6/share/week_6/hook/pythonpath_develop.sh'
+[6.293s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_6' for CMake module files
+[6.294s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_6' for CMake config files
+[6.295s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_6/lib'
+[6.295s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_6/bin'
+[6.295s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_6/lib/pkgconfig/week_6.pc'
+[6.295s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_6/lib/python3.10/site-packages'
+[6.295s] Level 1:colcon.colcon_core.shell:create_environment_hook('week_6', 'pythonpath')
+[6.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/week_6/share/week_6/hook/pythonpath.ps1'
+[6.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/week_6/share/week_6/hook/pythonpath.dsv'
+[6.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/week_6/share/week_6/hook/pythonpath.sh'
+[6.298s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_6/bin'
+[6.298s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(week_6)
+[6.298s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/week_6/share/week_6/package.ps1'
+[6.299s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/week_6/share/week_6/package.dsv'
+[6.299s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/week_6/share/week_6/package.sh'
+[6.300s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/week_6/share/week_6/package.bash'
+[6.301s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/week_6/share/week_6/package.zsh'
+[6.301s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/week_6/share/colcon-core/packages/week_6)
+[6.302s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspace/AURO/week_4' with build type 'ament_python'
+[6.303s] Level 1:colcon.colcon_core.shell:create_environment_hook('week_4', 'ament_prefix_path')
+[6.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/week_4/share/week_4/hook/ament_prefix_path.ps1'
+[6.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/week_4/share/week_4/hook/ament_prefix_path.dsv'
+[6.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/week_4/share/week_4/hook/ament_prefix_path.sh'
+[6.306s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.306s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/build/week_7': PYTHONPATH=/workspace/build/week_7/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_7/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/week_7/build --no-deps symlink_data
+[6.819s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspace/AURO/week_4'
+[6.819s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.819s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/build/week_8': PYTHONPATH=/workspace/build/week_8/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_8/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/week_8/build --no-deps symlink_data
+[6.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/build/assessment': AMENT_PREFIX_PATH=/workspace/install/auro_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/install/auro_interfaces LD_LIBRARY_PATH=/workspace/install/auro_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/workspace/build/assessment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/assessment/lib/python3.10/site-packages:/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/assessment/build --no-deps symlink_data
+[7.167s] Level 1:colcon.colcon_core.shell:create_environment_hook('week_7', 'pythonpath_develop')
+[7.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/build/week_7/share/week_7/hook/pythonpath_develop.ps1'
+[7.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/build/week_7' returned '0': PYTHONPATH=/workspace/build/week_7/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_7/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/week_7/build --no-deps symlink_data
+[7.169s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/build/week_7/share/week_7/hook/pythonpath_develop.dsv'
+[7.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/build/week_7/share/week_7/hook/pythonpath_develop.sh'
+[7.172s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_7' for CMake module files
+[7.173s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_7' for CMake config files
+[7.174s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_7/lib'
+[7.174s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_7/bin'
+[7.174s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_7/lib/pkgconfig/week_7.pc'
+[7.175s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_7/lib/python3.10/site-packages'
+[7.175s] Level 1:colcon.colcon_core.shell:create_environment_hook('week_7', 'pythonpath')
+[7.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/week_7/share/week_7/hook/pythonpath.ps1'
+[7.176s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/week_7/share/week_7/hook/pythonpath.dsv'
+[7.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/week_7/share/week_7/hook/pythonpath.sh'
+[7.178s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_7/bin'
+[7.179s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(week_7)
+[7.179s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/week_7/share/week_7/package.ps1'
+[7.181s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/week_7/share/week_7/package.dsv'
+[7.182s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/week_7/share/week_7/package.sh'
+[7.183s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/week_7/share/week_7/package.bash'
+[7.184s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/week_7/share/week_7/package.zsh'
+[7.185s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/week_7/share/colcon-core/packages/week_7)
+[7.186s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspace/AURO/week_5' with build type 'ament_python'
+[7.187s] Level 1:colcon.colcon_core.shell:create_environment_hook('week_5', 'ament_prefix_path')
+[7.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/week_5/share/week_5/hook/ament_prefix_path.ps1'
+[7.190s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/week_5/share/week_5/hook/ament_prefix_path.dsv'
+[7.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/week_5/share/week_5/hook/ament_prefix_path.sh'
+[7.192s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.192s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.623s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspace/AURO/week_5'
+[7.624s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.624s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.634s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/build/week_4': AMENT_PREFIX_PATH=/workspace/install/auro_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/install/auro_interfaces LD_LIBRARY_PATH=/workspace/install/auro_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/workspace/build/week_4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_4/lib/python3.10/site-packages:/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/week_4/build --no-deps symlink_data
+[7.740s] Level 1:colcon.colcon_core.shell:create_environment_hook('week_8', 'pythonpath_develop')
+[7.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/build/week_8' returned '0': PYTHONPATH=/workspace/build/week_8/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_8/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/week_8/build --no-deps symlink_data
+[7.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/build/week_8/share/week_8/hook/pythonpath_develop.ps1'
+[7.743s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/build/week_8/share/week_8/hook/pythonpath_develop.dsv'
+[7.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/build/week_8/share/week_8/hook/pythonpath_develop.sh'
+[7.746s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_8' for CMake module files
+[7.747s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_8' for CMake config files
+[7.748s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_8/lib'
+[7.749s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_8/bin'
+[7.749s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_8/lib/pkgconfig/week_8.pc'
+[7.749s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_8/lib/python3.10/site-packages'
+[7.749s] Level 1:colcon.colcon_core.shell:create_environment_hook('week_8', 'pythonpath')
+[7.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/week_8/share/week_8/hook/pythonpath.ps1'
+[7.751s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/week_8/share/week_8/hook/pythonpath.dsv'
+[7.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/week_8/share/week_8/hook/pythonpath.sh'
+[7.753s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_8/bin'
+[7.754s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(week_8)
+[7.754s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/week_8/share/week_8/package.ps1'
+[7.766s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/week_8/share/week_8/package.dsv'
+[7.775s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/week_8/share/week_8/package.sh'
+[7.777s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/week_8/share/week_8/package.bash'
+[7.778s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/week_8/share/week_8/package.zsh'
+[7.779s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/week_8/share/colcon-core/packages/week_8)
+[7.806s] Level 1:colcon.colcon_core.shell:create_environment_hook('assessment', 'pythonpath_develop')
+[7.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/build/assessment/share/assessment/hook/pythonpath_develop.ps1'
+[7.807s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/build/assessment/share/assessment/hook/pythonpath_develop.dsv'
+[7.808s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/build/assessment' returned '0': AMENT_PREFIX_PATH=/workspace/install/auro_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/install/auro_interfaces LD_LIBRARY_PATH=/workspace/install/auro_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/workspace/build/assessment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/assessment/lib/python3.10/site-packages:/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/assessment/build --no-deps symlink_data
+[7.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/build/assessment/share/assessment/hook/pythonpath_develop.sh'
+[7.810s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/assessment' for CMake module files
+[7.810s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/assessment' for CMake config files
+[7.812s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/assessment/lib'
+[7.812s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/assessment/bin'
+[7.812s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/assessment/lib/pkgconfig/assessment.pc'
+[7.812s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/assessment/lib/python3.10/site-packages'
+[7.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('assessment', 'pythonpath')
+[7.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/assessment/share/assessment/hook/pythonpath.ps1'
+[7.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/assessment/share/assessment/hook/pythonpath.dsv'
+[7.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/assessment/share/assessment/hook/pythonpath.sh'
+[7.815s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/assessment/bin'
+[7.815s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(assessment)
+[7.816s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/assessment/share/assessment/package.ps1'
+[7.816s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/assessment/share/assessment/package.dsv'
+[7.817s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/assessment/share/assessment/package.sh'
+[7.818s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/assessment/share/assessment/package.bash'
+[7.818s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/assessment/share/assessment/package.zsh'
+[7.819s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/assessment/share/colcon-core/packages/assessment)
+[8.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/build/week_5': AMENT_PREFIX_PATH=/workspace/install/auro_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/install/auro_interfaces LD_LIBRARY_PATH=/workspace/install/auro_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/workspace/build/week_5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_5/lib/python3.10/site-packages:/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/week_5/build --no-deps symlink_data
+[8.280s] Level 1:colcon.colcon_core.shell:create_environment_hook('week_4', 'pythonpath_develop')
+[8.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/build/week_4/share/week_4/hook/pythonpath_develop.ps1'
+[8.281s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/build/week_4' returned '0': AMENT_PREFIX_PATH=/workspace/install/auro_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/install/auro_interfaces LD_LIBRARY_PATH=/workspace/install/auro_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/workspace/build/week_4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_4/lib/python3.10/site-packages:/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/week_4/build --no-deps symlink_data
+[8.281s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/build/week_4/share/week_4/hook/pythonpath_develop.dsv'
+[8.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/build/week_4/share/week_4/hook/pythonpath_develop.sh'
+[8.282s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_4' for CMake module files
+[8.283s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_4' for CMake config files
+[8.284s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_4/lib'
+[8.284s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_4/bin'
+[8.284s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_4/lib/pkgconfig/week_4.pc'
+[8.284s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_4/lib/python3.10/site-packages'
+[8.284s] Level 1:colcon.colcon_core.shell:create_environment_hook('week_4', 'pythonpath')
+[8.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/week_4/share/week_4/hook/pythonpath.ps1'
+[8.285s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/week_4/share/week_4/hook/pythonpath.dsv'
+[8.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/week_4/share/week_4/hook/pythonpath.sh'
+[8.286s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_4/bin'
+[8.287s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(week_4)
+[8.287s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/week_4/share/week_4/package.ps1'
+[8.288s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/week_4/share/week_4/package.dsv'
+[8.288s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/week_4/share/week_4/package.sh'
+[8.289s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/week_4/share/week_4/package.bash'
+[8.289s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/week_4/share/week_4/package.zsh'
+[8.290s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/week_4/share/colcon-core/packages/week_4)
+[8.770s] Level 1:colcon.colcon_core.shell:create_environment_hook('week_5', 'pythonpath_develop')
+[8.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/build/week_5/share/week_5/hook/pythonpath_develop.ps1'
+[8.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/build/week_5' returned '0': AMENT_PREFIX_PATH=/workspace/install/auro_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/install/auro_interfaces LD_LIBRARY_PATH=/workspace/install/auro_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/workspace/build/week_5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_5/lib/python3.10/site-packages:/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/week_5/build --no-deps symlink_data
+[8.772s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/build/week_5/share/week_5/hook/pythonpath_develop.dsv'
+[8.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/build/week_5/share/week_5/hook/pythonpath_develop.sh'
+[8.773s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_5' for CMake module files
+[8.773s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_5' for CMake config files
+[8.774s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_5/lib'
+[8.774s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_5/bin'
+[8.774s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_5/lib/pkgconfig/week_5.pc'
+[8.774s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_5/lib/python3.10/site-packages'
+[8.775s] Level 1:colcon.colcon_core.shell:create_environment_hook('week_5', 'pythonpath')
+[8.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/week_5/share/week_5/hook/pythonpath.ps1'
+[8.775s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/week_5/share/week_5/hook/pythonpath.dsv'
+[8.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/week_5/share/week_5/hook/pythonpath.sh'
+[8.777s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/week_5/bin'
+[8.777s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(week_5)
+[8.777s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/week_5/share/week_5/package.ps1'
+[8.778s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/week_5/share/week_5/package.dsv'
+[8.778s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/week_5/share/week_5/package.sh'
+[8.779s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/week_5/share/week_5/package.bash'
+[8.779s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/week_5/share/week_5/package.zsh'
+[8.780s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/week_5/share/colcon-core/packages/week_5)
+[8.780s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.781s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.781s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.781s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.791s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[8.791s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.791s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.791s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.796s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[8.797s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.798s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/install/local_setup.ps1'
+[8.800s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspace/install/_local_setup_util_ps1.py'
+[8.804s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/install/setup.ps1'
+[8.807s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/install/local_setup.sh'
+[8.808s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspace/install/_local_setup_util_sh.py'
+[8.809s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/install/setup.sh'
+[8.811s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/install/local_setup.bash'
+[8.811s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/install/setup.bash'
+[8.813s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/install/local_setup.zsh'
+[8.813s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/install/setup.zsh'

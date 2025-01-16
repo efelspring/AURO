@@ -1,0 +1,12 @@
+msg/Direction.idl
+msg/Direction.msg
+msg/Item.idl
+msg/Item.msg
+msg/ItemList.idl
+msg/ItemList.msg
+msg/StringWithPose.idl
+msg/StringWithPose.msg
+srv/ItemRequest.idl
+srv/ItemRequest.srv
+srv/ItemRequest_Request.msg
+srv/ItemRequest_Response.msg

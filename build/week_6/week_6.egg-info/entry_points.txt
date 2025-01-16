@@ -1,0 +1,4 @@
+[console_scripts]
+lidar_fault = week_6.lidar_fault:main
+robot_controller = week_6.robot_controller:main
+

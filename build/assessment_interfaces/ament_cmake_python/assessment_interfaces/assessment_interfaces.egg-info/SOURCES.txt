@@ -1,0 +1,16 @@
+setup.py
+assessment_interfaces/__init__.py
+assessment_interfaces.egg-info/PKG-INFO
+assessment_interfaces.egg-info/SOURCES.txt
+assessment_interfaces.egg-info/dependency_links.txt
+assessment_interfaces.egg-info/top_level.txt
+assessment_interfaces/msg/__init__.py
+assessment_interfaces/msg/_item.py
+assessment_interfaces/msg/_item_holder.py
+assessment_interfaces/msg/_item_holders.py
+assessment_interfaces/msg/_item_list.py
+assessment_interfaces/msg/_item_log.py
+assessment_interfaces/msg/_robot.py
+assessment_interfaces/msg/_robot_list.py
+assessment_interfaces/msg/_zone.py
+assessment_interfaces/msg/_zone_list.py

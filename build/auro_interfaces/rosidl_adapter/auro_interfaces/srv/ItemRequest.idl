@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from auro_interfaces/srv/ItemRequest.srv
+// generated code does not contain a copyright notice
+
+
+module auro_interfaces {
+  module srv {
+    struct ItemRequest_Request {
+      string robot_id;
+    };
+    struct ItemRequest_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

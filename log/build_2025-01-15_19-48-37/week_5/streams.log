@@ -1,0 +1,22 @@
+[1.052s] Invoking command in '/workspace/build/week_5': AMENT_PREFIX_PATH=/workspace/install/auro_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/install/auro_interfaces LD_LIBRARY_PATH=/workspace/install/auro_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/workspace/build/week_5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_5/lib/python3.10/site-packages:/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/week_5/build --no-deps symlink_data
+[1.388s] running develop
+[1.389s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.389s]   warnings.warn(
+[1.587s] running egg_info
+[1.588s] writing week_5.egg-info/PKG-INFO
+[1.588s] writing dependency_links to week_5.egg-info/dependency_links.txt
+[1.588s] writing entry points to week_5.egg-info/entry_points.txt
+[1.588s] writing requirements to week_5.egg-info/requires.txt
+[1.589s] writing top-level names to week_5.egg-info/top_level.txt
+[1.591s] reading manifest file 'week_5.egg-info/SOURCES.txt'
+[1.592s] writing manifest file 'week_5.egg-info/SOURCES.txt'
+[1.594s] running build_ext
+[1.594s] Creating /workspace/install/week_5/lib/python3.10/site-packages/week-5.egg-link (link to .)
+[1.596s] Installing item_detector script to /workspace/install/week_5/lib/week_5
+[1.596s] Installing item_spawner script to /workspace/install/week_5/lib/week_5
+[1.596s] Installing robot_controller script to /workspace/install/week_5/lib/week_5
+[1.596s] Installing teleop_keyboard script to /workspace/install/week_5/lib/week_5
+[1.597s] 
+[1.597s] Installed /workspace/build/week_5
+[1.597s] running symlink_data
+[1.629s] Invoked command in '/workspace/build/week_5' returned '0': AMENT_PREFIX_PATH=/workspace/install/auro_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/install/auro_interfaces LD_LIBRARY_PATH=/workspace/install/auro_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/workspace/build/week_5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_5/lib/python3.10/site-packages:/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/week_5/build --no-deps symlink_data

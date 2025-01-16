@@ -1,0 +1,835 @@
+[0.000000] (-) TimerEvent: {}
+[0.000530] (assessment_interfaces) JobQueued: {'identifier': 'assessment_interfaces', 'dependencies': OrderedDict()}
+[0.000869] (auro_interfaces) JobQueued: {'identifier': 'auro_interfaces', 'dependencies': OrderedDict()}
+[0.001105] (solution) JobQueued: {'identifier': 'solution', 'dependencies': OrderedDict()}
+[0.001333] (tf_relay) JobQueued: {'identifier': 'tf_relay', 'dependencies': OrderedDict()}
+[0.003464] (week_1) JobQueued: {'identifier': 'week_1', 'dependencies': OrderedDict()}
+[0.003546] (week_2) JobQueued: {'identifier': 'week_2', 'dependencies': OrderedDict()}
+[0.003594] (week_3) JobQueued: {'identifier': 'week_3', 'dependencies': OrderedDict()}
+[0.003638] (week_6) JobQueued: {'identifier': 'week_6', 'dependencies': OrderedDict()}
+[0.003680] (week_7) JobQueued: {'identifier': 'week_7', 'dependencies': OrderedDict()}
+[0.003720] (week_8) JobQueued: {'identifier': 'week_8', 'dependencies': OrderedDict()}
+[0.003763] (assessment) JobQueued: {'identifier': 'assessment', 'dependencies': OrderedDict([('auro_interfaces', '/workspace/install/auro_interfaces')])}
+[0.003818] (week_4) JobQueued: {'identifier': 'week_4', 'dependencies': OrderedDict([('auro_interfaces', '/workspace/install/auro_interfaces')])}
+[0.003861] (week_5) JobQueued: {'identifier': 'week_5', 'dependencies': OrderedDict([('auro_interfaces', '/workspace/install/auro_interfaces')])}
+[0.003904] (auro_interfaces) JobStarted: {'identifier': 'auro_interfaces'}
+[0.029553] (assessment_interfaces) JobStarted: {'identifier': 'assessment_interfaces'}
+[0.061504] (solution) JobStarted: {'identifier': 'solution'}
+[0.085961] (tf_relay) JobStarted: {'identifier': 'tf_relay'}
+[0.100979] (-) TimerEvent: {}
+[0.114981] (auro_interfaces) JobProgress: {'identifier': 'auro_interfaces', 'progress': 'cmake'}
+[0.116299] (auro_interfaces) JobProgress: {'identifier': 'auro_interfaces', 'progress': 'build'}
+[0.117705] (auro_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/build/auro_interfaces', '--', '-j4', '-l4'], 'cwd': '/workspace/build/auro_interfaces', 'env': OrderedDict([('HOSTNAME', '8ccf6a3641d8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/root'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/workspace/build/auro_interfaces'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.132229] (assessment_interfaces) JobProgress: {'identifier': 'assessment_interfaces', 'progress': 'cmake'}
+[0.132345] (assessment_interfaces) JobProgress: {'identifier': 'assessment_interfaces', 'progress': 'build'}
+[0.132402] (assessment_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/build/assessment_interfaces', '--', '-j4', '-l4'], 'cwd': '/workspace/build/assessment_interfaces', 'env': OrderedDict([('HOSTNAME', '8ccf6a3641d8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/root'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/workspace/build/assessment_interfaces'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.201087] (-) TimerEvent: {}
+[0.301797] (-) TimerEvent: {}
+[0.403169] (-) TimerEvent: {}
+[0.506249] (-) TimerEvent: {}
+[0.611076] (-) TimerEvent: {}
+[0.711993] (-) TimerEvent: {}
+[0.812860] (-) TimerEvent: {}
+[0.915252] (-) TimerEvent: {}
+[1.015727] (-) TimerEvent: {}
+[1.118252] (-) TimerEvent: {}
+[1.221251] (-) TimerEvent: {}
+[1.325927] (-) TimerEvent: {}
+[1.429777] (-) TimerEvent: {}
+[1.533246] (-) TimerEvent: {}
+[1.633927] (-) TimerEvent: {}
+[1.734514] (-) TimerEvent: {}
+[1.836728] (-) TimerEvent: {}
+[1.840634] (auro_interfaces) StdoutLine: {'line': b'[  1%] Built target auro_interfaces__cpp\n'}
+[1.851349] (auro_interfaces) StdoutLine: {'line': b'[ 12%] Built target auro_interfaces__rosidl_generator_c\n'}
+[1.852468] (auro_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_auro_interfaces\n'}
+[1.854802] (auro_interfaces) StdoutLine: {'line': b'[ 23%] Built target auro_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.854998] (auro_interfaces) StdoutLine: {'line': b'[ 34%] Built target auro_interfaces__rosidl_typesupport_cpp\n'}
+[1.855151] (auro_interfaces) StdoutLine: {'line': b'[ 46%] Built target auro_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.855330] (auro_interfaces) StdoutLine: {'line': b'[ 57%] Built target auro_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[1.855492] (auro_interfaces) StdoutLine: {'line': b'[ 68%] Built target auro_interfaces__rosidl_typesupport_introspection_c\n'}
+[1.855650] (auro_interfaces) StdoutLine: {'line': b'[ 79%] Built target auro_interfaces__rosidl_typesupport_c\n'}
+[1.855791] (auro_interfaces) StdoutLine: {'line': b'[ 79%] Built target auro_interfaces\n'}
+[1.855937] (auro_interfaces) StdoutLine: {'line': b'[ 80%] Built target auro_interfaces__py\n'}
+[1.856082] (auro_interfaces) StdoutLine: {'line': b'[ 90%] Built target auro_interfaces__rosidl_generator_py\n'}
+[1.870317] (auro_interfaces) StdoutLine: {'line': b'[ 93%] Built target auro_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.870864] (auro_interfaces) StdoutLine: {'line': b'[ 96%] Built target auro_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.871007] (auro_interfaces) StdoutLine: {'line': b'[100%] Built target auro_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.871139] (auro_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.871311] (auro_interfaces) StdoutLine: {'line': b'writing auro_interfaces.egg-info/PKG-INFO\n'}
+[1.871453] (auro_interfaces) StdoutLine: {'line': b'writing dependency_links to auro_interfaces.egg-info/dependency_links.txt\n'}
+[1.871598] (auro_interfaces) StdoutLine: {'line': b'writing top-level names to auro_interfaces.egg-info/top_level.txt\n'}
+[1.871746] (auro_interfaces) StdoutLine: {'line': b"reading manifest file 'auro_interfaces.egg-info/SOURCES.txt'\n"}
+[1.871886] (auro_interfaces) StdoutLine: {'line': b"writing manifest file 'auro_interfaces.egg-info/SOURCES.txt'\n"}
+[1.872030] (auro_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_auro_interfaces_egg\n'}
+[1.872183] (assessment_interfaces) StdoutLine: {'line': b'[  1%] Built target assessment_interfaces__cpp\n'}
+[1.872404] (assessment_interfaces) StdoutLine: {'line': b'[ 12%] Built target assessment_interfaces__rosidl_generator_c\n'}
+[1.872560] (assessment_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_assessment_interfaces\n'}
+[1.872724] (assessment_interfaces) StdoutLine: {'line': b'[ 24%] Built target assessment_interfaces__rosidl_typesupport_cpp\n'}
+[1.872870] (assessment_interfaces) StdoutLine: {'line': b'[ 35%] Built target assessment_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.873015] (assessment_interfaces) StdoutLine: {'line': b'[ 47%] Built target assessment_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[1.873162] (assessment_interfaces) StdoutLine: {'line': b'[ 58%] Built target assessment_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.874864] (assessment_interfaces) StdoutLine: {'line': b'[ 70%] Built target assessment_interfaces__rosidl_typesupport_introspection_c\n'}
+[1.875026] (assessment_interfaces) StdoutLine: {'line': b'[ 82%] Built target assessment_interfaces__rosidl_typesupport_c\n'}
+[1.875177] (assessment_interfaces) StdoutLine: {'line': b'[ 82%] Built target assessment_interfaces\n'}
+[1.875329] (assessment_interfaces) StdoutLine: {'line': b'[ 83%] Built target assessment_interfaces__py\n'}
+[1.875461] (assessment_interfaces) StdoutLine: {'line': b'[ 93%] Built target assessment_interfaces__rosidl_generator_py\n'}
+[1.875588] (assessment_interfaces) StdoutLine: {'line': b'[ 95%] Built target assessment_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.875714] (assessment_interfaces) StdoutLine: {'line': b'[ 97%] Built target assessment_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.875840] (assessment_interfaces) StdoutLine: {'line': b'[100%] Built target assessment_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.907856] (assessment_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.908625] (assessment_interfaces) StdoutLine: {'line': b'writing assessment_interfaces.egg-info/PKG-INFO\n'}
+[1.909214] (assessment_interfaces) StdoutLine: {'line': b'writing dependency_links to assessment_interfaces.egg-info/dependency_links.txt\n'}
+[1.909526] (assessment_interfaces) StdoutLine: {'line': b'writing top-level names to assessment_interfaces.egg-info/top_level.txt\n'}
+[1.914038] (assessment_interfaces) StdoutLine: {'line': b"reading manifest file 'assessment_interfaces.egg-info/SOURCES.txt'\n"}
+[1.916122] (assessment_interfaces) StdoutLine: {'line': b"writing manifest file 'assessment_interfaces.egg-info/SOURCES.txt'\n"}
+[1.939249] (-) TimerEvent: {}
+[2.024345] (assessment_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_assessment_interfaces_egg\n'}
+[2.039352] (-) TimerEvent: {}
+[2.140042] (-) TimerEvent: {}
+[2.243251] (-) TimerEvent: {}
+[2.343846] (-) TimerEvent: {}
+[2.444468] (-) TimerEvent: {}
+[2.545141] (-) TimerEvent: {}
+[2.559327] (auro_interfaces) CommandEnded: {'returncode': 0}
+[2.589252] (assessment_interfaces) CommandEnded: {'returncode': 0}
+[2.648264] (-) TimerEvent: {}
+[2.748831] (-) TimerEvent: {}
+[2.849668] (-) TimerEvent: {}
+[2.950500] (-) TimerEvent: {}
+[3.051184] (-) TimerEvent: {}
+[3.067247] (auro_interfaces) JobProgress: {'identifier': 'auro_interfaces', 'progress': 'install'}
+[3.106572] (auro_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/build/auro_interfaces'], 'cwd': '/workspace/build/auro_interfaces', 'env': OrderedDict([('HOSTNAME', '8ccf6a3641d8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/root'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/workspace/build/auro_interfaces'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.137030] (auro_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.143678] (auro_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.147231] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/ament_index/resource_index/rosidl_interfaces/auro_interfaces\n'}
+[3.151255] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/direction__functions.h\n'}
+[3.151485] (-) TimerEvent: {}
+[3.153636] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/direction__struct.h\n'}
+[3.155959] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/direction__type_support.h\n'}
+[3.159283] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item__functions.h\n'}
+[3.159537] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item__struct.h\n'}
+[3.159800] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item__type_support.h\n'}
+[3.159971] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item_list__functions.h\n'}
+[3.160131] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item_list__struct.h\n'}
+[3.160304] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item_list__type_support.h\n'}
+[3.162545] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/string_with_pose__functions.h\n'}
+[3.166337] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/string_with_pose__struct.h\n'}
+[3.166656] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/string_with_pose__type_support.h\n'}
+[3.166864] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/direction.h\n'}
+[3.172241] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/item.h\n'}
+[3.172538] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/item_list.h\n'}
+[3.172713] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.172876] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/string_with_pose.h\n'}
+[3.173038] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/detail/item_request__functions.h\n'}
+[3.173203] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/detail/item_request__struct.h\n'}
+[3.173376] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/detail/item_request__type_support.h\n'}
+[3.173535] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/item_request.h\n'}
+[3.173711] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/environment/library_path.sh\n'}
+[3.185223] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/environment/library_path.dsv\n'}
+[3.185485] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/direction__rosidl_typesupport_fastrtps_c.h\n'}
+[3.185642] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item__rosidl_typesupport_fastrtps_c.h\n'}
+[3.185787] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item_list__rosidl_typesupport_fastrtps_c.h\n'}
+[3.185931] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/string_with_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[3.186084] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.192235] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/detail/item_request__rosidl_typesupport_fastrtps_c.h\n'}
+[3.192560] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/direction__builder.hpp\n'}
+[3.192756] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/direction__struct.hpp\n'}
+[3.192948] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/direction__traits.hpp\n'}
+[3.198258] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item__builder.hpp\n'}
+[3.198591] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item__struct.hpp\n'}
+[3.198822] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item__traits.hpp\n'}
+[3.198981] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item_list__builder.hpp\n'}
+[3.199159] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item_list__struct.hpp\n'}
+[3.201207] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item_list__traits.hpp\n'}
+[3.201417] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/string_with_pose__builder.hpp\n'}
+[3.201665] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/string_with_pose__struct.hpp\n'}
+[3.202902] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/string_with_pose__traits.hpp\n'}
+[3.203535] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/direction.hpp\n'}
+[3.208133] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/item.hpp\n'}
+[3.208407] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/item_list.hpp\n'}
+[3.208556] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/string_with_pose.hpp\n'}
+[3.208682] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/detail/item_request__builder.hpp\n'}
+[3.208810] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/detail/item_request__struct.hpp\n'}
+[3.210936] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/detail/item_request__traits.hpp\n'}
+[3.211141] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/item_request.hpp\n'}
+[3.212309] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/direction__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.219731] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.220081] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item_list__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.220984] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/string_with_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.222832] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.225358] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/detail/item_request__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.229836] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/direction__rosidl_typesupport_introspection_c.h\n'}
+[3.230407] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item__rosidl_typesupport_introspection_c.h\n'}
+[3.231244] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item_list__rosidl_typesupport_introspection_c.h\n'}
+[3.231495] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/string_with_pose__rosidl_typesupport_introspection_c.h\n'}
+[3.231991] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.236565] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/detail/item_request__rosidl_typesupport_introspection_c.h\n'}
+[3.240365] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/direction__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.241337] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.241890] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item_list__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.242107] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/string_with_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.242643] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/detail/item_request__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.245325] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/environment/pythonpath.sh\n'}
+[3.251657] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/environment/pythonpath.dsv\n'}
+[3.251894] (-) TimerEvent: {}
+[3.252443] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.253445] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.253753] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.254037] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.261306] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/__init__.py\n'}
+[3.261668] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/_auro_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[3.261873] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/_auro_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.262272] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/_auro_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.268239] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/auro_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.268510] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/auro_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.268924] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/auro_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.274544] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/libauro_interfaces__rosidl_generator_py.so\n'}
+[3.274739] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg/__init__.py\n'}
+[3.274890] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg/_direction.py\n'}
+[3.275038] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg/_direction_s.c\n'}
+[3.275180] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg/_item.py\n'}
+[3.275341] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg/_item_list.py\n'}
+[3.275597] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg/_item_list_s.c\n'}
+[3.275748] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg/_item_s.c\n'}
+[3.275904] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg/_string_with_pose.py\n'}
+[3.276054] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg/_string_with_pose_s.c\n'}
+[3.281432] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/srv/__init__.py\n'}
+[3.281636] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/srv/_item_request.py\n'}
+[3.281805] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/srv/_item_request_s.c\n'}
+[3.281965] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/auro_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.282123] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/auro_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.282292] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/auro_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.282451] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/msg/StringWithPose.idl\n'}
+[3.287251] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/msg/Item.idl\n'}
+[3.290247] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/msg/ItemList.idl\n'}
+[3.290538] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/msg/Direction.idl\n'}
+[3.290727] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/srv/ItemRequest.idl\n'}
+[3.290883] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/msg/StringWithPose.msg\n'}
+[3.292064] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/msg/Item.msg\n'}
+[3.292345] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/msg/ItemList.msg\n'}
+[3.292733] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/msg/Direction.msg\n'}
+[3.298242] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/srv/ItemRequest.srv\n'}
+[3.298479] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/srv/ItemRequest_Request.msg\n'}
+[3.298630] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/srv/ItemRequest_Response.msg\n'}
+[3.298777] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/ament_index/resource_index/package_run_dependencies/auro_interfaces\n'}
+[3.298918] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/ament_index/resource_index/parent_prefix_path/auro_interfaces\n'}
+[3.300956] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/environment/ament_prefix_path.sh\n'}
+[3.301311] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/environment/ament_prefix_path.dsv\n'}
+[3.302605] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/environment/path.sh\n'}
+[3.306419] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/environment/path.dsv\n'}
+[3.306687] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/local_setup.bash\n'}
+[3.306862] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/local_setup.sh\n'}
+[3.314384] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/local_setup.zsh\n'}
+[3.317030] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/local_setup.dsv\n'}
+[3.317240] (auro_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/install/auro_interfaces/share/auro_interfaces/package.dsv\n'}
+[3.353252] (-) TimerEvent: {}
+[3.355557] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/ament_index/resource_index/packages/auro_interfaces\n'}
+[3.356596] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[3.357232] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.358168] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.361403] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.361652] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.362345] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.363542] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.363803] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/auro_interfacesConfig.cmake\n'}
+[3.365302] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/auro_interfacesConfig-version.cmake\n'}
+[3.366065] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/package.xml\n'}
+[3.367586] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/lib/libauro_interfaces__rosidl_generator_c.so\n'}
+[3.371204] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/lib/libauro_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[3.373580] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/lib/libauro_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.374064] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/lib/libauro_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[3.377410] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/lib/libauro_interfaces__rosidl_typesupport_c.so\n'}
+[3.377752] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/lib/libauro_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[3.382034] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/lib/libauro_interfaces__rosidl_typesupport_cpp.so\n'}
+[3.456021] (-) TimerEvent: {}
+[3.488261] (assessment_interfaces) JobProgress: {'identifier': 'assessment_interfaces', 'progress': 'install'}
+[3.488383] (assessment_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/build/assessment_interfaces'], 'cwd': '/workspace/build/assessment_interfaces', 'env': OrderedDict([('HOSTNAME', '8ccf6a3641d8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/root'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/workspace/build/assessment_interfaces'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.515250] (assessment_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.527451] (assessment_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.529464] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/ament_index/resource_index/rosidl_interfaces/assessment_interfaces\n'}
+[3.533280] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item__functions.h\n'}
+[3.536750] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item__struct.h\n'}
+[3.537463] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item__type_support.h\n'}
+[3.537665] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holder__functions.h\n'}
+[3.537818] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holder__struct.h\n'}
+[3.538820] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holder__type_support.h\n'}
+[3.604718] (-) TimerEvent: {}
+[3.605490] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holders__functions.h\n'}
+[3.605784] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holders__struct.h\n'}
+[3.605957] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holders__type_support.h\n'}
+[3.607391] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_list__functions.h\n'}
+[3.607612] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_list__struct.h\n'}
+[3.607800] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_list__type_support.h\n'}
+[3.607974] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_log__functions.h\n'}
+[3.608141] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_log__struct.h\n'}
+[3.611839] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_log__type_support.h\n'}
+[3.612107] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot__functions.h\n'}
+[3.612296] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot__struct.h\n'}
+[3.616501] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot__type_support.h\n'}
+[3.616647] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot_list__functions.h\n'}
+[3.616781] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot_list__struct.h\n'}
+[3.616917] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot_list__type_support.h\n'}
+[3.617063] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone__functions.h\n'}
+[3.617233] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone__struct.h\n'}
+[3.617405] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone__type_support.h\n'}
+[3.617574] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone_list__functions.h\n'}
+[3.617707] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone_list__struct.h\n'}
+[3.617832] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone_list__type_support.h\n'}
+[3.617949] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/item.h\n'}
+[3.618059] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/item_holder.h\n'}
+[3.618165] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/item_holders.h\n'}
+[3.620085] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/item_list.h\n'}
+[3.620253] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/item_log.h\n'}
+[3.620391] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/robot.h\n'}
+[3.620520] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/robot_list.h\n'}
+[3.620648] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.620772] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/zone.h\n'}
+[3.620916] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/zone_list.h\n'}
+[3.621056] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/environment/library_path.sh\n'}
+[3.622293] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/environment/library_path.dsv\n'}
+[3.625419] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item__rosidl_typesupport_fastrtps_c.h\n'}
+[3.625569] (auro_interfaces) StdoutLine: {'line': b"Listing '/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces'...\n"}
+[3.625715] (auro_interfaces) StdoutLine: {'line': b"Listing '/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg'...\n"}
+[3.625848] (auro_interfaces) StdoutLine: {'line': b"Listing '/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/srv'...\n"}
+[3.625978] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/lib/libauro_interfaces__rosidl_generator_py.so\n'}
+[3.626108] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/export_auro_interfaces__rosidl_generator_cExport.cmake\n'}
+[3.626261] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/export_auro_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.626379] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/export_auro_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.626486] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/export_auro_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.626594] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/export_auro_interfaces__rosidl_generator_cppExport.cmake\n'}
+[3.626713] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/export_auro_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.626859] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/export_auro_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.626983] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/auro_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.627120] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/auro_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.627271] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/auro_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[3.627394] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/auro_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.627509] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/auro_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.627631] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/auro_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.627753] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/auro_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[3.627873] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/auro_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.627994] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/export_auro_interfaces__rosidl_generator_pyExport.cmake\n'}
+[3.628116] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/export_auro_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.630096] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holder__rosidl_typesupport_fastrtps_c.h\n'}
+[3.630295] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holders__rosidl_typesupport_fastrtps_c.h\n'}
+[3.630448] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_list__rosidl_typesupport_fastrtps_c.h\n'}
+[3.630584] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_log__rosidl_typesupport_fastrtps_c.h\n'}
+[3.630719] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot__rosidl_typesupport_fastrtps_c.h\n'}
+[3.630929] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot_list__rosidl_typesupport_fastrtps_c.h\n'}
+[3.632590] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone__rosidl_typesupport_fastrtps_c.h\n'}
+[3.632814] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone_list__rosidl_typesupport_fastrtps_c.h\n'}
+[3.633025] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.635845] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item__rosidl_typesupport_introspection_c.h\n'}
+[3.636063] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holder__rosidl_typesupport_introspection_c.h\n'}
+[3.636219] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holders__rosidl_typesupport_introspection_c.h\n'}
+[3.636365] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_list__rosidl_typesupport_introspection_c.h\n'}
+[3.636500] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_log__rosidl_typesupport_introspection_c.h\n'}
+[3.636632] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot__rosidl_typesupport_introspection_c.h\n'}
+[3.636790] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot_list__rosidl_typesupport_introspection_c.h\n'}
+[3.636923] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone__rosidl_typesupport_introspection_c.h\n'}
+[3.637056] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone_list__rosidl_typesupport_introspection_c.h\n'}
+[3.637186] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.637334] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item__builder.hpp\n'}
+[3.637467] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item__struct.hpp\n'}
+[3.637616] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item__traits.hpp\n'}
+[3.637761] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holder__builder.hpp\n'}
+[3.637892] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holder__struct.hpp\n'}
+[3.638021] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holder__traits.hpp\n'}
+[3.638149] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holders__builder.hpp\n'}
+[3.639365] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holders__struct.hpp\n'}
+[3.639518] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holders__traits.hpp\n'}
+[3.639652] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_list__builder.hpp\n'}
+[3.639765] (auro_interfaces) CommandEnded: {'returncode': 0}
+[3.640222] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_list__struct.hpp\n'}
+[3.641079] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_list__traits.hpp\n'}
+[3.641342] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_log__builder.hpp\n'}
+[3.641598] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_log__struct.hpp\n'}
+[3.643200] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_log__traits.hpp\n'}
+[3.643386] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot__builder.hpp\n'}
+[3.643551] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot__struct.hpp\n'}
+[3.643713] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot__traits.hpp\n'}
+[3.643874] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot_list__builder.hpp\n'}
+[3.644037] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot_list__struct.hpp\n'}
+[3.644216] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot_list__traits.hpp\n'}
+[3.644397] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone__builder.hpp\n'}
+[3.644565] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone__struct.hpp\n'}
+[3.644814] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone__traits.hpp\n'}
+[3.647021] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone_list__builder.hpp\n'}
+[3.647233] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone_list__struct.hpp\n'}
+[3.647994] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone_list__traits.hpp\n'}
+[3.648195] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/item.hpp\n'}
+[3.650338] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/item_holder.hpp\n'}
+[3.650545] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/item_holders.hpp\n'}
+[3.650727] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/item_list.hpp\n'}
+[3.650904] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/item_log.hpp\n'}
+[3.651075] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/robot.hpp\n'}
+[3.651397] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/robot_list.hpp\n'}
+[3.651616] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/zone.hpp\n'}
+[3.654435] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/zone_list.hpp\n'}
+[3.655001] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.658929] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holder__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.659221] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holders__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.659421] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_list__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.659584] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_log__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.659751] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.659898] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot_list__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.660071] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.660230] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone_list__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.660400] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.660559] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.660722] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holder__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.660887] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holders__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.661033] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_list__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.665264] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_log__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.665524] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.665702] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot_list__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.665868] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.666038] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone_list__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.666186] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/environment/pythonpath.sh\n'}
+[3.666410] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/environment/pythonpath.dsv\n'}
+[3.666557] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.666728] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.666877] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.667047] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.667198] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/__init__.py\n'}
+[3.667375] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/_assessment_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[3.667533] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/_assessment_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.667710] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/_assessment_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.667889] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/assessment_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.668036] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/assessment_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.671256] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/assessment_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.675896] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/libassessment_interfaces__rosidl_generator_py.so\n'}
+[3.676112] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/__init__.py\n'}
+[3.676312] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item.py\n'}
+[3.676510] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item_holder.py\n'}
+[3.676700] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item_holder_s.c\n'}
+[3.676887] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item_holders.py\n'}
+[3.677072] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item_holders_s.c\n'}
+[3.677304] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item_list.py\n'}
+[3.677498] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item_list_s.c\n'}
+[3.677702] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item_log.py\n'}
+[3.677888] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item_log_s.c\n'}
+[3.678075] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item_s.c\n'}
+[3.683398] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_robot.py\n'}
+[3.683588] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_robot_list.py\n'}
+[3.683720] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_robot_list_s.c\n'}
+[3.683863] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_robot_s.c\n'}
+[3.684014] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_zone.py\n'}
+[3.684165] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_zone_list.py\n'}
+[3.684369] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_zone_list_s.c\n'}
+[3.684512] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_zone_s.c\n'}
+[3.684641] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/assessment_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.684767] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/assessment_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.684899] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/assessment_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.685052] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/ItemLog.idl\n'}
+[3.685208] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/ItemHolder.idl\n'}
+[3.687657] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/ItemHolders.idl\n'}
+[3.687837] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/Item.idl\n'}
+[3.687994] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/ItemList.idl\n'}
+[3.688159] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/Zone.idl\n'}
+[3.692638] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/ZoneList.idl\n'}
+[3.693494] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/Robot.idl\n'}
+[3.693681] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/RobotList.idl\n'}
+[3.693851] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/ItemLog.msg\n'}
+[3.694036] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/ItemHolder.msg\n'}
+[3.694225] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/ItemHolders.msg\n'}
+[3.694409] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/Item.msg\n'}
+[3.694597] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/ItemList.msg\n'}
+[3.694772] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/Zone.msg\n'}
+[3.694975] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/ZoneList.msg\n'}
+[3.695154] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/Robot.msg\n'}
+[3.695376] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/RobotList.msg\n'}
+[3.695543] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/ament_index/resource_index/package_run_dependencies/assessment_interfaces\n'}
+[3.695728] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/ament_index/resource_index/parent_prefix_path/assessment_interfaces\n'}
+[3.695899] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/environment/ament_prefix_path.sh\n'}
+[3.696091] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/environment/ament_prefix_path.dsv\n'}
+[3.700384] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/environment/path.sh\n'}
+[3.700671] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/environment/path.dsv\n'}
+[3.700895] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/local_setup.bash\n'}
+[3.701076] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/local_setup.sh\n'}
+[3.701286] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/local_setup.zsh\n'}
+[3.701477] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/local_setup.dsv\n'}
+[3.701654] (assessment_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/install/assessment_interfaces/share/assessment_interfaces/package.dsv\n'}
+[3.701830] (tf_relay) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/workspace/build/tf_relay/build', '--no-deps', 'symlink_data'], 'cwd': '/workspace/build/tf_relay', 'env': {'HOSTNAME': '8ccf6a3641d8', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/root', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'PWD': '/workspace/build/tf_relay', 'TURTLEBOT3_MODEL': 'waffle_pi', 'LC_ALL': 'C.UTF-8', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'PYTHONPATH': '/workspace/build/tf_relay/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/tf_relay/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[3.703043] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/ament_index/resource_index/packages/assessment_interfaces\n'}
+[3.706496] (-) TimerEvent: {}
+[3.707409] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[3.707718] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.707874] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.708084] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.708280] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.708426] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.708563] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.708698] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/assessment_interfacesConfig.cmake\n'}
+[3.708832] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/assessment_interfacesConfig-version.cmake\n'}
+[3.708964] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/package.xml\n'}
+[3.709097] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/lib/libassessment_interfaces__rosidl_generator_c.so\n'}
+[3.709246] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/lib/libassessment_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[3.709401] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/lib/libassessment_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[3.709532] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/lib/libassessment_interfaces__rosidl_typesupport_c.so\n'}
+[3.709662] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/lib/libassessment_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.709790] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/lib/libassessment_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[3.709918] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/lib/libassessment_interfaces__rosidl_typesupport_cpp.so\n'}
+[3.808255] (assessment_interfaces) StdoutLine: {'line': b"Listing '/workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces'...\n"}
+[3.808536] (-) TimerEvent: {}
+[3.808740] (assessment_interfaces) StdoutLine: {'line': b"Listing '/workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg'...\n"}
+[3.819232] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/lib/libassessment_interfaces__rosidl_generator_py.so\n'}
+[3.819575] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/export_assessment_interfaces__rosidl_generator_cExport.cmake\n'}
+[3.819755] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/export_assessment_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.819910] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/export_assessment_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.820058] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/export_assessment_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.820232] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/assessment_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.820421] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/assessment_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.820635] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/assessment_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[3.822967] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/assessment_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.824313] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/export_assessment_interfaces__rosidl_generator_cppExport.cmake\n'}
+[3.824916] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/export_assessment_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.825360] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/export_assessment_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.825659] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/assessment_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.825924] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/assessment_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.826175] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/assessment_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[3.826425] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/assessment_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.827265] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/export_assessment_interfaces__rosidl_generator_pyExport.cmake\n'}
+[3.827565] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/export_assessment_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.831238] (assessment_interfaces) CommandEnded: {'returncode': 0}
+[3.908648] (-) TimerEvent: {}
+[4.019254] (-) TimerEvent: {}
+[4.119633] (-) TimerEvent: {}
+[4.222475] (-) TimerEvent: {}
+[4.263930] (auro_interfaces) JobEnded: {'identifier': 'auro_interfaces', 'rc': 0}
+[4.265552] (week_1) JobStarted: {'identifier': 'week_1'}
+[4.292937] (solution) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/workspace/build/solution/build', '--no-deps', 'symlink_data'], 'cwd': '/workspace/build/solution', 'env': {'HOSTNAME': '8ccf6a3641d8', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/root', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'PWD': '/workspace/build/solution', 'TURTLEBOT3_MODEL': 'waffle_pi', 'LC_ALL': 'C.UTF-8', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'PYTHONPATH': '/workspace/build/solution/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/solution/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[4.325254] (-) TimerEvent: {}
+[4.425619] (-) TimerEvent: {}
+[4.526967] (-) TimerEvent: {}
+[4.547875] (tf_relay) StdoutLine: {'line': b'running develop\n'}
+[4.548643] (tf_relay) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.548824] (tf_relay) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.627073] (-) TimerEvent: {}
+[4.732213] (-) TimerEvent: {}
+[4.832604] (-) TimerEvent: {}
+[4.922040] (tf_relay) StdoutLine: {'line': b'running egg_info\n'}
+[4.924274] (tf_relay) StdoutLine: {'line': b'writing tf_relay.egg-info/PKG-INFO\n'}
+[4.926556] (tf_relay) StdoutLine: {'line': b'writing dependency_links to tf_relay.egg-info/dependency_links.txt\n'}
+[4.927833] (tf_relay) StdoutLine: {'line': b'writing entry points to tf_relay.egg-info/entry_points.txt\n'}
+[4.929360] (tf_relay) StdoutLine: {'line': b'writing requirements to tf_relay.egg-info/requires.txt\n'}
+[4.931463] (tf_relay) StdoutLine: {'line': b'writing top-level names to tf_relay.egg-info/top_level.txt\n'}
+[4.932690] (-) TimerEvent: {}
+[4.936532] (tf_relay) StdoutLine: {'line': b"reading manifest file 'tf_relay.egg-info/SOURCES.txt'\n"}
+[4.939941] (tf_relay) StdoutLine: {'line': b"writing manifest file 'tf_relay.egg-info/SOURCES.txt'\n"}
+[4.944617] (tf_relay) StdoutLine: {'line': b'running build_ext\n'}
+[4.946102] (tf_relay) StdoutLine: {'line': b'Creating /workspace/install/tf_relay/lib/python3.10/site-packages/tf-relay.egg-link (link to .)\n'}
+[4.949814] (tf_relay) StdoutLine: {'line': b'Installing relay script to /workspace/install/tf_relay/lib/tf_relay\n'}
+[4.952061] (tf_relay) StdoutLine: {'line': b'\n'}
+[4.953101] (tf_relay) StdoutLine: {'line': b'Installed /workspace/build/tf_relay\n'}
+[4.957295] (tf_relay) StdoutLine: {'line': b'running symlink_data\n'}
+[5.032803] (-) TimerEvent: {}
+[5.133385] (-) TimerEvent: {}
+[5.233776] (-) TimerEvent: {}
+[5.334172] (-) TimerEvent: {}
+[5.365608] (solution) StdoutLine: {'line': b'running develop\n'}
+[5.366747] (solution) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.367095] (solution) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.437265] (-) TimerEvent: {}
+[5.542015] (-) TimerEvent: {}
+[5.569091] (assessment_interfaces) JobEnded: {'identifier': 'assessment_interfaces', 'rc': 0}
+[5.573497] (week_2) JobStarted: {'identifier': 'week_2'}
+[5.593778] (tf_relay) CommandEnded: {'returncode': 0}
+[5.625401] (tf_relay) JobEnded: {'identifier': 'tf_relay', 'rc': 0}
+[5.627696] (week_3) JobStarted: {'identifier': 'week_3'}
+[5.642112] (-) TimerEvent: {}
+[5.745264] (-) TimerEvent: {}
+[5.845668] (-) TimerEvent: {}
+[5.946411] (-) TimerEvent: {}
+[5.999254] (solution) StdoutLine: {'line': b'running egg_info\n'}
+[6.000156] (solution) StdoutLine: {'line': b'writing solution.egg-info/PKG-INFO\n'}
+[6.000338] (solution) StdoutLine: {'line': b'writing dependency_links to solution.egg-info/dependency_links.txt\n'}
+[6.000498] (solution) StdoutLine: {'line': b'writing entry points to solution.egg-info/entry_points.txt\n'}
+[6.000655] (solution) StdoutLine: {'line': b'writing requirements to solution.egg-info/requires.txt\n'}
+[6.000791] (solution) StdoutLine: {'line': b'writing top-level names to solution.egg-info/top_level.txt\n'}
+[6.010251] (solution) StdoutLine: {'line': b"reading manifest file 'solution.egg-info/SOURCES.txt'\n"}
+[6.011345] (solution) StdoutLine: {'line': b"writing manifest file 'solution.egg-info/SOURCES.txt'\n"}
+[6.017347] (solution) StdoutLine: {'line': b'running build_ext\n'}
+[6.020728] (solution) StdoutLine: {'line': b'Creating /workspace/install/solution/lib/python3.10/site-packages/solution.egg-link (link to .)\n'}
+[6.026011] (solution) StdoutLine: {'line': b'Installing data_logger script to /workspace/install/solution/lib/solution\n'}
+[6.027966] (solution) StdoutLine: {'line': b'Installing robot_controller script to /workspace/install/solution/lib/solution\n'}
+[6.030569] (solution) StdoutLine: {'line': b'\n'}
+[6.031750] (solution) StdoutLine: {'line': b'Installed /workspace/build/solution\n'}
+[6.039264] (solution) StdoutLine: {'line': b'running symlink_data\n'}
+[6.046514] (-) TimerEvent: {}
+[6.152256] (-) TimerEvent: {}
+[6.252655] (-) TimerEvent: {}
+[6.353261] (-) TimerEvent: {}
+[6.453846] (-) TimerEvent: {}
+[6.555261] (-) TimerEvent: {}
+[6.662251] (-) TimerEvent: {}
+[6.762619] (-) TimerEvent: {}
+[6.863267] (-) TimerEvent: {}
+[6.963659] (-) TimerEvent: {}
+[7.065258] (-) TimerEvent: {}
+[7.166527] (-) TimerEvent: {}
+[7.266916] (-) TimerEvent: {}
+[7.270186] (solution) CommandEnded: {'returncode': 0}
+[7.286567] (solution) JobEnded: {'identifier': 'solution', 'rc': 0}
+[7.289981] (week_6) JobStarted: {'identifier': 'week_6'}
+[7.312699] (week_1) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/workspace/build/week_1/build', '--no-deps', 'symlink_data'], 'cwd': '/workspace/build/week_1', 'env': {'HOSTNAME': '8ccf6a3641d8', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/root', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'PWD': '/workspace/build/week_1', 'TURTLEBOT3_MODEL': 'waffle_pi', 'LC_ALL': 'C.UTF-8', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'PYTHONPATH': '/workspace/build/week_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[7.372251] (-) TimerEvent: {}
+[7.472604] (-) TimerEvent: {}
+[7.573279] (-) TimerEvent: {}
+[7.673889] (-) TimerEvent: {}
+[7.775242] (-) TimerEvent: {}
+[7.875614] (-) TimerEvent: {}
+[7.975981] (-) TimerEvent: {}
+[8.076363] (-) TimerEvent: {}
+[8.138155] (week_1) StdoutLine: {'line': b'running develop\n'}
+[8.140185] (week_1) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[8.141595] (week_1) StderrLine: {'line': b'  warnings.warn(\n'}
+[8.176473] (-) TimerEvent: {}
+[8.277047] (-) TimerEvent: {}
+[8.377835] (-) TimerEvent: {}
+[8.451554] (week_3) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/workspace/build/week_3/build', '--no-deps', 'symlink_data'], 'cwd': '/workspace/build/week_3', 'env': {'HOSTNAME': '8ccf6a3641d8', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/root', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'PWD': '/workspace/build/week_3', 'TURTLEBOT3_MODEL': 'waffle_pi', 'LC_ALL': 'C.UTF-8', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'PYTHONPATH': '/workspace/build/week_3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_3/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[8.477937] (-) TimerEvent: {}
+[8.578601] (-) TimerEvent: {}
+[8.619498] (week_2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/workspace/build/week_2/build', '--no-deps', 'symlink_data'], 'cwd': '/workspace/build/week_2', 'env': {'HOSTNAME': '8ccf6a3641d8', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/root', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'PWD': '/workspace/build/week_2', 'TURTLEBOT3_MODEL': 'waffle_pi', 'LC_ALL': 'C.UTF-8', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'PYTHONPATH': '/workspace/build/week_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[8.626155] (week_1) StdoutLine: {'line': b'running egg_info\n'}
+[8.626742] (week_1) StdoutLine: {'line': b'writing week_1.egg-info/PKG-INFO\n'}
+[8.626912] (week_1) StdoutLine: {'line': b'writing dependency_links to week_1.egg-info/dependency_links.txt\n'}
+[8.627213] (week_1) StdoutLine: {'line': b'writing entry points to week_1.egg-info/entry_points.txt\n'}
+[8.627383] (week_1) StdoutLine: {'line': b'writing requirements to week_1.egg-info/requires.txt\n'}
+[8.627531] (week_1) StdoutLine: {'line': b'writing top-level names to week_1.egg-info/top_level.txt\n'}
+[8.633249] (week_1) StdoutLine: {'line': b"reading manifest file 'week_1.egg-info/SOURCES.txt'\n"}
+[8.638473] (week_1) StdoutLine: {'line': b"writing manifest file 'week_1.egg-info/SOURCES.txt'\n"}
+[8.643852] (week_1) StdoutLine: {'line': b'running build_ext\n'}
+[8.645123] (week_1) StdoutLine: {'line': b'Creating /workspace/install/week_1/lib/python3.10/site-packages/week-1.egg-link (link to .)\n'}
+[8.645927] (week_1) StdoutLine: {'line': b'Installing turtle_controller script to /workspace/install/week_1/lib/week_1\n'}
+[8.650151] (week_1) StdoutLine: {'line': b'Installing turtle_listener script to /workspace/install/week_1/lib/week_1\n'}
+[8.651264] (week_1) StdoutLine: {'line': b'\n'}
+[8.652332] (week_1) StdoutLine: {'line': b'Installed /workspace/build/week_1\n'}
+[8.653300] (week_1) StdoutLine: {'line': b'running symlink_data\n'}
+[8.678709] (-) TimerEvent: {}
+[8.762941] (week_1) CommandEnded: {'returncode': 0}
+[8.778967] (-) TimerEvent: {}
+[8.797418] (week_1) JobEnded: {'identifier': 'week_1', 'rc': 0}
+[8.800605] (week_7) JobStarted: {'identifier': 'week_7'}
+[8.879879] (-) TimerEvent: {}
+[8.980255] (-) TimerEvent: {}
+[9.045501] (week_3) StdoutLine: {'line': b'running develop\n'}
+[9.046536] (week_3) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.046754] (week_3) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.080355] (-) TimerEvent: {}
+[9.181246] (-) TimerEvent: {}
+[9.211456] (week_6) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/workspace/build/week_6/build', '--no-deps', 'symlink_data'], 'cwd': '/workspace/build/week_6', 'env': {'HOSTNAME': '8ccf6a3641d8', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/root', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'PWD': '/workspace/build/week_6', 'TURTLEBOT3_MODEL': 'waffle_pi', 'LC_ALL': 'C.UTF-8', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'PYTHONPATH': '/workspace/build/week_6/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_6/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[9.236980] (week_2) StdoutLine: {'line': b'running develop\n'}
+[9.239861] (week_2) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.240670] (week_2) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.281347] (-) TimerEvent: {}
+[9.381923] (-) TimerEvent: {}
+[9.396313] (week_3) StdoutLine: {'line': b'running egg_info\n'}
+[9.396567] (week_3) StdoutLine: {'line': b'writing week_3.egg-info/PKG-INFO\n'}
+[9.396726] (week_3) StdoutLine: {'line': b'writing dependency_links to week_3.egg-info/dependency_links.txt\n'}
+[9.396872] (week_3) StdoutLine: {'line': b'writing entry points to week_3.egg-info/entry_points.txt\n'}
+[9.402247] (week_3) StdoutLine: {'line': b'writing requirements to week_3.egg-info/requires.txt\n'}
+[9.402496] (week_3) StdoutLine: {'line': b'writing top-level names to week_3.egg-info/top_level.txt\n'}
+[9.404998] (week_3) StdoutLine: {'line': b"reading manifest file 'week_3.egg-info/SOURCES.txt'\n"}
+[9.407740] (week_3) StdoutLine: {'line': b"writing manifest file 'week_3.egg-info/SOURCES.txt'\n"}
+[9.411998] (week_3) StdoutLine: {'line': b'running build_ext\n'}
+[9.413728] (week_3) StdoutLine: {'line': b'Creating /workspace/install/week_3/lib/python3.10/site-packages/week-3.egg-link (link to .)\n'}
+[9.417086] (week_3) StdoutLine: {'line': b'Installing rviz_text_marker script to /workspace/install/week_3/lib/week_3\n'}
+[9.418788] (week_3) StdoutLine: {'line': b'Installing turtlebot3_fsm script to /workspace/install/week_3/lib/week_3\n'}
+[9.419103] (week_3) StdoutLine: {'line': b'Installing turtlebot3_fsm_rc script to /workspace/install/week_3/lib/week_3\n'}
+[9.419340] (week_3) StdoutLine: {'line': b'Installing turtlebot3_random_walk script to /workspace/install/week_3/lib/week_3\n'}
+[9.425311] (week_3) StdoutLine: {'line': b'\n'}
+[9.425553] (week_3) StdoutLine: {'line': b'Installed /workspace/build/week_3\n'}
+[9.425705] (week_3) StdoutLine: {'line': b'running symlink_data\n'}
+[9.477382] (week_3) CommandEnded: {'returncode': 0}
+[9.482010] (-) TimerEvent: {}
+[9.504717] (week_3) JobEnded: {'identifier': 'week_3', 'rc': 0}
+[9.507389] (week_8) JobStarted: {'identifier': 'week_8'}
+[9.580737] (week_2) StdoutLine: {'line': b'running egg_info\n'}
+[9.582706] (-) TimerEvent: {}
+[9.583173] (week_2) StdoutLine: {'line': b'writing week_2.egg-info/PKG-INFO\n'}
+[9.583387] (week_2) StdoutLine: {'line': b'writing dependency_links to week_2.egg-info/dependency_links.txt\n'}
+[9.583540] (week_2) StdoutLine: {'line': b'writing entry points to week_2.egg-info/entry_points.txt\n'}
+[9.583678] (week_2) StdoutLine: {'line': b'writing requirements to week_2.egg-info/requires.txt\n'}
+[9.583832] (week_2) StdoutLine: {'line': b'writing top-level names to week_2.egg-info/top_level.txt\n'}
+[9.587707] (week_2) StdoutLine: {'line': b"reading manifest file 'week_2.egg-info/SOURCES.txt'\n"}
+[9.587956] (week_2) StdoutLine: {'line': b"writing manifest file 'week_2.egg-info/SOURCES.txt'\n"}
+[9.592236] (week_2) StdoutLine: {'line': b'running build_ext\n'}
+[9.593649] (week_2) StdoutLine: {'line': b'Creating /workspace/install/week_2/lib/python3.10/site-packages/week-2.egg-link (link to .)\n'}
+[9.593841] (week_2) StdoutLine: {'line': b'Installing turtlebot3_drive_python script to /workspace/install/week_2/lib/week_2\n'}
+[9.594006] (week_2) StdoutLine: {'line': b'\n'}
+[9.594164] (week_2) StdoutLine: {'line': b'Installed /workspace/build/week_2\n'}
+[9.597515] (week_2) StdoutLine: {'line': b'running symlink_data\n'}
+[9.682812] (-) TimerEvent: {}
+[9.784059] (-) TimerEvent: {}
+[9.815361] (week_6) StdoutLine: {'line': b'running develop\n'}
+[9.817676] (week_6) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.817984] (week_6) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.884174] (-) TimerEvent: {}
+[9.984582] (-) TimerEvent: {}
+[10.034058] (week_7) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/workspace/build/week_7/build', '--no-deps', 'symlink_data'], 'cwd': '/workspace/build/week_7', 'env': {'HOSTNAME': '8ccf6a3641d8', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/root', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'PWD': '/workspace/build/week_7', 'TURTLEBOT3_MODEL': 'waffle_pi', 'LC_ALL': 'C.UTF-8', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'PYTHONPATH': '/workspace/build/week_7/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_7/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[10.040576] (week_2) CommandEnded: {'returncode': 0}
+[10.051562] (week_2) JobEnded: {'identifier': 'week_2', 'rc': 0}
+[10.054405] (assessment) JobStarted: {'identifier': 'assessment'}
+[10.073103] (week_6) StdoutLine: {'line': b'running egg_info\n'}
+[10.073390] (week_6) StdoutLine: {'line': b'writing week_6.egg-info/PKG-INFO\n'}
+[10.073562] (week_6) StdoutLine: {'line': b'writing dependency_links to week_6.egg-info/dependency_links.txt\n'}
+[10.073719] (week_6) StdoutLine: {'line': b'writing entry points to week_6.egg-info/entry_points.txt\n'}
+[10.073850] (week_6) StdoutLine: {'line': b'writing requirements to week_6.egg-info/requires.txt\n'}
+[10.073996] (week_6) StdoutLine: {'line': b'writing top-level names to week_6.egg-info/top_level.txt\n'}
+[10.077010] (week_6) StdoutLine: {'line': b"reading manifest file 'week_6.egg-info/SOURCES.txt'\n"}
+[10.080499] (week_6) StdoutLine: {'line': b"writing manifest file 'week_6.egg-info/SOURCES.txt'\n"}
+[10.085666] (week_6) StdoutLine: {'line': b'running build_ext\n'}
+[10.086119] (-) TimerEvent: {}
+[10.087716] (week_6) StdoutLine: {'line': b'Creating /workspace/install/week_6/lib/python3.10/site-packages/week-6.egg-link (link to .)\n'}
+[10.091318] (week_6) StdoutLine: {'line': b'Installing lidar_fault script to /workspace/install/week_6/lib/week_6\n'}
+[10.092160] (week_6) StdoutLine: {'line': b'Installing robot_controller script to /workspace/install/week_6/lib/week_6\n'}
+[10.092349] (week_6) StdoutLine: {'line': b'\n'}
+[10.092518] (week_6) StdoutLine: {'line': b'Installed /workspace/build/week_6\n'}
+[10.092672] (week_6) StdoutLine: {'line': b'running symlink_data\n'}
+[10.188249] (-) TimerEvent: {}
+[10.292252] (-) TimerEvent: {}
+[10.392616] (-) TimerEvent: {}
+[10.492988] (-) TimerEvent: {}
+[10.593657] (-) TimerEvent: {}
+[10.612028] (week_7) StdoutLine: {'line': b'running develop\n'}
+[10.613286] (week_7) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[10.613943] (week_7) StderrLine: {'line': b'  warnings.warn(\n'}
+[10.665229] (week_6) CommandEnded: {'returncode': 0}
+[10.684130] (week_6) JobEnded: {'identifier': 'week_6', 'rc': 0}
+[10.690551] (week_4) JobStarted: {'identifier': 'week_4'}
+[10.693727] (-) TimerEvent: {}
+[10.794683] (-) TimerEvent: {}
+[10.870792] (week_7) StdoutLine: {'line': b'running egg_info\n'}
+[10.872879] (week_7) StdoutLine: {'line': b'writing week_7.egg-info/PKG-INFO\n'}
+[10.873113] (week_7) StdoutLine: {'line': b'writing dependency_links to week_7.egg-info/dependency_links.txt\n'}
+[10.873310] (week_7) StdoutLine: {'line': b'writing entry points to week_7.egg-info/entry_points.txt\n'}
+[10.873460] (week_7) StdoutLine: {'line': b'writing requirements to week_7.egg-info/requires.txt\n'}
+[10.873618] (week_7) StdoutLine: {'line': b'writing top-level names to week_7.egg-info/top_level.txt\n'}
+[10.880237] (week_7) StdoutLine: {'line': b"reading manifest file 'week_7.egg-info/SOURCES.txt'\n"}
+[10.880469] (week_7) StdoutLine: {'line': b"writing manifest file 'week_7.egg-info/SOURCES.txt'\n"}
+[10.880613] (week_7) StdoutLine: {'line': b'running build_ext\n'}
+[10.880745] (week_7) StdoutLine: {'line': b'Creating /workspace/install/week_7/lib/python3.10/site-packages/week-7.egg-link (link to .)\n'}
+[10.884685] (week_7) StdoutLine: {'line': b'\n'}
+[10.884999] (week_7) StdoutLine: {'line': b'Installed /workspace/build/week_7\n'}
+[10.885179] (week_7) StdoutLine: {'line': b'running symlink_data\n'}
+[10.894778] (-) TimerEvent: {}
+[10.995578] (-) TimerEvent: {}
+[11.095943] (-) TimerEvent: {}
+[11.177641] (week_8) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/workspace/build/week_8/build', '--no-deps', 'symlink_data'], 'cwd': '/workspace/build/week_8', 'env': {'HOSTNAME': '8ccf6a3641d8', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/root', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'PWD': '/workspace/build/week_8', 'TURTLEBOT3_MODEL': 'waffle_pi', 'LC_ALL': 'C.UTF-8', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'PYTHONPATH': '/workspace/build/week_8/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_8/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[11.183312] (week_7) CommandEnded: {'returncode': 0}
+[11.196470] (-) TimerEvent: {}
+[11.198378] (week_7) JobEnded: {'identifier': 'week_7', 'rc': 0}
+[11.200324] (week_5) JobStarted: {'identifier': 'week_5'}
+[11.297866] (-) TimerEvent: {}
+[11.398250] (-) TimerEvent: {}
+[11.498714] (-) TimerEvent: {}
+[11.599089] (-) TimerEvent: {}
+[11.612846] (week_8) StdoutLine: {'line': b'running develop\n'}
+[11.613934] (week_8) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[11.614917] (week_8) StderrLine: {'line': b'  warnings.warn(\n'}
+[11.699207] (-) TimerEvent: {}
+[11.785437] (assessment) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/workspace/build/assessment/build', '--no-deps', 'symlink_data'], 'cwd': '/workspace/build/assessment', 'env': {'HOSTNAME': '8ccf6a3641d8', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/workspace/install/auro_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins', 'HOME': '/root', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/workspace/install/auro_interfaces:/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'PWD': '/workspace/build/assessment', 'TURTLEBOT3_MODEL': 'waffle_pi', 'LC_ALL': 'C.UTF-8', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'PYTHONPATH': '/workspace/build/assessment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/assessment/lib/python3.10/site-packages:/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/install/auro_interfaces'}, 'shell': False}
+[11.800248] (-) TimerEvent: {}
+[11.855166] (week_8) StdoutLine: {'line': b'running egg_info\n'}
+[11.855951] (week_8) StdoutLine: {'line': b'writing week_8.egg-info/PKG-INFO\n'}
+[11.859206] (week_8) StdoutLine: {'line': b'writing dependency_links to week_8.egg-info/dependency_links.txt\n'}
+[11.859539] (week_8) StdoutLine: {'line': b'writing entry points to week_8.egg-info/entry_points.txt\n'}
+[11.859710] (week_8) StdoutLine: {'line': b'writing requirements to week_8.egg-info/requires.txt\n'}
+[11.859872] (week_8) StdoutLine: {'line': b'writing top-level names to week_8.egg-info/top_level.txt\n'}
+[11.865260] (week_8) StdoutLine: {'line': b"reading manifest file 'week_8.egg-info/SOURCES.txt'\n"}
+[11.868514] (week_8) StdoutLine: {'line': b"writing manifest file 'week_8.egg-info/SOURCES.txt'\n"}
+[11.874312] (week_8) StdoutLine: {'line': b'running build_ext\n'}
+[11.874580] (week_8) StdoutLine: {'line': b'Creating /workspace/install/week_8/lib/python3.10/site-packages/week-8.egg-link (link to .)\n'}
+[11.878097] (week_8) StdoutLine: {'line': b'Installing autonomous_navigation script to /workspace/install/week_8/lib/week_8\n'}
+[11.878391] (week_8) StdoutLine: {'line': b'Installing autonomous_navigation_multithreaded script to /workspace/install/week_8/lib/week_8\n'}
+[11.880508] (week_8) StdoutLine: {'line': b'Installing joint_state_republisher script to /workspace/install/week_8/lib/week_8\n'}
+[11.882363] (week_8) StdoutLine: {'line': b'Installing path_publisher script to /workspace/install/week_8/lib/week_8\n'}
+[11.886248] (week_8) StdoutLine: {'line': b'Installing robot_controller script to /workspace/install/week_8/lib/week_8\n'}
+[11.887252] (week_8) StdoutLine: {'line': b'Installing simple_commander script to /workspace/install/week_8/lib/week_8\n'}
+[11.887477] (week_8) StdoutLine: {'line': b'\n'}
+[11.887642] (week_8) StdoutLine: {'line': b'Installed /workspace/build/week_8\n'}
+[11.887805] (week_8) StdoutLine: {'line': b'running symlink_data\n'}
+[11.900361] (-) TimerEvent: {}
+[11.944170] (week_8) CommandEnded: {'returncode': 0}
+[11.971112] (week_8) JobEnded: {'identifier': 'week_8', 'rc': 0}
+[12.000483] (-) TimerEvent: {}
+[12.018460] (week_4) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/workspace/build/week_4/build', '--no-deps', 'symlink_data'], 'cwd': '/workspace/build/week_4', 'env': {'HOSTNAME': '8ccf6a3641d8', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/workspace/install/auro_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins', 'HOME': '/root', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/workspace/install/auro_interfaces:/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'PWD': '/workspace/build/week_4', 'TURTLEBOT3_MODEL': 'waffle_pi', 'LC_ALL': 'C.UTF-8', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'PYTHONPATH': '/workspace/build/week_4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_4/lib/python3.10/site-packages:/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/install/auro_interfaces'}, 'shell': False}
+[12.102249] (-) TimerEvent: {}
+[12.202931] (-) TimerEvent: {}
+[12.303562] (-) TimerEvent: {}
+[12.381110] (assessment) StdoutLine: {'line': b'running develop\n'}
+[12.382287] (assessment) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[12.382553] (assessment) StderrLine: {'line': b'  warnings.warn(\n'}
+[12.405246] (-) TimerEvent: {}
+[12.477068] (week_5) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/workspace/build/week_5/build', '--no-deps', 'symlink_data'], 'cwd': '/workspace/build/week_5', 'env': {'HOSTNAME': '8ccf6a3641d8', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/workspace/install/auro_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins', 'HOME': '/root', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/workspace/install/auro_interfaces:/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'PWD': '/workspace/build/week_5', 'TURTLEBOT3_MODEL': 'waffle_pi', 'LC_ALL': 'C.UTF-8', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'PYTHONPATH': '/workspace/build/week_5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_5/lib/python3.10/site-packages:/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/install/auro_interfaces'}, 'shell': False}
+[12.506255] (-) TimerEvent: {}
+[12.540924] (week_4) StdoutLine: {'line': b'running develop\n'}
+[12.541796] (week_4) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[12.542036] (week_4) StderrLine: {'line': b'  warnings.warn(\n'}
+[12.606390] (-) TimerEvent: {}
+[12.698212] (assessment) StdoutLine: {'line': b'running egg_info\n'}
+[12.700340] (assessment) StdoutLine: {'line': b'writing assessment.egg-info/PKG-INFO\n'}
+[12.701572] (assessment) StdoutLine: {'line': b'writing dependency_links to assessment.egg-info/dependency_links.txt\n'}
+[12.702145] (assessment) StdoutLine: {'line': b'writing entry points to assessment.egg-info/entry_points.txt\n'}
+[12.702310] (assessment) StdoutLine: {'line': b'writing requirements to assessment.egg-info/requires.txt\n'}
+[12.702459] (assessment) StdoutLine: {'line': b'writing top-level names to assessment.egg-info/top_level.txt\n'}
+[12.704984] (assessment) StdoutLine: {'line': b"reading manifest file 'assessment.egg-info/SOURCES.txt'\n"}
+[12.706090] (assessment) StdoutLine: {'line': b"writing manifest file 'assessment.egg-info/SOURCES.txt'\n"}
+[12.706625] (-) TimerEvent: {}
+[12.708981] (assessment) StdoutLine: {'line': b'running build_ext\n'}
+[12.710232] (assessment) StdoutLine: {'line': b'Creating /workspace/install/assessment/lib/python3.10/site-packages/assessment.egg-link (link to .)\n'}
+[12.711436] (assessment) StdoutLine: {'line': b'Installing item_manager script to /workspace/install/assessment/lib/assessment\n'}
+[12.714370] (assessment) StdoutLine: {'line': b'Installing item_sensor script to /workspace/install/assessment/lib/assessment\n'}
+[12.714549] (assessment) StdoutLine: {'line': b'Installing robot_sensor script to /workspace/install/assessment/lib/assessment\n'}
+[12.714711] (assessment) StdoutLine: {'line': b'Installing zone_sensor script to /workspace/install/assessment/lib/assessment\n'}
+[12.714868] (assessment) StdoutLine: {'line': b'\n'}
+[12.715028] (assessment) StdoutLine: {'line': b'Installed /workspace/build/assessment\n'}
+[12.715181] (assessment) StdoutLine: {'line': b'running symlink_data\n'}
+[12.763802] (week_4) StdoutLine: {'line': b'running egg_info\n'}
+[12.765727] (week_4) StdoutLine: {'line': b'writing week_4.egg-info/PKG-INFO\n'}
+[12.767490] (week_4) StdoutLine: {'line': b'writing dependency_links to week_4.egg-info/dependency_links.txt\n'}
+[12.767674] (week_4) StdoutLine: {'line': b'writing entry points to week_4.egg-info/entry_points.txt\n'}
+[12.767826] (week_4) StdoutLine: {'line': b'writing requirements to week_4.egg-info/requires.txt\n'}
+[12.767985] (week_4) StdoutLine: {'line': b'writing top-level names to week_4.egg-info/top_level.txt\n'}
+[12.768152] (assessment) CommandEnded: {'returncode': 0}
+[12.770980] (week_4) StdoutLine: {'line': b"reading manifest file 'week_4.egg-info/SOURCES.txt'\n"}
+[12.771207] (week_4) StdoutLine: {'line': b"writing manifest file 'week_4.egg-info/SOURCES.txt'\n"}
+[12.773391] (week_4) StdoutLine: {'line': b'running build_ext\n'}
+[12.773865] (week_4) StdoutLine: {'line': b'Creating /workspace/install/week_4/lib/python3.10/site-packages/week-4.egg-link (link to .)\n'}
+[12.775676] (week_4) StdoutLine: {'line': b'Installing rc_driving script to /workspace/install/week_4/lib/week_4\n'}
+[12.775971] (week_4) StdoutLine: {'line': b'Installing rc_obstacle_detector script to /workspace/install/week_4/lib/week_4\n'}
+[12.776854] (week_4) StdoutLine: {'line': b'Installing robot_controller script to /workspace/install/week_4/lib/week_4\n'}
+[12.778698] (week_4) StdoutLine: {'line': b'\n'}
+[12.778904] (week_4) StdoutLine: {'line': b'Installed /workspace/build/week_4\n'}
+[12.779053] (week_4) StdoutLine: {'line': b'running symlink_data\n'}
+[12.787061] (assessment) JobEnded: {'identifier': 'assessment', 'rc': 0}
+[12.806776] (-) TimerEvent: {}
+[12.816631] (week_4) CommandEnded: {'returncode': 0}
+[12.829659] (week_4) JobEnded: {'identifier': 'week_4', 'rc': 0}
+[12.906898] (-) TimerEvent: {}
+[12.942253] (week_5) StdoutLine: {'line': b'running develop\n'}
+[12.942820] (week_5) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[12.943003] (week_5) StderrLine: {'line': b'  warnings.warn(\n'}
+[13.007001] (-) TimerEvent: {}
+[13.107349] (-) TimerEvent: {}
+[13.146992] (week_5) StdoutLine: {'line': b'running egg_info\n'}
+[13.147280] (week_5) StdoutLine: {'line': b'writing week_5.egg-info/PKG-INFO\n'}
+[13.147497] (week_5) StdoutLine: {'line': b'writing dependency_links to week_5.egg-info/dependency_links.txt\n'}
+[13.147730] (week_5) StdoutLine: {'line': b'writing entry points to week_5.egg-info/entry_points.txt\n'}
+[13.147957] (week_5) StdoutLine: {'line': b'writing requirements to week_5.egg-info/requires.txt\n'}
+[13.148170] (week_5) StdoutLine: {'line': b'writing top-level names to week_5.egg-info/top_level.txt\n'}
+[13.150595] (week_5) StdoutLine: {'line': b"reading manifest file 'week_5.egg-info/SOURCES.txt'\n"}
+[13.151622] (week_5) StdoutLine: {'line': b"writing manifest file 'week_5.egg-info/SOURCES.txt'\n"}
+[13.153453] (week_5) StdoutLine: {'line': b'running build_ext\n'}
+[13.153824] (week_5) StdoutLine: {'line': b'Creating /workspace/install/week_5/lib/python3.10/site-packages/week-5.egg-link (link to .)\n'}
+[13.155060] (week_5) StdoutLine: {'line': b'Installing item_detector script to /workspace/install/week_5/lib/week_5\n'}
+[13.155495] (week_5) StdoutLine: {'line': b'Installing item_spawner script to /workspace/install/week_5/lib/week_5\n'}
+[13.155713] (week_5) StdoutLine: {'line': b'Installing robot_controller script to /workspace/install/week_5/lib/week_5\n'}
+[13.155906] (week_5) StdoutLine: {'line': b'Installing teleop_keyboard script to /workspace/install/week_5/lib/week_5\n'}
+[13.156104] (week_5) StdoutLine: {'line': b'\n'}
+[13.156297] (week_5) StdoutLine: {'line': b'Installed /workspace/build/week_5\n'}
+[13.156439] (week_5) StdoutLine: {'line': b'running symlink_data\n'}
+[13.188503] (week_5) CommandEnded: {'returncode': 0}
+[13.201113] (week_5) JobEnded: {'identifier': 'week_5', 'rc': 0}
+[13.202634] (-) EventReactorShutdown: {}

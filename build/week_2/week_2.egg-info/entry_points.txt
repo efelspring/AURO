@@ -1,0 +1,3 @@
+[console_scripts]
+turtlebot3_drive_python = week_2.turtlebot3_drive_python:main
+

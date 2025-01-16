@@ -1,0 +1,9 @@
+source;share/tf_relay/hook/pythonpath.ps1
+source;share/tf_relay/hook/pythonpath.dsv
+source;share/tf_relay/hook/pythonpath.sh
+source;share/tf_relay/hook/ament_prefix_path.ps1
+source;share/tf_relay/hook/ament_prefix_path.dsv
+source;share/tf_relay/hook/ament_prefix_path.sh
+source;../../build/tf_relay/share/tf_relay/hook/pythonpath_develop.ps1
+source;../../build/tf_relay/share/tf_relay/hook/pythonpath_develop.dsv
+source;../../build/tf_relay/share/tf_relay/hook/pythonpath_develop.sh

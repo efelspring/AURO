@@ -1,0 +1,9 @@
+source;share/assessment/hook/pythonpath.ps1
+source;share/assessment/hook/pythonpath.dsv
+source;share/assessment/hook/pythonpath.sh
+source;share/assessment/hook/ament_prefix_path.ps1
+source;share/assessment/hook/ament_prefix_path.dsv
+source;share/assessment/hook/ament_prefix_path.sh
+source;../../build/assessment/share/assessment/hook/pythonpath_develop.ps1
+source;../../build/assessment/share/assessment/hook/pythonpath_develop.dsv
+source;../../build/assessment/share/assessment/hook/pythonpath_develop.sh

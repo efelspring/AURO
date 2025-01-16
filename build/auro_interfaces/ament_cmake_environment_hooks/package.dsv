@@ -1,0 +1,4 @@
+source;share/auro_interfaces/local_setup.bash
+source;share/auro_interfaces/local_setup.dsv
+source;share/auro_interfaces/local_setup.sh
+source;share/auro_interfaces/local_setup.zsh

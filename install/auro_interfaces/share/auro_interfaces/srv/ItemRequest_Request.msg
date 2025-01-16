@@ -1,0 +1,1 @@
+/workspace/build/auro_interfaces/rosidl_cmake/srv/ItemRequest_Request.msg

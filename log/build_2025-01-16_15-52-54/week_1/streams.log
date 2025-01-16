@@ -1,0 +1,20 @@
+[1.584s] Invoking command in '/workspace/build/week_1': PYTHONPATH=/workspace/build/week_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/week_1/build --no-deps symlink_data
+[2.149s] running develop
+[2.150s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.151s]   warnings.warn(
+[2.530s] running egg_info
+[2.531s] writing week_1.egg-info/PKG-INFO
+[2.531s] writing dependency_links to week_1.egg-info/dependency_links.txt
+[2.531s] writing entry points to week_1.egg-info/entry_points.txt
+[2.531s] writing requirements to week_1.egg-info/requires.txt
+[2.532s] writing top-level names to week_1.egg-info/top_level.txt
+[2.533s] reading manifest file 'week_1.egg-info/SOURCES.txt'
+[2.536s] writing manifest file 'week_1.egg-info/SOURCES.txt'
+[2.537s] running build_ext
+[2.538s] Creating /workspace/install/week_1/lib/python3.10/site-packages/week-1.egg-link (link to .)
+[2.539s] Installing turtle_controller script to /workspace/install/week_1/lib/week_1
+[2.539s] Installing turtle_listener script to /workspace/install/week_1/lib/week_1
+[2.540s] 
+[2.540s] Installed /workspace/build/week_1
+[2.540s] running symlink_data
+[2.601s] Invoked command in '/workspace/build/week_1' returned '0': PYTHONPATH=/workspace/build/week_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/week_1/build --no-deps symlink_data

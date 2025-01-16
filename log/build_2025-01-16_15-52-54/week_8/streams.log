@@ -1,0 +1,24 @@
+[1.458s] Invoking command in '/workspace/build/week_8': PYTHONPATH=/workspace/build/week_8/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_8/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/week_8/build --no-deps symlink_data
+[1.919s] running develop
+[1.921s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.922s]   warnings.warn(
+[2.163s] running egg_info
+[2.163s] writing week_8.egg-info/PKG-INFO
+[2.164s] writing dependency_links to week_8.egg-info/dependency_links.txt
+[2.165s] writing entry points to week_8.egg-info/entry_points.txt
+[2.167s] writing requirements to week_8.egg-info/requires.txt
+[2.168s] writing top-level names to week_8.egg-info/top_level.txt
+[2.175s] reading manifest file 'week_8.egg-info/SOURCES.txt'
+[2.176s] writing manifest file 'week_8.egg-info/SOURCES.txt'
+[2.179s] running build_ext
+[2.181s] Creating /workspace/install/week_8/lib/python3.10/site-packages/week-8.egg-link (link to .)
+[2.184s] Installing autonomous_navigation script to /workspace/install/week_8/lib/week_8
+[2.186s] Installing autonomous_navigation_multithreaded script to /workspace/install/week_8/lib/week_8
+[2.188s] Installing joint_state_republisher script to /workspace/install/week_8/lib/week_8
+[2.189s] Installing path_publisher script to /workspace/install/week_8/lib/week_8
+[2.191s] Installing robot_controller script to /workspace/install/week_8/lib/week_8
+[2.193s] Installing simple_commander script to /workspace/install/week_8/lib/week_8
+[2.194s] 
+[2.195s] Installed /workspace/build/week_8
+[2.198s] running symlink_data
+[2.246s] Invoked command in '/workspace/build/week_8' returned '0': PYTHONPATH=/workspace/build/week_8/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_8/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/week_8/build --no-deps symlink_data

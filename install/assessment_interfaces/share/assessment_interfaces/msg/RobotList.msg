@@ -1,0 +1,1 @@
+/workspace/AURO/assessment_interfaces/msg/RobotList.msg

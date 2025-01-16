@@ -1,0 +1,40 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating week_6.egg-info
+writing week_6.egg-info/PKG-INFO
+writing dependency_links to week_6.egg-info/dependency_links.txt
+writing entry points to week_6.egg-info/entry_points.txt
+writing requirements to week_6.egg-info/requires.txt
+writing top-level names to week_6.egg-info/top_level.txt
+writing manifest file 'week_6.egg-info/SOURCES.txt'
+reading manifest file 'week_6.egg-info/SOURCES.txt'
+writing manifest file 'week_6.egg-info/SOURCES.txt'
+running build_ext
+Creating /workspace/install/week_6/lib/python3.10/site-packages/week-6.egg-link (link to .)
+Installing lidar_fault script to /workspace/install/week_6/lib/week_6
+Installing robot_controller script to /workspace/install/week_6/lib/week_6
+
+Installed /workspace/build/week_6
+running symlink_data
+creating /workspace/install/week_6/share/ament_index
+creating /workspace/install/week_6/share/ament_index/resource_index
+creating /workspace/install/week_6/share/ament_index/resource_index/packages
+symbolically linking /workspace/build/week_6/resource/week_6 -> /workspace/install/week_6/share/ament_index/resource_index/packages
+symbolically linking /workspace/build/week_6/package.xml -> /workspace/install/week_6/share/week_6
+creating /workspace/install/week_6/share/week_6/models
+creating /workspace/install/week_6/share/week_6/models/week_6_world
+symbolically linking /workspace/build/week_6/models/week_6_world/model.config -> /workspace/install/week_6/share/week_6/models/week_6_world
+symbolically linking /workspace/build/week_6/models/week_6_world/model.sdf -> /workspace/install/week_6/share/week_6/models/week_6_world
+creating /workspace/install/week_6/share/week_6/models/turtlebot3_waffle_pi
+symbolically linking /workspace/build/week_6/models/turtlebot3_waffle_pi/model.config -> /workspace/install/week_6/share/week_6/models/turtlebot3_waffle_pi
+symbolically linking /workspace/build/week_6/models/turtlebot3_waffle_pi/model.sdf -> /workspace/install/week_6/share/week_6/models/turtlebot3_waffle_pi
+creating /workspace/install/week_6/share/week_6/launch
+symbolically linking /workspace/build/week_6/launch/week_6_launch.py -> /workspace/install/week_6/share/week_6/launch/
+symbolically linking /workspace/build/week_6/launch/rviz_launch.py -> /workspace/install/week_6/share/week_6/launch/
+symbolically linking /workspace/build/week_6/launch/spawn_robot_launch.py -> /workspace/install/week_6/share/week_6/launch/
+creating /workspace/install/week_6/share/week_6/worlds
+symbolically linking /workspace/build/week_6/worlds/week_6_world.world -> /workspace/install/week_6/share/week_6/worlds/
+creating /workspace/install/week_6/share/week_6/rviz
+symbolically linking /workspace/build/week_6/rviz/namespaced.rviz -> /workspace/install/week_6/share/week_6/rviz/

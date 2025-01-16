@@ -1,0 +1,5 @@
+/workspace/build/auro_interfaces/rosidl_adapter/auro_interfaces:msg/StringWithPose.idl
+/workspace/build/auro_interfaces/rosidl_adapter/auro_interfaces:msg/Item.idl
+/workspace/build/auro_interfaces/rosidl_adapter/auro_interfaces:msg/ItemList.idl
+/workspace/build/auro_interfaces/rosidl_adapter/auro_interfaces:msg/Direction.idl
+/workspace/build/auro_interfaces/rosidl_adapter/auro_interfaces:srv/ItemRequest.idl

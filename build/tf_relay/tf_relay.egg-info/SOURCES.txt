@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+resource/tf_relay
+tf_relay/__init__.py
+tf_relay/main.py
+tf_relay/tf_relay.py
+tf_relay/tf_static_relay.py
+tf_relay.egg-info/PKG-INFO
+tf_relay.egg-info/SOURCES.txt
+tf_relay.egg-info/dependency_links.txt
+tf_relay.egg-info/entry_points.txt
+tf_relay.egg-info/requires.txt
+tf_relay.egg-info/top_level.txt
+tf_relay.egg-info/zip-safe

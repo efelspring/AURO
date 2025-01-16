@@ -1,0 +1,21 @@
+[1.170s] Invoking command in '/workspace/build/week_4': AMENT_PREFIX_PATH=/workspace/install/auro_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/install/auro_interfaces LD_LIBRARY_PATH=/workspace/install/auro_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/workspace/build/week_4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_4/lib/python3.10/site-packages:/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/week_4/build --no-deps symlink_data
+[1.526s] running develop
+[1.527s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.527s]   warnings.warn(
+[1.778s] running egg_info
+[1.778s] writing week_4.egg-info/PKG-INFO
+[1.778s] writing dependency_links to week_4.egg-info/dependency_links.txt
+[1.778s] writing entry points to week_4.egg-info/entry_points.txt
+[1.778s] writing requirements to week_4.egg-info/requires.txt
+[1.778s] writing top-level names to week_4.egg-info/top_level.txt
+[1.783s] reading manifest file 'week_4.egg-info/SOURCES.txt'
+[1.783s] writing manifest file 'week_4.egg-info/SOURCES.txt'
+[1.785s] running build_ext
+[1.786s] Creating /workspace/install/week_4/lib/python3.10/site-packages/week-4.egg-link (link to .)
+[1.788s] Installing rc_driving script to /workspace/install/week_4/lib/week_4
+[1.789s] Installing rc_obstacle_detector script to /workspace/install/week_4/lib/week_4
+[1.790s] Installing robot_controller script to /workspace/install/week_4/lib/week_4
+[1.791s] 
+[1.791s] Installed /workspace/build/week_4
+[1.791s] running symlink_data
+[1.853s] Invoked command in '/workspace/build/week_4' returned '0': AMENT_PREFIX_PATH=/workspace/install/auro_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/install/auro_interfaces LD_LIBRARY_PATH=/workspace/install/auro_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/workspace/build/week_4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_4/lib/python3.10/site-packages:/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/week_4/build --no-deps symlink_data

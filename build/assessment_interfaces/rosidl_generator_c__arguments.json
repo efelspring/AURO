@@ -1,0 +1,40 @@
+{
+  "package_name": "assessment_interfaces",
+  "output_dir": "/workspace/build/assessment_interfaces/rosidl_generator_c/assessment_interfaces",
+  "template_dir": "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces:msg/ItemLog.idl",
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces:msg/ItemHolder.idl",
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces:msg/ItemHolders.idl",
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces:msg/Item.idl",
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces:msg/ItemList.idl",
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces:msg/Zone.idl",
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces:msg/ZoneList.idl",
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces:msg/Robot.idl",
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces:msg/RobotList.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces/msg/ItemLog.idl",
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces/msg/ItemHolder.idl",
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces/msg/ItemHolders.idl",
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces/msg/Item.idl",
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces/msg/ItemList.idl",
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces/msg/Zone.idl",
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces/msg/ZoneList.idl",
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces/msg/Robot.idl",
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces/msg/RobotList.idl"
+  ]
+}

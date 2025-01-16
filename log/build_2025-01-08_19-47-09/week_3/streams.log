@@ -1,0 +1,32 @@
+[4.713s] Invoking command in '/workspace/build/week_3': PYTHONPATH=/workspace/build/week_3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/week_3/build --no-deps symlink_data
+[6.957s] running develop
+[6.965s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[6.965s]   warnings.warn(
+[7.359s] running egg_info
+[7.360s] creating week_3.egg-info
+[7.360s] writing week_3.egg-info/PKG-INFO
+[7.362s] writing dependency_links to week_3.egg-info/dependency_links.txt
+[7.362s] writing entry points to week_3.egg-info/entry_points.txt
+[7.362s] writing requirements to week_3.egg-info/requires.txt
+[7.366s] writing top-level names to week_3.egg-info/top_level.txt
+[7.366s] writing manifest file 'week_3.egg-info/SOURCES.txt'
+[7.368s] reading manifest file 'week_3.egg-info/SOURCES.txt'
+[7.371s] writing manifest file 'week_3.egg-info/SOURCES.txt'
+[7.375s] running build_ext
+[7.375s] Creating /workspace/install/week_3/lib/python3.10/site-packages/week-3.egg-link (link to .)
+[7.376s] Installing rviz_text_marker script to /workspace/install/week_3/lib/week_3
+[7.377s] Installing turtlebot3_fsm script to /workspace/install/week_3/lib/week_3
+[7.378s] Installing turtlebot3_fsm_rc script to /workspace/install/week_3/lib/week_3
+[7.380s] Installing turtlebot3_random_walk script to /workspace/install/week_3/lib/week_3
+[7.381s] 
+[7.384s] Installed /workspace/build/week_3
+[7.384s] running symlink_data
+[7.385s] creating /workspace/install/week_3/share/ament_index
+[7.385s] creating /workspace/install/week_3/share/ament_index/resource_index
+[7.385s] creating /workspace/install/week_3/share/ament_index/resource_index/packages
+[7.385s] symbolically linking /workspace/build/week_3/resource/week_3 -> /workspace/install/week_3/share/ament_index/resource_index/packages
+[7.385s] symbolically linking /workspace/build/week_3/package.xml -> /workspace/install/week_3/share/week_3
+[7.385s] creating /workspace/install/week_3/share/week_3/launch
+[7.385s] symbolically linking /workspace/build/week_3/launch/turtlebot3_sim_launch.py -> /workspace/install/week_3/share/week_3/launch
+[7.386s] symbolically linking /workspace/build/week_3/launch/turtlebot3_simulation_launch.py -> /workspace/install/week_3/share/week_3/launch
+[7.451s] Invoked command in '/workspace/build/week_3' returned '0': PYTHONPATH=/workspace/build/week_3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/week_3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/week_3/build --no-deps symlink_data

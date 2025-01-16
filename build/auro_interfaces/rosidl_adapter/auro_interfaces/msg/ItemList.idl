@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from auro_interfaces/msg/ItemList.msg
+// generated code does not contain a copyright notice
+
+#include "auro_interfaces/msg/Item.idl"
+
+module auro_interfaces {
+  module msg {
+    struct ItemList {
+      sequence<auro_interfaces::msg::Item> data;
+    };
+  };
+};

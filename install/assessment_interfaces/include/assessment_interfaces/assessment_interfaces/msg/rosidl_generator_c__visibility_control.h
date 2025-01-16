@@ -1,0 +1,1 @@
+/workspace/build/assessment_interfaces/rosidl_generator_c/assessment_interfaces/msg/rosidl_generator_c__visibility_control.h

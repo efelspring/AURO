@@ -1,0 +1,33 @@
+{
+  "package_name": "assessment_interfaces",
+  "output_dir": "/workspace/build/assessment_interfaces/rosidl_typesupport_cpp/assessment_interfaces",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces:msg/ItemLog.idl",
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces:msg/ItemHolder.idl",
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces:msg/ItemHolders.idl",
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces:msg/Item.idl",
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces:msg/ItemList.idl",
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces:msg/Zone.idl",
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces:msg/ZoneList.idl",
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces:msg/Robot.idl",
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces:msg/RobotList.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces/msg/ItemLog.idl",
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces/msg/ItemHolder.idl",
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces/msg/ItemHolders.idl",
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces/msg/Item.idl",
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces/msg/ItemList.idl",
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces/msg/Zone.idl",
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces/msg/ZoneList.idl",
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces/msg/Robot.idl",
+    "/workspace/build/assessment_interfaces/rosidl_adapter/assessment_interfaces/msg/RobotList.idl"
+  ]
+}

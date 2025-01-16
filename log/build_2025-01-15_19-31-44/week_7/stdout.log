@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing week_7.egg-info/PKG-INFO
+writing dependency_links to week_7.egg-info/dependency_links.txt
+writing entry points to week_7.egg-info/entry_points.txt
+writing requirements to week_7.egg-info/requires.txt
+writing top-level names to week_7.egg-info/top_level.txt
+reading manifest file 'week_7.egg-info/SOURCES.txt'
+writing manifest file 'week_7.egg-info/SOURCES.txt'
+running build_ext
+Creating /workspace/install/week_7/lib/python3.10/site-packages/week-7.egg-link (link to .)
+
+Installed /workspace/build/week_7
+running symlink_data

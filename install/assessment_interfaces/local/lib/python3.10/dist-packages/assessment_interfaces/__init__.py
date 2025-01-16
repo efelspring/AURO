@@ -1,0 +1,1 @@
+/workspace/build/assessment_interfaces/rosidl_generator_py/assessment_interfaces/__init__.py
