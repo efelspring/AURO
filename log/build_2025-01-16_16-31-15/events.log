@@ -1,0 +1,941 @@
+[0.000000] (-) TimerEvent: {}
+[0.000116] (assessment_interfaces) JobQueued: {'identifier': 'assessment_interfaces', 'dependencies': OrderedDict()}
+[0.000151] (auro_interfaces) JobQueued: {'identifier': 'auro_interfaces', 'dependencies': OrderedDict()}
+[0.000194] (solution) JobQueued: {'identifier': 'solution', 'dependencies': OrderedDict()}
+[0.000232] (tf_relay) JobQueued: {'identifier': 'tf_relay', 'dependencies': OrderedDict()}
+[0.000266] (assessment) JobQueued: {'identifier': 'assessment', 'dependencies': OrderedDict([('auro_interfaces', '/workspace/install/auro_interfaces')])}
+[0.001086] (auro_interfaces) JobStarted: {'identifier': 'auro_interfaces'}
+[0.014104] (assessment_interfaces) JobStarted: {'identifier': 'assessment_interfaces'}
+[0.018565] (solution) JobStarted: {'identifier': 'solution'}
+[0.026061] (tf_relay) JobStarted: {'identifier': 'tf_relay'}
+[0.034630] (auro_interfaces) JobProgress: {'identifier': 'auro_interfaces', 'progress': 'cmake'}
+[0.035992] (auro_interfaces) JobProgress: {'identifier': 'auro_interfaces', 'progress': 'build'}
+[0.036106] (auro_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/build/auro_interfaces', '--', '-j4', '-l4'], 'cwd': '/workspace/build/auro_interfaces', 'env': OrderedDict([('HOSTNAME', '8ccf6a3641d8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/root'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/workspace/build/auro_interfaces'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.039759] (assessment_interfaces) JobProgress: {'identifier': 'assessment_interfaces', 'progress': 'cmake'}
+[0.040663] (assessment_interfaces) JobProgress: {'identifier': 'assessment_interfaces', 'progress': 'build'}
+[0.041592] (assessment_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/build/assessment_interfaces', '--', '-j4', '-l4'], 'cwd': '/workspace/build/assessment_interfaces', 'env': OrderedDict([('HOSTNAME', '8ccf6a3641d8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/root'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/workspace/build/assessment_interfaces'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099673] (-) TimerEvent: {}
+[0.200057] (-) TimerEvent: {}
+[0.300367] (-) TimerEvent: {}
+[0.400700] (-) TimerEvent: {}
+[0.405446] (auro_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.406319] (auro_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.406460] (auro_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.406581] (assessment_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.407216] (assessment_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.407578] (assessment_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.407968] (assessment_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.408620] (assessment_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.408744] (assessment_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.416618] (auro_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.419612] (auro_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.426417] (auro_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.438419] (auro_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.456100] (auro_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500806] (-) TimerEvent: {}
+[0.522536] (auro_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.600905] (-) TimerEvent: {}
+[0.701232] (-) TimerEvent: {}
+[0.801916] (-) TimerEvent: {}
+[0.876750] (auro_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.904034] (-) TimerEvent: {}
+[0.914994] (assessment_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.004132] (-) TimerEvent: {}
+[1.104529] (-) TimerEvent: {}
+[1.204845] (-) TimerEvent: {}
+[1.218844] (assessment_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.304953] (-) TimerEvent: {}
+[1.405382] (-) TimerEvent: {}
+[1.506048] (-) TimerEvent: {}
+[1.551923] (solution) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/workspace/build/solution/build', '--no-deps', 'symlink_data'], 'cwd': '/workspace/build/solution', 'env': {'HOSTNAME': '8ccf6a3641d8', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/root', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'PWD': '/workspace/build/solution', 'TURTLEBOT3_MODEL': 'waffle_pi', 'LC_ALL': 'C.UTF-8', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'PYTHONPATH': '/workspace/build/solution/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/solution/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[1.554921] (tf_relay) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/workspace/build/tf_relay/build', '--no-deps', 'symlink_data'], 'cwd': '/workspace/build/tf_relay', 'env': {'HOSTNAME': '8ccf6a3641d8', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/root', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'PWD': '/workspace/build/tf_relay', 'TURTLEBOT3_MODEL': 'waffle_pi', 'LC_ALL': 'C.UTF-8', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'PYTHONPATH': '/workspace/build/tf_relay/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/tf_relay/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[1.608036] (-) TimerEvent: {}
+[1.613290] (assessment_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.646844] (auro_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.652703] (assessment_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.694280] (assessment_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.694758] (assessment_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.695170] (assessment_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.708142] (-) TimerEvent: {}
+[1.722818] (assessment_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.754959] (assessment_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.757660] (assessment_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.764673] (assessment_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.808236] (-) TimerEvent: {}
+[1.850960] (assessment_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.857233] (assessment_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /workspace/build/assessment_interfaces\n'}
+[1.911118] (-) TimerEvent: {}
+[1.985721] (assessment_interfaces) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_symlink_assessment_interfaces\n'}
+[2.011261] (-) TimerEvent: {}
+[2.039048] (auro_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.057157] (solution) StdoutLine: {'line': b'running develop\n'}
+[2.059151] (solution) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[2.059385] (solution) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.078106] (tf_relay) StdoutLine: {'line': b'running develop\n'}
+[2.081039] (tf_relay) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[2.081280] (tf_relay) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.087930] (auro_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.088205] (assessment_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target assessment_interfaces__rosidl_generator_c\x1b[0m\n'}
+[2.111354] (-) TimerEvent: {}
+[2.144167] (assessment_interfaces) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding C object CMakeFiles/assessment_interfaces__rosidl_generator_c.dir/rosidl_generator_c/assessment_interfaces/msg/detail/item_log__functions.c.o\x1b[0m\n'}
+[2.160918] (auro_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.166100] (auro_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.166333] (auro_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.184077] (assessment_interfaces) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object CMakeFiles/assessment_interfaces__rosidl_generator_c.dir/rosidl_generator_c/assessment_interfaces/msg/detail/item_holder__functions.c.o\x1b[0m\n'}
+[2.214035] (-) TimerEvent: {}
+[2.296093] (assessment_interfaces) StdoutLine: {'line': b'[  3%] Built target assessment_interfaces__cpp\n'}
+[2.314138] (-) TimerEvent: {}
+[2.334147] (assessment_interfaces) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/assessment_interfaces__rosidl_generator_c.dir/rosidl_generator_c/assessment_interfaces/msg/detail/item_holders__functions.c.o\x1b[0m\n'}
+[2.353968] (auro_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.413101] (auro_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.414219] (-) TimerEvent: {}
+[2.418660] (auro_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.419025] (assessment_interfaces) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/assessment_interfaces__rosidl_generator_c.dir/rosidl_generator_c/assessment_interfaces/msg/detail/item__functions.c.o\x1b[0m\n'}
+[2.436111] (auro_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.453334] (assessment_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target assessment_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.475060] (assessment_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target assessment_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.514326] (-) TimerEvent: {}
+[2.529125] (assessment_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assessment_interfaces/msg/item_log__type_support.cpp.o\x1b[0m\n'}
+[2.531099] (assessment_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/assessment_interfaces/msg/detail/dds_fastrtps/item_log__type_support.cpp.o\x1b[0m\n'}
+[2.589046] (solution) StdoutLine: {'line': b'running egg_info\n'}
+[2.589353] (solution) StdoutLine: {'line': b'writing solution.egg-info/PKG-INFO\n'}
+[2.589539] (solution) StdoutLine: {'line': b'writing dependency_links to solution.egg-info/dependency_links.txt\n'}
+[2.589724] (solution) StdoutLine: {'line': b'writing entry points to solution.egg-info/entry_points.txt\n'}
+[2.594549] (solution) StdoutLine: {'line': b'writing requirements to solution.egg-info/requires.txt\n'}
+[2.594784] (solution) StdoutLine: {'line': b'writing top-level names to solution.egg-info/top_level.txt\n'}
+[2.594936] (solution) StdoutLine: {'line': b"reading manifest file 'solution.egg-info/SOURCES.txt'\n"}
+[2.595158] (solution) StdoutLine: {'line': b"writing manifest file 'solution.egg-info/SOURCES.txt'\n"}
+[2.598420] (solution) StdoutLine: {'line': b'running build_ext\n'}
+[2.598583] (solution) StdoutLine: {'line': b'Creating /workspace/install/solution/lib/python3.10/site-packages/solution.egg-link (link to .)\n'}
+[2.599732] (solution) StdoutLine: {'line': b'Installing data_logger script to /workspace/install/solution/lib/solution\n'}
+[2.600032] (solution) StdoutLine: {'line': b'Installing robot_controller script to /workspace/install/solution/lib/solution\n'}
+[2.603267] (solution) StdoutLine: {'line': b'\n'}
+[2.603535] (solution) StdoutLine: {'line': b'Installed /workspace/build/solution\n'}
+[2.603734] (solution) StdoutLine: {'line': b'running symlink_data\n'}
+[2.614426] (-) TimerEvent: {}
+[2.632412] (assessment_interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/assessment_interfaces__rosidl_generator_c.dir/rosidl_generator_c/assessment_interfaces/msg/detail/item_list__functions.c.o\x1b[0m\n'}
+[2.668117] (auro_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.686457] (auro_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /workspace/build/auro_interfaces\n'}
+[2.699142] (solution) CommandEnded: {'returncode': 0}
+[2.701429] (tf_relay) StdoutLine: {'line': b'running egg_info\n'}
+[2.701853] (tf_relay) StdoutLine: {'line': b'writing tf_relay.egg-info/PKG-INFO\n'}
+[2.702430] (tf_relay) StdoutLine: {'line': b'writing dependency_links to tf_relay.egg-info/dependency_links.txt\n'}
+[2.707348] (tf_relay) StdoutLine: {'line': b'writing entry points to tf_relay.egg-info/entry_points.txt\n'}
+[2.707598] (tf_relay) StdoutLine: {'line': b'writing requirements to tf_relay.egg-info/requires.txt\n'}
+[2.707747] (tf_relay) StdoutLine: {'line': b'writing top-level names to tf_relay.egg-info/top_level.txt\n'}
+[2.710681] (tf_relay) StdoutLine: {'line': b"reading manifest file 'tf_relay.egg-info/SOURCES.txt'\n"}
+[2.712614] (tf_relay) StdoutLine: {'line': b"writing manifest file 'tf_relay.egg-info/SOURCES.txt'\n"}
+[2.714517] (-) TimerEvent: {}
+[2.716218] (tf_relay) StdoutLine: {'line': b'running build_ext\n'}
+[2.716960] (assessment_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.725805] (assessment_interfaces) StdoutLine: {'line': b'writing assessment_interfaces.egg-info/PKG-INFO\n'}
+[2.726581] (assessment_interfaces) StdoutLine: {'line': b'writing dependency_links to assessment_interfaces.egg-info/dependency_links.txt\n'}
+[2.726865] (assessment_interfaces) StdoutLine: {'line': b'writing top-level names to assessment_interfaces.egg-info/top_level.txt\n'}
+[2.727096] (assessment_interfaces) StdoutLine: {'line': b"reading manifest file 'assessment_interfaces.egg-info/SOURCES.txt'\n"}
+[2.727486] (tf_relay) StdoutLine: {'line': b'Creating /workspace/install/tf_relay/lib/python3.10/site-packages/tf-relay.egg-link (link to .)\n'}
+[2.727688] (tf_relay) StdoutLine: {'line': b'Installing relay script to /workspace/install/tf_relay/lib/tf_relay\n'}
+[2.727826] (tf_relay) StdoutLine: {'line': b'\n'}
+[2.727966] (tf_relay) StdoutLine: {'line': b'Installed /workspace/build/tf_relay\n'}
+[2.728162] (tf_relay) StdoutLine: {'line': b'running symlink_data\n'}
+[2.728293] (assessment_interfaces) StdoutLine: {'line': b"writing manifest file 'assessment_interfaces.egg-info/SOURCES.txt'\n"}
+[2.787049] (solution) JobEnded: {'identifier': 'solution', 'rc': 0}
+[2.797210] (assessment_interfaces) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_assessment_interfaces_egg\n'}
+[2.814652] (-) TimerEvent: {}
+[2.820816] (assessment_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/assessment_interfaces__rosidl_generator_c.dir/rosidl_generator_c/assessment_interfaces/msg/detail/zone__functions.c.o\x1b[0m\n'}
+[2.828302] (assessment_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/assessment_interfaces__rosidl_generator_c.dir/rosidl_generator_c/assessment_interfaces/msg/detail/zone_list__functions.c.o\x1b[0m\n'}
+[2.834395] (auro_interfaces) StdoutLine: {'line': b'[  1%] Built target auro_interfaces__cpp\n'}
+[2.866243] (tf_relay) CommandEnded: {'returncode': 0}
+[2.910435] (tf_relay) JobEnded: {'identifier': 'tf_relay', 'rc': 0}
+[2.911624] (auro_interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_symlink_auro_interfaces\n'}
+[2.914755] (-) TimerEvent: {}
+[2.983648] (auro_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target auro_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.997132] (auro_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target auro_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.997679] (assessment_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/assessment_interfaces__rosidl_generator_c.dir/rosidl_generator_c/assessment_interfaces/msg/detail/robot__functions.c.o\x1b[0m\n'}
+[3.014866] (-) TimerEvent: {}
+[3.019446] (assessment_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assessment_interfaces/msg/item_holder__type_support.cpp.o\x1b[0m\n'}
+[3.024763] (auro_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target auro_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.044055] (auro_interfaces) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/auro_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auro_interfaces/msg/detail/string_with_pose__type_support.cpp.o\x1b[0m\n'}
+[3.074142] (auro_interfaces) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/auro_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auro_interfaces/msg/string_with_pose__type_support.cpp.o\x1b[0m\n'}
+[3.106056] (auro_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target auro_interfaces__rosidl_generator_c\x1b[0m\n'}
+[3.115015] (-) TimerEvent: {}
+[3.116737] (auro_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/auro_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auro_interfaces/msg/detail/dds_fastrtps/string_with_pose__type_support.cpp.o\x1b[0m\n'}
+[3.168573] (auro_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/auro_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auro_interfaces/msg/detail/string_with_pose__functions.c.o\x1b[0m\n'}
+[3.218047] (-) TimerEvent: {}
+[3.258869] (assessment_interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/assessment_interfaces__rosidl_generator_c.dir/rosidl_generator_c/assessment_interfaces/msg/detail/robot_list__functions.c.o\x1b[0m\n'}
+[3.318167] (-) TimerEvent: {}
+[3.419067] (-) TimerEvent: {}
+[3.454272] (auro_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/auro_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auro_interfaces/msg/detail/item__functions.c.o\x1b[0m\n'}
+[3.470125] (assessment_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libassessment_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[3.521069] (-) TimerEvent: {}
+[3.622049] (-) TimerEvent: {}
+[3.670281] (assessment_interfaces) StdoutLine: {'line': b'[ 15%] Built target assessment_interfaces__rosidl_generator_c\n'}
+[3.699248] (auro_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/auro_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auro_interfaces/msg/detail/item_list__functions.c.o\x1b[0m\n'}
+[3.712174] (assessment_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assessment_interfaces/msg/item_holders__type_support.cpp.o\x1b[0m\n'}
+[3.722163] (-) TimerEvent: {}
+[3.822828] (-) TimerEvent: {}
+[3.910155] (assessment_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assessment_interfaces/msg/item__type_support.cpp.o\x1b[0m\n'}
+[3.925079] (-) TimerEvent: {}
+[3.972051] (auro_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/auro_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auro_interfaces/msg/detail/direction__functions.c.o\x1b[0m\n'}
+[4.014116] (assessment_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assessment_interfaces/msg/item_list__type_support.cpp.o\x1b[0m\n'}
+[4.025191] (-) TimerEvent: {}
+[4.078450] (auro_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/auro_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auro_interfaces/srv/detail/item_request__functions.c.o\x1b[0m\n'}
+[4.125304] (-) TimerEvent: {}
+[4.214054] (auro_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32m\x1b[1mLinking C shared library libauro_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[4.225418] (-) TimerEvent: {}
+[4.325802] (-) TimerEvent: {}
+[4.363613] (auro_interfaces) StdoutLine: {'line': b'[ 17%] Built target auro_interfaces__rosidl_generator_c\n'}
+[4.417129] (auro_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/auro_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auro_interfaces/msg/detail/dds_fastrtps/item__type_support.cpp.o\x1b[0m\n'}
+[4.428057] (-) TimerEvent: {}
+[4.531060] (-) TimerEvent: {}
+[4.535705] (auro_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/auro_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auro_interfaces/msg/detail/item__type_support.cpp.o\x1b[0m\n'}
+[4.582831] (assessment_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/assessment_interfaces/msg/detail/dds_fastrtps/item_holder__type_support.cpp.o\x1b[0m\n'}
+[4.631175] (-) TimerEvent: {}
+[4.653055] (auro_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/auro_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auro_interfaces/msg/item__type_support.cpp.o\x1b[0m\n'}
+[4.731290] (-) TimerEvent: {}
+[4.831822] (-) TimerEvent: {}
+[4.836781] (assessment_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/assessment_interfaces/msg/detail/dds_fastrtps/item_holders__type_support.cpp.o\x1b[0m\n'}
+[4.854500] (assessment_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assessment_interfaces/msg/zone__type_support.cpp.o\x1b[0m\n'}
+[4.934050] (-) TimerEvent: {}
+[5.034525] (-) TimerEvent: {}
+[5.131118] (assessment_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assessment_interfaces/msg/zone_list__type_support.cpp.o\x1b[0m\n'}
+[5.134638] (-) TimerEvent: {}
+[5.236057] (-) TimerEvent: {}
+[5.336437] (-) TimerEvent: {}
+[5.440051] (-) TimerEvent: {}
+[5.540508] (-) TimerEvent: {}
+[5.640887] (-) TimerEvent: {}
+[5.709299] (assessment_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/assessment_interfaces/msg/detail/dds_fastrtps/item__type_support.cpp.o\x1b[0m\n'}
+[5.741009] (-) TimerEvent: {}
+[5.842058] (-) TimerEvent: {}
+[5.945041] (-) TimerEvent: {}
+[6.045882] (-) TimerEvent: {}
+[6.097120] (auro_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/auro_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auro_interfaces/msg/item_list__type_support.cpp.o\x1b[0m\n'}
+[6.148053] (-) TimerEvent: {}
+[6.200886] (auro_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/auro_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auro_interfaces/msg/detail/dds_fastrtps/item_list__type_support.cpp.o\x1b[0m\n'}
+[6.246094] (assessment_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/assessment_interfaces/msg/detail/dds_fastrtps/item_list__type_support.cpp.o\x1b[0m\n'}
+[6.248151] (-) TimerEvent: {}
+[6.349010] (-) TimerEvent: {}
+[6.357100] (assessment_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assessment_interfaces/msg/robot__type_support.cpp.o\x1b[0m\n'}
+[6.449117] (-) TimerEvent: {}
+[6.549959] (-) TimerEvent: {}
+[6.556270] (assessment_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assessment_interfaces/msg/robot_list__type_support.cpp.o\x1b[0m\n'}
+[6.628239] (auro_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/auro_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auro_interfaces/msg/detail/item_list__type_support.cpp.o\x1b[0m\n'}
+[6.650045] (-) TimerEvent: {}
+[6.745794] (auro_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[6.749863] (auro_interfaces) StdoutLine: {'line': b'writing auro_interfaces.egg-info/PKG-INFO\n'}
+[6.750125] (-) TimerEvent: {}
+[6.754416] (auro_interfaces) StdoutLine: {'line': b'writing dependency_links to auro_interfaces.egg-info/dependency_links.txt\n'}
+[6.754751] (auro_interfaces) StdoutLine: {'line': b'writing top-level names to auro_interfaces.egg-info/top_level.txt\n'}
+[6.774390] (auro_interfaces) StdoutLine: {'line': b"reading manifest file 'auro_interfaces.egg-info/SOURCES.txt'\n"}
+[6.774674] (auro_interfaces) StdoutLine: {'line': b"writing manifest file 'auro_interfaces.egg-info/SOURCES.txt'\n"}
+[6.794469] (auro_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/auro_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auro_interfaces/msg/direction__type_support.cpp.o\x1b[0m\n'}
+[6.850258] (-) TimerEvent: {}
+[6.910290] (auro_interfaces) StdoutLine: {'line': b'[ 28%] Built target ament_cmake_python_build_auro_interfaces_egg\n'}
+[6.951057] (-) TimerEvent: {}
+[6.966595] (auro_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/auro_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auro_interfaces/srv/item_request__type_support.cpp.o\x1b[0m\n'}
+[7.051171] (-) TimerEvent: {}
+[7.153429] (-) TimerEvent: {}
+[7.254337] (-) TimerEvent: {}
+[7.355232] (-) TimerEvent: {}
+[7.446003] (auro_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/auro_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auro_interfaces/msg/detail/dds_fastrtps/direction__type_support.cpp.o\x1b[0m\n'}
+[7.455340] (-) TimerEvent: {}
+[7.485316] (auro_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/auro_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auro_interfaces/msg/detail/direction__type_support.cpp.o\x1b[0m\n'}
+[7.555468] (-) TimerEvent: {}
+[7.656439] (-) TimerEvent: {}
+[7.758485] (-) TimerEvent: {}
+[7.859413] (-) TimerEvent: {}
+[7.964228] (assessment_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target assessment_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[7.964502] (-) TimerEvent: {}
+[8.034160] (assessment_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/assessment_interfaces/msg/detail/dds_fastrtps/zone__type_support.cpp.o\x1b[0m\n'}
+[8.056458] (assessment_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/assessment_interfaces/msg/detail/item_log__type_support.cpp.o\x1b[0m\n'}
+[8.064632] (-) TimerEvent: {}
+[8.127029] (assessment_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32m\x1b[1mLinking CXX shared library libassessment_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.164751] (-) TimerEvent: {}
+[8.265242] (-) TimerEvent: {}
+[8.346896] (assessment_interfaces) StdoutLine: {'line': b'[ 31%] Built target assessment_interfaces__rosidl_typesupport_cpp\n'}
+[8.365361] (-) TimerEvent: {}
+[8.398165] (assessment_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target assessment_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[8.407112] (auro_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/auro_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auro_interfaces/srv/detail/dds_fastrtps/item_request__type_support.cpp.o\x1b[0m\n'}
+[8.465473] (-) TimerEvent: {}
+[8.481224] (assessment_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/assessment_interfaces/msg/detail/item_log__type_support_c.cpp.o\x1b[0m\n'}
+[8.509316] (auro_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking CXX shared library libauro_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.567089] (-) TimerEvent: {}
+[8.619301] (auro_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/auro_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auro_interfaces/srv/detail/item_request__type_support.cpp.o\x1b[0m\n'}
+[8.667207] (-) TimerEvent: {}
+[8.686152] (auro_interfaces) StdoutLine: {'line': b'[ 39%] Built target auro_interfaces__rosidl_typesupport_cpp\n'}
+[8.706246] (assessment_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/assessment_interfaces/msg/detail/dds_fastrtps/zone_list__type_support.cpp.o\x1b[0m\n'}
+[8.728020] (auro_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target auro_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[8.769054] (-) TimerEvent: {}
+[8.804467] (auro_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/auro_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auro_interfaces/msg/detail/string_with_pose__type_support_c.cpp.o\x1b[0m\n'}
+[8.872052] (-) TimerEvent: {}
+[8.972526] (-) TimerEvent: {}
+[9.072911] (-) TimerEvent: {}
+[9.169406] (auro_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/auro_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auro_interfaces/msg/detail/item__type_support_c.cpp.o\x1b[0m\n'}
+[9.173038] (-) TimerEvent: {}
+[9.278054] (-) TimerEvent: {}
+[9.329600] (assessment_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/assessment_interfaces/msg/detail/item_holder__type_support_c.cpp.o\x1b[0m\n'}
+[9.381064] (-) TimerEvent: {}
+[9.484053] (-) TimerEvent: {}
+[9.584507] (-) TimerEvent: {}
+[9.684985] (-) TimerEvent: {}
+[9.785452] (-) TimerEvent: {}
+[9.817138] (assessment_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/assessment_interfaces/msg/detail/item_holders__type_support_c.cpp.o\x1b[0m\n'}
+[9.885564] (-) TimerEvent: {}
+[9.986048] (-) TimerEvent: {}
+[10.086527] (-) TimerEvent: {}
+[10.187005] (-) TimerEvent: {}
+[10.241888] (assessment_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/assessment_interfaces/msg/detail/item_holder__type_support.cpp.o\x1b[0m\n'}
+[10.290075] (-) TimerEvent: {}
+[10.330962] (auro_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libauro_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[10.390196] (-) TimerEvent: {}
+[10.427120] (auro_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target auro_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[10.479144] (auro_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libauro_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[10.490307] (-) TimerEvent: {}
+[10.513064] (auro_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/auro_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auro_interfaces/msg/detail/string_with_pose__type_support.c.o\x1b[0m\n'}
+[10.592079] (-) TimerEvent: {}
+[10.594806] (assessment_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/assessment_interfaces/msg/detail/dds_fastrtps/robot__type_support.cpp.o\x1b[0m\n'}
+[10.634299] (auro_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/auro_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auro_interfaces/msg/detail/item_list__type_support_c.cpp.o\x1b[0m\n'}
+[10.692191] (-) TimerEvent: {}
+[10.697996] (auro_interfaces) StdoutLine: {'line': b'[ 50%] Built target auro_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[10.700967] (auro_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/auro_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auro_interfaces/msg/detail/item__type_support.c.o\x1b[0m\n'}
+[10.734119] (assessment_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target assessment_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[10.767059] (auro_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target auro_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[10.784778] (assessment_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/assessment_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/assessment_interfaces/msg/detail/item_log__type_support.c.o\x1b[0m\n'}
+[10.793484] (-) TimerEvent: {}
+[10.829842] (auro_interfaces) StdoutLine: {'line': b'[ 53%] Built target auro_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[10.838159] (auro_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/auro_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auro_interfaces/msg/string_with_pose__type_support.cpp.o\x1b[0m\n'}
+[10.861050] (auro_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/auro_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auro_interfaces/msg/item__type_support.cpp.o\x1b[0m\n'}
+[10.893620] (-) TimerEvent: {}
+[10.894089] (auro_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/auro_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auro_interfaces/msg/detail/item_list__type_support.c.o\x1b[0m\n'}
+[10.903403] (assessment_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/assessment_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/assessment_interfaces/msg/detail/item_holder__type_support.c.o\x1b[0m\n'}
+[10.956376] (auro_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/auro_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auro_interfaces/msg/detail/direction__type_support_c.cpp.o\x1b[0m\n'}
+[10.993712] (-) TimerEvent: {}
+[11.025070] (auro_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/auro_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auro_interfaces/msg/item_list__type_support.cpp.o\x1b[0m\n'}
+[11.039114] (assessment_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/assessment_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/assessment_interfaces/msg/detail/item_holders__type_support.c.o\x1b[0m\n'}
+[11.096050] (-) TimerEvent: {}
+[11.108106] (auro_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/auro_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auro_interfaces/msg/detail/direction__type_support.c.o\x1b[0m\n'}
+[11.196168] (-) TimerEvent: {}
+[11.214145] (auro_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/auro_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auro_interfaces/msg/direction__type_support.cpp.o\x1b[0m\n'}
+[11.252775] (assessment_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/assessment_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/assessment_interfaces/msg/detail/item__type_support.c.o\x1b[0m\n'}
+[11.276116] (assessment_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/assessment_interfaces/msg/detail/item__type_support_c.cpp.o\x1b[0m\n'}
+[11.284709] (auro_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object CMakeFiles/auro_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auro_interfaces/srv/detail/item_request__type_support.c.o\x1b[0m\n'}
+[11.296284] (-) TimerEvent: {}
+[11.368997] (auro_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/auro_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auro_interfaces/srv/item_request__type_support.cpp.o\x1b[0m\n'}
+[11.399057] (-) TimerEvent: {}
+[11.447172] (assessment_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/assessment_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/assessment_interfaces/msg/detail/item_list__type_support.c.o\x1b[0m\n'}
+[11.447489] (auro_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking C shared library libauro_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[11.502819] (-) TimerEvent: {}
+[11.529114] (auro_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libauro_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[11.546908] (assessment_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/assessment_interfaces/msg/detail/item_holders__type_support.cpp.o\x1b[0m\n'}
+[11.571404] (assessment_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/assessment_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/assessment_interfaces/msg/detail/zone__type_support.c.o\x1b[0m\n'}
+[11.607081] (-) TimerEvent: {}
+[11.621041] (auro_interfaces) StdoutLine: {'line': b'[ 73%] Built target auro_interfaces__rosidl_typesupport_introspection_c\n'}
+[11.658652] (auro_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/auro_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auro_interfaces/srv/detail/item_request__type_support_c.cpp.o\x1b[0m\n'}
+[11.709068] (-) TimerEvent: {}
+[11.755125] (assessment_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/assessment_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/assessment_interfaces/msg/detail/zone_list__type_support.c.o\x1b[0m\n'}
+[11.775119] (auro_interfaces) StdoutLine: {'line': b'[ 76%] Built target auro_interfaces__rosidl_typesupport_c\n'}
+[11.809177] (-) TimerEvent: {}
+[11.909642] (-) TimerEvent: {}
+[11.918028] (assessment_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/assessment_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/assessment_interfaces/msg/detail/robot__type_support.c.o\x1b[0m\n'}
+[12.009759] (-) TimerEvent: {}
+[12.068376] (assessment_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/assessment_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/assessment_interfaces/msg/detail/robot_list__type_support.c.o\x1b[0m\n'}
+[12.109876] (-) TimerEvent: {}
+[12.210626] (-) TimerEvent: {}
+[12.227836] (assessment_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking C shared library libassessment_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[12.310744] (-) TimerEvent: {}
+[12.361101] (assessment_interfaces) StdoutLine: {'line': b'[ 51%] Built target assessment_interfaces__rosidl_typesupport_introspection_c\n'}
+[12.369713] (assessment_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/assessment_interfaces/msg/detail/dds_fastrtps/robot_list__type_support.cpp.o\x1b[0m\n'}
+[12.400052] (assessment_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/assessment_interfaces/msg/detail/item_list__type_support_c.cpp.o\x1b[0m\n'}
+[12.410859] (-) TimerEvent: {}
+[12.511737] (-) TimerEvent: {}
+[12.612146] (-) TimerEvent: {}
+[12.617904] (auro_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libauro_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[12.697306] (assessment_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/assessment_interfaces/msg/detail/item__type_support.cpp.o\x1b[0m\n'}
+[12.712266] (-) TimerEvent: {}
+[12.799163] (auro_interfaces) StdoutLine: {'line': b'[ 79%] Built target auro_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[12.812374] (-) TimerEvent: {}
+[12.842368] (auro_interfaces) StdoutLine: {'line': b'[ 79%] Built target auro_interfaces\n'}
+[12.889383] (auro_interfaces) StdoutLine: {'line': b'[ 80%] Built target auro_interfaces__py\n'}
+[12.904053] (assessment_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/assessment_interfaces/msg/detail/item_list__type_support.cpp.o\x1b[0m\n'}
+[12.912492] (-) TimerEvent: {}
+[12.930077] (auro_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target auro_interfaces__rosidl_generator_py\x1b[0m\n'}
+[13.002670] (auro_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/auro_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auro_interfaces/msg/_string_with_pose_s.c.o\x1b[0m\n'}
+[13.014628] (-) TimerEvent: {}
+[13.015047] (auro_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/auro_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auro_interfaces/msg/_item_list_s.c.o\x1b[0m\n'}
+[13.024765] (auro_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/auro_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auro_interfaces/msg/_item_s.c.o\x1b[0m\n'}
+[13.028141] (auro_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/auro_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auro_interfaces/msg/_direction_s.c.o\x1b[0m\n'}
+[13.115065] (-) TimerEvent: {}
+[13.216051] (-) TimerEvent: {}
+[13.240571] (assessment_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/assessment_interfaces/msg/detail/zone__type_support_c.cpp.o\x1b[0m\n'}
+[13.316336] (-) TimerEvent: {}
+[13.416828] (-) TimerEvent: {}
+[13.520051] (-) TimerEvent: {}
+[13.532115] (auro_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/auro_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auro_interfaces/srv/_item_request_s.c.o\x1b[0m\n'}
+[13.541457] (assessment_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libassessment_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[13.622054] (-) TimerEvent: {}
+[13.722424] (-) TimerEvent: {}
+[13.802291] (assessment_interfaces) StdoutLine: {'line': b'[ 58%] Built target assessment_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[13.822543] (-) TimerEvent: {}
+[13.840633] (assessment_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/assessment_interfaces/msg/detail/zone_list__type_support_c.cpp.o\x1b[0m\n'}
+[13.922661] (-) TimerEvent: {}
+[13.986302] (auro_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/auro_interfaces/libauro_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[14.022459] (assessment_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/assessment_interfaces/msg/detail/zone__type_support.cpp.o\x1b[0m\n'}
+[14.022721] (-) TimerEvent: {}
+[14.107122] (assessment_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/assessment_interfaces/msg/detail/robot__type_support_c.cpp.o\x1b[0m\n'}
+[14.114034] (auro_interfaces) StdoutLine: {'line': b'[ 90%] Built target auro_interfaces__rosidl_generator_py\n'}
+[14.128068] (-) TimerEvent: {}
+[14.152133] (auro_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target auro_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[14.157345] (auro_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target auro_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[14.166158] (auro_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target auro_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[14.207109] (auro_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/auro_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/auro_interfaces/_auro_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[14.219177] (auro_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/auro_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/auro_interfaces/_auro_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[14.231059] (auro_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/auro_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/auro_interfaces/_auro_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[14.231384] (-) TimerEvent: {}
+[14.331776] (-) TimerEvent: {}
+[14.432255] (-) TimerEvent: {}
+[14.506378] (assessment_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/assessment_interfaces/msg/detail/zone_list__type_support.cpp.o\x1b[0m\n'}
+[14.532368] (-) TimerEvent: {}
+[14.580120] (auro_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/auro_interfaces/auro_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.623024] (auro_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/auro_interfaces/auro_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.632477] (-) TimerEvent: {}
+[14.676343] (auro_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/auro_interfaces/auro_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.732593] (-) TimerEvent: {}
+[14.738272] (auro_interfaces) StdoutLine: {'line': b'[100%] Built target auro_interfaces__rosidl_typesupport_c__pyext\n'}
+[14.751799] (auro_interfaces) StdoutLine: {'line': b'[100%] Built target auro_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[14.786659] (auro_interfaces) StdoutLine: {'line': b'[100%] Built target auro_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[14.811247] (auro_interfaces) CommandEnded: {'returncode': 0}
+[14.832755] (-) TimerEvent: {}
+[14.933139] (-) TimerEvent: {}
+[14.996306] (assessment_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/assessment_interfaces/msg/detail/robot_list__type_support_c.cpp.o\x1b[0m\n'}
+[15.033249] (-) TimerEvent: {}
+[15.136324] (-) TimerEvent: {}
+[15.229516] (assessment_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/assessment_interfaces/msg/detail/robot__type_support.cpp.o\x1b[0m\n'}
+[15.236433] (-) TimerEvent: {}
+[15.295132] (auro_interfaces) JobProgress: {'identifier': 'auro_interfaces', 'progress': 'install'}
+[15.330832] (auro_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/build/auro_interfaces'], 'cwd': '/workspace/build/auro_interfaces', 'env': OrderedDict([('HOSTNAME', '8ccf6a3641d8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/root'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/workspace/build/auro_interfaces'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[15.331529] (assessment_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target assessment_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[15.336544] (-) TimerEvent: {}
+[15.356213] (auro_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.356469] (auro_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[15.356713] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/ament_index/resource_index/rosidl_interfaces/auro_interfaces\n'}
+[15.356941] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/direction__functions.h\n'}
+[15.357191] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/direction__struct.h\n'}
+[15.357345] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/direction__type_support.h\n'}
+[15.359365] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item__functions.h\n'}
+[15.359593] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item__struct.h\n'}
+[15.359795] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item__type_support.h\n'}
+[15.359944] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item_list__functions.h\n'}
+[15.365083] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item_list__struct.h\n'}
+[15.365255] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item_list__type_support.h\n'}
+[15.365397] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/string_with_pose__functions.h\n'}
+[15.365537] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/string_with_pose__struct.h\n'}
+[15.367190] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/string_with_pose__type_support.h\n'}
+[15.367476] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/direction.h\n'}
+[15.367694] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/item.h\n'}
+[15.371110] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/item_list.h\n'}
+[15.371341] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[15.371494] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/string_with_pose.h\n'}
+[15.371635] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/detail/item_request__functions.h\n'}
+[15.371774] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/detail/item_request__struct.h\n'}
+[15.371913] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/detail/item_request__type_support.h\n'}
+[15.372068] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/item_request.h\n'}
+[15.372217] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/environment/library_path.sh\n'}
+[15.372355] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/environment/library_path.dsv\n'}
+[15.372507] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/direction__rosidl_typesupport_fastrtps_c.h\n'}
+[15.372670] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item__rosidl_typesupport_fastrtps_c.h\n'}
+[15.372809] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item_list__rosidl_typesupport_fastrtps_c.h\n'}
+[15.372946] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/string_with_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[15.377578] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[15.377770] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/detail/item_request__rosidl_typesupport_fastrtps_c.h\n'}
+[15.377974] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/direction__builder.hpp\n'}
+[15.378188] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/direction__struct.hpp\n'}
+[15.378407] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/direction__traits.hpp\n'}
+[15.378560] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item__builder.hpp\n'}
+[15.378699] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item__struct.hpp\n'}
+[15.378842] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item__traits.hpp\n'}
+[15.378996] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item_list__builder.hpp\n'}
+[15.379153] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item_list__struct.hpp\n'}
+[15.382407] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item_list__traits.hpp\n'}
+[15.382607] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/string_with_pose__builder.hpp\n'}
+[15.382741] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/string_with_pose__struct.hpp\n'}
+[15.382880] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/string_with_pose__traits.hpp\n'}
+[15.383439] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/direction.hpp\n'}
+[15.383668] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/item.hpp\n'}
+[15.383800] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/item_list.hpp\n'}
+[15.383939] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/string_with_pose.hpp\n'}
+[15.384086] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/detail/item_request__builder.hpp\n'}
+[15.384213] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/detail/item_request__struct.hpp\n'}
+[15.384335] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/detail/item_request__traits.hpp\n'}
+[15.384458] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/item_request.hpp\n'}
+[15.384580] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/direction__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.384701] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.384824] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item_list__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.384949] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/string_with_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.387338] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[15.387545] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/detail/item_request__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.387722] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/direction__rosidl_typesupport_introspection_c.h\n'}
+[15.387884] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item__rosidl_typesupport_introspection_c.h\n'}
+[15.388083] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item_list__rosidl_typesupport_introspection_c.h\n'}
+[15.388274] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/string_with_pose__rosidl_typesupport_introspection_c.h\n'}
+[15.388419] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[15.388546] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/detail/item_request__rosidl_typesupport_introspection_c.h\n'}
+[15.388669] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/direction__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.388801] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.388933] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item_list__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.389088] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/string_with_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.389217] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/detail/item_request__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.389362] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/environment/pythonpath.sh\n'}
+[15.389488] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/environment/pythonpath.dsv\n'}
+[15.389610] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[15.389731] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[15.389855] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[15.392369] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[15.393102] (assessment_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/assessment_interfaces/msg/item_log__type_support.cpp.o\x1b[0m\n'}
+[15.393270] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/__init__.py\n'}
+[15.393407] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/_auro_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[15.393535] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/_auro_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[15.393658] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/_auro_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[15.393783] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/auro_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.393905] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/auro_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.395245] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/auro_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.395425] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/libauro_interfaces__rosidl_generator_py.so\n'}
+[15.395556] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg/__init__.py\n'}
+[15.395701] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg/_direction.py\n'}
+[15.395828] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg/_direction_s.c\n'}
+[15.396057] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg/_item.py\n'}
+[15.396626] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg/_item_list.py\n'}
+[15.397247] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg/_item_list_s.c\n'}
+[15.397816] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg/_item_s.c\n'}
+[15.398403] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg/_string_with_pose.py\n'}
+[15.399010] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg/_string_with_pose_s.c\n'}
+[15.399579] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/srv/__init__.py\n'}
+[15.400249] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/srv/_item_request.py\n'}
+[15.400867] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/srv/_item_request_s.c\n'}
+[15.401809] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/auro_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.402801] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/auro_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.403872] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/auro_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.404621] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/msg/StringWithPose.idl\n'}
+[15.405277] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/msg/Item.idl\n'}
+[15.406293] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/msg/ItemList.idl\n'}
+[15.406542] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/msg/Direction.idl\n'}
+[15.407152] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/srv/ItemRequest.idl\n'}
+[15.408219] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/msg/StringWithPose.msg\n'}
+[15.408516] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/msg/Item.msg\n'}
+[15.409127] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/msg/ItemList.msg\n'}
+[15.410092] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/msg/Direction.msg\n'}
+[15.410337] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/srv/ItemRequest.srv\n'}
+[15.411022] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/srv/ItemRequest_Request.msg\n'}
+[15.412159] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/srv/ItemRequest_Response.msg\n'}
+[15.412451] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/ament_index/resource_index/package_run_dependencies/auro_interfaces\n'}
+[15.413201] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/ament_index/resource_index/parent_prefix_path/auro_interfaces\n'}
+[15.414435] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/environment/ament_prefix_path.sh\n'}
+[15.414742] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/environment/ament_prefix_path.dsv\n'}
+[15.415459] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/environment/path.sh\n'}
+[15.416584] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/environment/path.dsv\n'}
+[15.416901] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/local_setup.bash\n'}
+[15.417681] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/local_setup.sh\n'}
+[15.418443] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/local_setup.zsh\n'}
+[15.419163] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/local_setup.dsv\n'}
+[15.419781] (auro_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/install/auro_interfaces/share/auro_interfaces/package.dsv\n'}
+[15.437060] (-) TimerEvent: {}
+[15.442034] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/ament_index/resource_index/packages/auro_interfaces\n'}
+[15.442310] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[15.442489] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[15.442698] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[15.442854] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[15.443012] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[15.443169] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[15.443312] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[15.443547] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/auro_interfacesConfig.cmake\n'}
+[15.443785] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/auro_interfacesConfig-version.cmake\n'}
+[15.444459] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/package.xml\n'}
+[15.445496] (auro_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/auro_interfaces/lib/libauro_interfaces__rosidl_generator_c.so\n'}
+[15.447267] (auro_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/auro_interfaces/lib/libauro_interfaces__rosidl_generator_c.so" to ""\n'}
+[15.447586] (auro_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/auro_interfaces/lib/libauro_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[15.448935] (auro_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/auro_interfaces/lib/libauro_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[15.450795] (auro_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/auro_interfaces/lib/libauro_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[15.451133] (auro_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/auro_interfaces/lib/libauro_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[15.451848] (auro_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/auro_interfaces/lib/libauro_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[15.453070] (auro_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/auro_interfaces/lib/libauro_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[15.454689] (auro_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/auro_interfaces/lib/libauro_interfaces__rosidl_typesupport_c.so\n'}
+[15.455000] (auro_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/auro_interfaces/lib/libauro_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[15.455746] (auro_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/auro_interfaces/lib/libauro_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[15.457578] (auro_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/auro_interfaces/lib/libauro_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[15.457934] (auro_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/auro_interfaces/lib/libauro_interfaces__rosidl_typesupport_cpp.so\n'}
+[15.459887] (auro_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/auro_interfaces/lib/libauro_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[15.511038] (assessment_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/assessment_interfaces/msg/item_holder__type_support.cpp.o\x1b[0m\n'}
+[15.537187] (-) TimerEvent: {}
+[15.586107] (auro_interfaces) StdoutLine: {'line': b"Listing '/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces'...\n"}
+[15.586408] (auro_interfaces) StdoutLine: {'line': b"Compiling '/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/__init__.py'...\n"}
+[15.586611] (auro_interfaces) StdoutLine: {'line': b"Listing '/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg'...\n"}
+[15.586797] (auro_interfaces) StdoutLine: {'line': b"Compiling '/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg/__init__.py'...\n"}
+[15.587000] (auro_interfaces) StdoutLine: {'line': b"Compiling '/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg/_direction.py'...\n"}
+[15.587208] (auro_interfaces) StdoutLine: {'line': b"Compiling '/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg/_item.py'...\n"}
+[15.587394] (auro_interfaces) StdoutLine: {'line': b"Compiling '/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg/_item_list.py'...\n"}
+[15.587584] (auro_interfaces) StdoutLine: {'line': b"Compiling '/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg/_string_with_pose.py'...\n"}
+[15.587790] (auro_interfaces) StdoutLine: {'line': b"Listing '/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/srv'...\n"}
+[15.588000] (auro_interfaces) StdoutLine: {'line': b"Compiling '/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/srv/__init__.py'...\n"}
+[15.588197] (auro_interfaces) StdoutLine: {'line': b"Compiling '/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/srv/_item_request.py'...\n"}
+[15.612056] (auro_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/auro_interfaces/lib/libauro_interfaces__rosidl_generator_py.so\n'}
+[15.612348] (auro_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/auro_interfaces/lib/libauro_interfaces__rosidl_generator_py.so" to ""\n'}
+[15.612507] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/export_auro_interfaces__rosidl_generator_cExport.cmake\n'}
+[15.612670] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/export_auro_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[15.612823] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/export_auro_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[15.612999] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/export_auro_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[15.613250] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/export_auro_interfaces__rosidl_generator_cppExport.cmake\n'}
+[15.613437] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/export_auro_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[15.613622] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/export_auro_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[15.613880] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/auro_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[15.614157] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/auro_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[15.614342] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/auro_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[15.614512] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/auro_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[15.617048] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/auro_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[15.617336] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/auro_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[15.617512] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/auro_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[15.617681] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/auro_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[15.617851] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/export_auro_interfaces__rosidl_generator_pyExport.cmake\n'}
+[15.618039] (auro_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/export_auro_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[15.621032] (assessment_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/assessment_interfaces/msg/item_holders__type_support.cpp.o\x1b[0m\n'}
+[15.622635] (auro_interfaces) CommandEnded: {'returncode': 0}
+[15.640262] (-) TimerEvent: {}
+[15.699539] (assessment_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/assessment_interfaces/msg/item__type_support.cpp.o\x1b[0m\n'}
+[15.740359] (-) TimerEvent: {}
+[15.774753] (assessment_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libassessment_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[15.787159] (assessment_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/assessment_interfaces/msg/item_list__type_support.cpp.o\x1b[0m\n'}
+[15.840468] (-) TimerEvent: {}
+[15.860789] (assessment_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/assessment_interfaces/msg/zone__type_support.cpp.o\x1b[0m\n'}
+[15.869548] (assessment_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/assessment_interfaces/msg/detail/robot_list__type_support.cpp.o\x1b[0m\n'}
+[15.941082] (-) TimerEvent: {}
+[15.944299] (assessment_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/assessment_interfaces/msg/zone_list__type_support.cpp.o\x1b[0m\n'}
+[15.973502] (assessment_interfaces) StdoutLine: {'line': b'[ 75%] Built target assessment_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[15.993602] (assessment_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/assessment_interfaces/msg/robot__type_support.cpp.o\x1b[0m\n'}
+[16.036271] (assessment_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/assessment_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/assessment_interfaces/msg/robot_list__type_support.cpp.o\x1b[0m\n'}
+[16.043058] (-) TimerEvent: {}
+[16.107826] (assessment_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libassessment_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[16.131695] (auro_interfaces) JobEnded: {'identifier': 'auro_interfaces', 'rc': 0}
+[16.132481] (assessment) JobStarted: {'identifier': 'assessment'}
+[16.144044] (-) TimerEvent: {}
+[16.186079] (assessment_interfaces) StdoutLine: {'line': b'[ 80%] Built target assessment_interfaces__rosidl_typesupport_c\n'}
+[16.244152] (-) TimerEvent: {}
+[16.344735] (-) TimerEvent: {}
+[16.445053] (-) TimerEvent: {}
+[16.545410] (-) TimerEvent: {}
+[16.577733] (assessment_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared library libassessment_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[16.645525] (-) TimerEvent: {}
+[16.694595] (assessment_interfaces) StdoutLine: {'line': b'[ 82%] Built target assessment_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[16.723822] (assessment_interfaces) StdoutLine: {'line': b'[ 82%] Built target assessment_interfaces\n'}
+[16.745626] (-) TimerEvent: {}
+[16.754164] (assessment_interfaces) StdoutLine: {'line': b'[ 83%] Built target assessment_interfaces__py\n'}
+[16.779053] (assessment_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target assessment_interfaces__rosidl_generator_py\x1b[0m\n'}
+[16.823732] (assessment_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/assessment_interfaces__rosidl_generator_py.dir/rosidl_generator_py/assessment_interfaces/msg/_item_s.c.o\x1b[0m\n'}
+[16.832178] (assessment_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/assessment_interfaces__rosidl_generator_py.dir/rosidl_generator_py/assessment_interfaces/msg/_item_log_s.c.o\x1b[0m\n'}
+[16.839038] (assessment_interfaces) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/assessment_interfaces__rosidl_generator_py.dir/rosidl_generator_py/assessment_interfaces/msg/_item_holder_s.c.o\x1b[0m\n'}
+[16.839301] (assessment_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/assessment_interfaces__rosidl_generator_py.dir/rosidl_generator_py/assessment_interfaces/msg/_item_holders_s.c.o\x1b[0m\n'}
+[16.848043] (-) TimerEvent: {}
+[16.948519] (-) TimerEvent: {}
+[17.049499] (-) TimerEvent: {}
+[17.080409] (assessment_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/assessment_interfaces__rosidl_generator_py.dir/rosidl_generator_py/assessment_interfaces/msg/_item_list_s.c.o\x1b[0m\n'}
+[17.091900] (assessment_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/assessment_interfaces__rosidl_generator_py.dir/rosidl_generator_py/assessment_interfaces/msg/_zone_s.c.o\x1b[0m\n'}
+[17.149660] (-) TimerEvent: {}
+[17.155332] (assessment_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/assessment_interfaces__rosidl_generator_py.dir/rosidl_generator_py/assessment_interfaces/msg/_zone_list_s.c.o\x1b[0m\n'}
+[17.249785] (-) TimerEvent: {}
+[17.305752] (assessment_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/assessment_interfaces__rosidl_generator_py.dir/rosidl_generator_py/assessment_interfaces/msg/_robot_s.c.o\x1b[0m\n'}
+[17.349920] (-) TimerEvent: {}
+[17.377947] (assessment_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/assessment_interfaces__rosidl_generator_py.dir/rosidl_generator_py/assessment_interfaces/msg/_robot_list_s.c.o\x1b[0m\n'}
+[17.440584] (assessment) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/workspace/build/assessment/build', '--no-deps', 'symlink_data'], 'cwd': '/workspace/build/assessment', 'env': {'HOSTNAME': '8ccf6a3641d8', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/workspace/install/auro_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins', 'HOME': '/root', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/workspace/install/auro_interfaces:/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'PWD': '/workspace/build/assessment', 'TURTLEBOT3_MODEL': 'waffle_pi', 'LC_ALL': 'C.UTF-8', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'PYTHONPATH': '/workspace/build/assessment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/assessment/lib/python3.10/site-packages:/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/install/auro_interfaces'}, 'shell': False}
+[17.450021] (-) TimerEvent: {}
+[17.550371] (-) TimerEvent: {}
+[17.587152] (assessment_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/assessment_interfaces/libassessment_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[17.645866] (assessment_interfaces) StdoutLine: {'line': b'[ 93%] Built target assessment_interfaces__rosidl_generator_py\n'}
+[17.651497] (-) TimerEvent: {}
+[17.669126] (assessment_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target assessment_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[17.669384] (assessment_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target assessment_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[17.669624] (assessment_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target assessment_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[17.695828] (assessment_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/assessment_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/assessment_interfaces/_assessment_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[17.696204] (assessment_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/assessment_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/assessment_interfaces/_assessment_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[17.703909] (assessment_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/assessment_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/assessment_interfaces/_assessment_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[17.751645] (-) TimerEvent: {}
+[17.853215] (-) TimerEvent: {}
+[17.953817] (-) TimerEvent: {}
+[17.963071] (assessment_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/assessment_interfaces/assessment_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[17.976167] (assessment_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/assessment_interfaces/assessment_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[17.996230] (assessment_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/assessment_interfaces/assessment_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[18.029524] (assessment) StdoutLine: {'line': b'running develop\n'}
+[18.030203] (assessment) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[18.030570] (assessment) StderrLine: {'line': b'  warnings.warn(\n'}
+[18.035035] (assessment_interfaces) StdoutLine: {'line': b'[100%] Built target assessment_interfaces__rosidl_typesupport_c__pyext\n'}
+[18.046705] (assessment_interfaces) StdoutLine: {'line': b'[100%] Built target assessment_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[18.053947] (-) TimerEvent: {}
+[18.067827] (assessment_interfaces) StdoutLine: {'line': b'[100%] Built target assessment_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[18.086072] (assessment_interfaces) CommandEnded: {'returncode': 0}
+[18.154048] (-) TimerEvent: {}
+[18.254400] (-) TimerEvent: {}
+[18.288374] (assessment) StdoutLine: {'line': b'running egg_info\n'}
+[18.288876] (assessment) StdoutLine: {'line': b'writing assessment.egg-info/PKG-INFO\n'}
+[18.289250] (assessment) StdoutLine: {'line': b'writing dependency_links to assessment.egg-info/dependency_links.txt\n'}
+[18.289550] (assessment) StdoutLine: {'line': b'writing entry points to assessment.egg-info/entry_points.txt\n'}
+[18.289782] (assessment) StdoutLine: {'line': b'writing requirements to assessment.egg-info/requires.txt\n'}
+[18.290029] (assessment) StdoutLine: {'line': b'writing top-level names to assessment.egg-info/top_level.txt\n'}
+[18.293524] (assessment) StdoutLine: {'line': b"reading manifest file 'assessment.egg-info/SOURCES.txt'\n"}
+[18.296253] (assessment) StdoutLine: {'line': b"writing manifest file 'assessment.egg-info/SOURCES.txt'\n"}
+[18.298563] (assessment) StdoutLine: {'line': b'running build_ext\n'}
+[18.299209] (assessment) StdoutLine: {'line': b'Creating /workspace/install/assessment/lib/python3.10/site-packages/assessment.egg-link (link to .)\n'}
+[18.300688] (assessment) StdoutLine: {'line': b'Installing item_manager script to /workspace/install/assessment/lib/assessment\n'}
+[18.301005] (assessment) StdoutLine: {'line': b'Installing item_sensor script to /workspace/install/assessment/lib/assessment\n'}
+[18.301410] (assessment) StdoutLine: {'line': b'Installing robot_sensor script to /workspace/install/assessment/lib/assessment\n'}
+[18.301654] (assessment) StdoutLine: {'line': b'Installing zone_sensor script to /workspace/install/assessment/lib/assessment\n'}
+[18.302190] (assessment) StdoutLine: {'line': b'\n'}
+[18.302547] (assessment) StdoutLine: {'line': b'Installed /workspace/build/assessment\n'}
+[18.302692] (assessment) StdoutLine: {'line': b'running symlink_data\n'}
+[18.347963] (assessment) CommandEnded: {'returncode': 0}
+[18.354549] (-) TimerEvent: {}
+[18.359955] (assessment) JobEnded: {'identifier': 'assessment', 'rc': 0}
+[18.390274] (assessment_interfaces) JobProgress: {'identifier': 'assessment_interfaces', 'progress': 'install'}
+[18.391186] (assessment_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/build/assessment_interfaces'], 'cwd': '/workspace/build/assessment_interfaces', 'env': OrderedDict([('HOSTNAME', '8ccf6a3641d8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/root'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/workspace/build/assessment_interfaces'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[18.404100] (assessment_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.405293] (assessment_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[18.405626] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/ament_index/resource_index/rosidl_interfaces/assessment_interfaces\n'}
+[18.406789] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item__functions.h\n'}
+[18.407001] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item__struct.h\n'}
+[18.407155] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item__type_support.h\n'}
+[18.407291] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holder__functions.h\n'}
+[18.407455] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holder__struct.h\n'}
+[18.407618] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holder__type_support.h\n'}
+[18.407778] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holders__functions.h\n'}
+[18.408008] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holders__struct.h\n'}
+[18.408193] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holders__type_support.h\n'}
+[18.408417] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_list__functions.h\n'}
+[18.408644] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_list__struct.h\n'}
+[18.408944] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_list__type_support.h\n'}
+[18.409267] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_log__functions.h\n'}
+[18.409513] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_log__struct.h\n'}
+[18.409797] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_log__type_support.h\n'}
+[18.410013] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot__functions.h\n'}
+[18.410321] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot__struct.h\n'}
+[18.410561] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot__type_support.h\n'}
+[18.410836] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot_list__functions.h\n'}
+[18.411067] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot_list__struct.h\n'}
+[18.411355] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot_list__type_support.h\n'}
+[18.411555] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone__functions.h\n'}
+[18.411786] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone__struct.h\n'}
+[18.412015] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone__type_support.h\n'}
+[18.412294] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone_list__functions.h\n'}
+[18.412556] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone_list__struct.h\n'}
+[18.412766] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone_list__type_support.h\n'}
+[18.412948] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/item.h\n'}
+[18.413122] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/item_holder.h\n'}
+[18.413302] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/item_holders.h\n'}
+[18.413472] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/item_list.h\n'}
+[18.413650] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/item_log.h\n'}
+[18.413832] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/robot.h\n'}
+[18.414018] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/robot_list.h\n'}
+[18.414273] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[18.414487] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/zone.h\n'}
+[18.414677] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/zone_list.h\n'}
+[18.415071] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/environment/library_path.sh\n'}
+[18.415361] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/environment/library_path.dsv\n'}
+[18.416989] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item__rosidl_typesupport_fastrtps_c.h\n'}
+[18.417290] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holder__rosidl_typesupport_fastrtps_c.h\n'}
+[18.417523] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holders__rosidl_typesupport_fastrtps_c.h\n'}
+[18.417780] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_list__rosidl_typesupport_fastrtps_c.h\n'}
+[18.418016] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_log__rosidl_typesupport_fastrtps_c.h\n'}
+[18.418262] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot__rosidl_typesupport_fastrtps_c.h\n'}
+[18.418514] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot_list__rosidl_typesupport_fastrtps_c.h\n'}
+[18.418762] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone__rosidl_typesupport_fastrtps_c.h\n'}
+[18.419007] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone_list__rosidl_typesupport_fastrtps_c.h\n'}
+[18.419276] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[18.420269] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item__rosidl_typesupport_introspection_c.h\n'}
+[18.420546] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holder__rosidl_typesupport_introspection_c.h\n'}
+[18.420755] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holders__rosidl_typesupport_introspection_c.h\n'}
+[18.420969] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_list__rosidl_typesupport_introspection_c.h\n'}
+[18.421301] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_log__rosidl_typesupport_introspection_c.h\n'}
+[18.421557] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot__rosidl_typesupport_introspection_c.h\n'}
+[18.421830] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot_list__rosidl_typesupport_introspection_c.h\n'}
+[18.422105] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone__rosidl_typesupport_introspection_c.h\n'}
+[18.422402] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone_list__rosidl_typesupport_introspection_c.h\n'}
+[18.422637] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[18.424256] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item__builder.hpp\n'}
+[18.424648] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item__struct.hpp\n'}
+[18.425209] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item__traits.hpp\n'}
+[18.425401] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holder__builder.hpp\n'}
+[18.425499] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holder__struct.hpp\n'}
+[18.425704] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holder__traits.hpp\n'}
+[18.425941] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holders__builder.hpp\n'}
+[18.426243] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holders__struct.hpp\n'}
+[18.426499] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holders__traits.hpp\n'}
+[18.426763] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_list__builder.hpp\n'}
+[18.427027] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_list__struct.hpp\n'}
+[18.427318] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_list__traits.hpp\n'}
+[18.427582] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_log__builder.hpp\n'}
+[18.427833] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_log__struct.hpp\n'}
+[18.428101] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_log__traits.hpp\n'}
+[18.428331] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot__builder.hpp\n'}
+[18.428565] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot__struct.hpp\n'}
+[18.428832] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot__traits.hpp\n'}
+[18.429272] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot_list__builder.hpp\n'}
+[18.429622] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot_list__struct.hpp\n'}
+[18.429884] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot_list__traits.hpp\n'}
+[18.430437] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone__builder.hpp\n'}
+[18.430827] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone__struct.hpp\n'}
+[18.431220] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone__traits.hpp\n'}
+[18.431609] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone_list__builder.hpp\n'}
+[18.431891] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone_list__struct.hpp\n'}
+[18.432086] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone_list__traits.hpp\n'}
+[18.432296] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/item.hpp\n'}
+[18.432493] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/item_holder.hpp\n'}
+[18.432647] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/item_holders.hpp\n'}
+[18.432834] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/item_list.hpp\n'}
+[18.433038] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/item_log.hpp\n'}
+[18.433229] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/robot.hpp\n'}
+[18.433427] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/robot_list.hpp\n'}
+[18.433666] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/zone.hpp\n'}
+[18.433903] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/zone_list.hpp\n'}
+[18.435470] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.435736] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holder__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.435999] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holders__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.436293] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_list__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.436560] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_log__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.436814] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.437111] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot_list__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.437382] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.437630] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone_list__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.437890] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[18.438654] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.438894] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holder__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.439178] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holders__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.439448] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_list__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.439686] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_log__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.439955] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.440247] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot_list__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.440523] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.440790] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone_list__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.441187] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/environment/pythonpath.sh\n'}
+[18.441516] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/environment/pythonpath.dsv\n'}
+[18.442052] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[18.442306] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[18.442555] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[18.442841] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[18.444799] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/__init__.py\n'}
+[18.445184] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/_assessment_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[18.445433] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/_assessment_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[18.445627] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/_assessment_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[18.445927] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/assessment_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.446146] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/assessment_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.446344] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/assessment_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.446554] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/libassessment_interfaces__rosidl_generator_py.so\n'}
+[18.446801] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/__init__.py\n'}
+[18.447072] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item.py\n'}
+[18.447341] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item_holder.py\n'}
+[18.447631] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item_holder_s.c\n'}
+[18.447866] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item_holders.py\n'}
+[18.448163] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item_holders_s.c\n'}
+[18.448428] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item_list.py\n'}
+[18.448686] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item_list_s.c\n'}
+[18.448906] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item_log.py\n'}
+[18.449149] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item_log_s.c\n'}
+[18.449425] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item_s.c\n'}
+[18.449702] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_robot.py\n'}
+[18.449937] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_robot_list.py\n'}
+[18.450178] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_robot_list_s.c\n'}
+[18.450387] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_robot_s.c\n'}
+[18.450614] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_zone.py\n'}
+[18.450795] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_zone_list.py\n'}
+[18.451018] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_zone_list_s.c\n'}
+[18.451279] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_zone_s.c\n'}
+[18.451670] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/assessment_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.452075] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/assessment_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.452448] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/assessment_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.452696] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/ItemLog.idl\n'}
+[18.452935] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/ItemHolder.idl\n'}
+[18.453169] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/ItemHolders.idl\n'}
+[18.453405] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/Item.idl\n'}
+[18.453672] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/ItemList.idl\n'}
+[18.453876] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/Zone.idl\n'}
+[18.454167] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/ZoneList.idl\n'}
+[18.454383] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/Robot.idl\n'}
+[18.454589] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/RobotList.idl\n'}
+[18.454715] (-) TimerEvent: {}
+[18.454905] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/ItemLog.msg\n'}
+[18.455144] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/ItemHolder.msg\n'}
+[18.455427] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/ItemHolders.msg\n'}
+[18.455728] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/Item.msg\n'}
+[18.456092] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/ItemList.msg\n'}
+[18.456267] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/Zone.msg\n'}
+[18.456464] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/ZoneList.msg\n'}
+[18.456629] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/Robot.msg\n'}
+[18.456820] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/RobotList.msg\n'}
+[18.457185] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/ament_index/resource_index/package_run_dependencies/assessment_interfaces\n'}
+[18.457423] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/ament_index/resource_index/parent_prefix_path/assessment_interfaces\n'}
+[18.457603] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/environment/ament_prefix_path.sh\n'}
+[18.457802] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/environment/ament_prefix_path.dsv\n'}
+[18.458024] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/environment/path.sh\n'}
+[18.458274] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/environment/path.dsv\n'}
+[18.458454] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/local_setup.bash\n'}
+[18.458661] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/local_setup.sh\n'}
+[18.458913] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/local_setup.zsh\n'}
+[18.459152] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/local_setup.dsv\n'}
+[18.459374] (assessment_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspace/install/assessment_interfaces/share/assessment_interfaces/package.dsv\n'}
+[18.472698] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/ament_index/resource_index/packages/assessment_interfaces\n'}
+[18.472946] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[18.473219] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[18.473472] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[18.473720] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[18.473960] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[18.474227] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[18.474457] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[18.474693] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/assessment_interfacesConfig.cmake\n'}
+[18.474937] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/assessment_interfacesConfig-version.cmake\n'}
+[18.475258] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/package.xml\n'}
+[18.475677] (assessment_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/assessment_interfaces/lib/libassessment_interfaces__rosidl_generator_c.so\n'}
+[18.476568] (assessment_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/assessment_interfaces/lib/libassessment_interfaces__rosidl_generator_c.so" to ""\n'}
+[18.476886] (assessment_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/assessment_interfaces/lib/libassessment_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[18.477577] (assessment_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/assessment_interfaces/lib/libassessment_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[18.477845] (assessment_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/assessment_interfaces/lib/libassessment_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[18.478457] (assessment_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/assessment_interfaces/lib/libassessment_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[18.478705] (assessment_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/assessment_interfaces/lib/libassessment_interfaces__rosidl_typesupport_c.so\n'}
+[18.479371] (assessment_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/assessment_interfaces/lib/libassessment_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[18.479652] (assessment_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/assessment_interfaces/lib/libassessment_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[18.480509] (assessment_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/assessment_interfaces/lib/libassessment_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[18.480785] (assessment_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/assessment_interfaces/lib/libassessment_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[18.481574] (assessment_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/assessment_interfaces/lib/libassessment_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[18.481989] (assessment_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/assessment_interfaces/lib/libassessment_interfaces__rosidl_typesupport_cpp.so\n'}
+[18.482684] (assessment_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/assessment_interfaces/lib/libassessment_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[18.549235] (assessment_interfaces) StdoutLine: {'line': b"Listing '/workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces'...\n"}
+[18.549415] (assessment_interfaces) StdoutLine: {'line': b"Compiling '/workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/__init__.py'...\n"}
+[18.549520] (assessment_interfaces) StdoutLine: {'line': b"Listing '/workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg'...\n"}
+[18.549596] (assessment_interfaces) StdoutLine: {'line': b"Compiling '/workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/__init__.py'...\n"}
+[18.549669] (assessment_interfaces) StdoutLine: {'line': b"Compiling '/workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item.py'...\n"}
+[18.549741] (assessment_interfaces) StdoutLine: {'line': b"Compiling '/workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item_holder.py'...\n"}
+[18.549812] (assessment_interfaces) StdoutLine: {'line': b"Compiling '/workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item_holders.py'...\n"}
+[18.549882] (assessment_interfaces) StdoutLine: {'line': b"Compiling '/workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item_list.py'...\n"}
+[18.549951] (assessment_interfaces) StdoutLine: {'line': b"Compiling '/workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item_log.py'...\n"}
+[18.550054] (assessment_interfaces) StdoutLine: {'line': b"Compiling '/workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_robot.py'...\n"}
+[18.550129] (assessment_interfaces) StdoutLine: {'line': b"Compiling '/workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_robot_list.py'...\n"}
+[18.550200] (assessment_interfaces) StdoutLine: {'line': b"Compiling '/workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_zone.py'...\n"}
+[18.550270] (assessment_interfaces) StdoutLine: {'line': b"Compiling '/workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_zone_list.py'...\n"}
+[18.554859] (-) TimerEvent: {}
+[18.555911] (assessment_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/assessment_interfaces/lib/libassessment_interfaces__rosidl_generator_py.so\n'}
+[18.556740] (assessment_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/assessment_interfaces/lib/libassessment_interfaces__rosidl_generator_py.so" to ""\n'}
+[18.556966] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/export_assessment_interfaces__rosidl_generator_cExport.cmake\n'}
+[18.557145] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/export_assessment_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[18.557332] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/export_assessment_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[18.557526] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/export_assessment_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[18.557718] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/assessment_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[18.557909] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/assessment_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[18.558125] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/assessment_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[18.558314] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/assessment_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[18.558532] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/export_assessment_interfaces__rosidl_generator_cppExport.cmake\n'}
+[18.558728] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/export_assessment_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[18.558922] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/export_assessment_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[18.559200] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/assessment_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[18.559380] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/assessment_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[18.559639] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/assessment_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[18.559786] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/assessment_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[18.559931] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/export_assessment_interfaces__rosidl_generator_pyExport.cmake\n'}
+[18.560097] (assessment_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/export_assessment_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[18.562250] (assessment_interfaces) CommandEnded: {'returncode': 0}
+[18.654999] (-) TimerEvent: {}
+[18.755372] (-) TimerEvent: {}
+[18.855763] (-) TimerEvent: {}
+[18.874345] (assessment_interfaces) JobEnded: {'identifier': 'assessment_interfaces', 'rc': 0}
+[18.875329] (-) EventReactorShutdown: {}
