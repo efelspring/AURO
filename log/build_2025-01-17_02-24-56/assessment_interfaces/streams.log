@@ -1,0 +1,246 @@
+[0.030s] Invoking command in '/workspace/build/assessment_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/build/assessment_interfaces -- -j4 -l4
+[0.420s] [  1%] Built target assessment_interfaces__cpp
+[0.420s] [  1%] Built target ament_cmake_python_symlink_assessment_interfaces
+[0.420s] [ 12%] Built target assessment_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.420s] [ 24%] Built target assessment_interfaces__rosidl_typesupport_introspection_cpp
+[0.670s] running egg_info
+[0.673s] writing assessment_interfaces.egg-info/PKG-INFO
+[0.673s] writing dependency_links to assessment_interfaces.egg-info/dependency_links.txt
+[0.673s] writing top-level names to assessment_interfaces.egg-info/top_level.txt
+[0.677s] reading manifest file 'assessment_interfaces.egg-info/SOURCES.txt'
+[0.679s] writing manifest file 'assessment_interfaces.egg-info/SOURCES.txt'
+[0.727s] [ 24%] Built target ament_cmake_python_build_assessment_interfaces_egg
+[0.762s] [ 35%] Built target assessment_interfaces__rosidl_typesupport_cpp
+[0.802s] [ 47%] Built target assessment_interfaces__rosidl_generator_c
+[0.863s] [ 58%] Built target assessment_interfaces__rosidl_typesupport_fastrtps_c
+[0.903s] [ 70%] Built target assessment_interfaces__rosidl_typesupport_c
+[0.950s] [ 82%] Built target assessment_interfaces__rosidl_typesupport_introspection_c
+[0.985s] [ 82%] Built target assessment_interfaces
+[1.022s] [ 83%] Built target assessment_interfaces__py
+[1.071s] [ 93%] Built target assessment_interfaces__rosidl_generator_py
+[1.111s] [ 95%] Built target assessment_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.167s] [ 97%] Built target assessment_interfaces__rosidl_typesupport_c__pyext
+[1.206s] [100%] Built target assessment_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.229s] Invoked command in '/workspace/build/assessment_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/build/assessment_interfaces -- -j4 -l4
+[1.631s] Invoking command in '/workspace/build/assessment_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/build/assessment_interfaces
+[1.650s] -- Install configuration: ""
+[1.652s] -- Execute custom install script
+[1.653s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/ament_index/resource_index/rosidl_interfaces/assessment_interfaces
+[1.655s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item__functions.h
+[1.656s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item__struct.h
+[1.657s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item__type_support.h
+[1.658s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holder__functions.h
+[1.658s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holder__struct.h
+[1.659s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holder__type_support.h
+[1.659s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holders__functions.h
+[1.659s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holders__struct.h
+[1.661s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holders__type_support.h
+[1.662s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_list__functions.h
+[1.663s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_list__struct.h
+[1.663s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_list__type_support.h
+[1.664s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_log__functions.h
+[1.665s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_log__struct.h
+[1.665s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_log__type_support.h
+[1.666s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot__functions.h
+[1.666s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot__struct.h
+[1.667s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot__type_support.h
+[1.668s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot_list__functions.h
+[1.669s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot_list__struct.h
+[1.669s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot_list__type_support.h
+[1.671s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone__functions.h
+[1.671s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone__struct.h
+[1.672s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone__type_support.h
+[1.672s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone_list__functions.h
+[1.673s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone_list__struct.h
+[1.673s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone_list__type_support.h
+[1.674s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/item.h
+[1.674s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/item_holder.h
+[1.675s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/item_holders.h
+[1.677s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/item_list.h
+[1.677s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/item_log.h
+[1.678s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/robot.h
+[1.678s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/robot_list.h
+[1.679s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.679s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/zone.h
+[1.680s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/zone_list.h
+[1.681s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/environment/library_path.sh
+[1.681s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/environment/library_path.dsv
+[1.684s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item__rosidl_typesupport_fastrtps_c.h
+[1.685s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holder__rosidl_typesupport_fastrtps_c.h
+[1.686s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holders__rosidl_typesupport_fastrtps_c.h
+[1.686s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_list__rosidl_typesupport_fastrtps_c.h
+[1.687s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_log__rosidl_typesupport_fastrtps_c.h
+[1.687s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot__rosidl_typesupport_fastrtps_c.h
+[1.688s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot_list__rosidl_typesupport_fastrtps_c.h
+[1.688s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone__rosidl_typesupport_fastrtps_c.h
+[1.689s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone_list__rosidl_typesupport_fastrtps_c.h
+[1.690s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.691s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item__rosidl_typesupport_introspection_c.h
+[1.692s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holder__rosidl_typesupport_introspection_c.h
+[1.693s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holders__rosidl_typesupport_introspection_c.h
+[1.693s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_list__rosidl_typesupport_introspection_c.h
+[1.694s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_log__rosidl_typesupport_introspection_c.h
+[1.695s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot__rosidl_typesupport_introspection_c.h
+[1.695s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot_list__rosidl_typesupport_introspection_c.h
+[1.696s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone__rosidl_typesupport_introspection_c.h
+[1.696s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone_list__rosidl_typesupport_introspection_c.h
+[1.697s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.700s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item__builder.hpp
+[1.701s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item__struct.hpp
+[1.702s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item__traits.hpp
+[1.702s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holder__builder.hpp
+[1.703s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holder__struct.hpp
+[1.703s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holder__traits.hpp
+[1.704s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holders__builder.hpp
+[1.705s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holders__struct.hpp
+[1.706s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holders__traits.hpp
+[1.706s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_list__builder.hpp
+[1.707s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_list__struct.hpp
+[1.708s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_list__traits.hpp
+[1.708s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_log__builder.hpp
+[1.708s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_log__struct.hpp
+[1.709s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_log__traits.hpp
+[1.709s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot__builder.hpp
+[1.710s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot__struct.hpp
+[1.712s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot__traits.hpp
+[1.712s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot_list__builder.hpp
+[1.713s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot_list__struct.hpp
+[1.714s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot_list__traits.hpp
+[1.715s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone__builder.hpp
+[1.715s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone__struct.hpp
+[1.716s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone__traits.hpp
+[1.717s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone_list__builder.hpp
+[1.717s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone_list__struct.hpp
+[1.718s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone_list__traits.hpp
+[1.719s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/item.hpp
+[1.722s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/item_holder.hpp
+[1.723s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/item_holders.hpp
+[1.724s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/item_list.hpp
+[1.724s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/item_log.hpp
+[1.725s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/robot.hpp
+[1.726s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/robot_list.hpp
+[1.727s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/zone.hpp
+[1.727s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/zone_list.hpp
+[1.730s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item__rosidl_typesupport_fastrtps_cpp.hpp
+[1.730s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holder__rosidl_typesupport_fastrtps_cpp.hpp
+[1.731s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holders__rosidl_typesupport_fastrtps_cpp.hpp
+[1.731s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_list__rosidl_typesupport_fastrtps_cpp.hpp
+[1.732s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_log__rosidl_typesupport_fastrtps_cpp.hpp
+[1.732s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot__rosidl_typesupport_fastrtps_cpp.hpp
+[1.734s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot_list__rosidl_typesupport_fastrtps_cpp.hpp
+[1.734s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone__rosidl_typesupport_fastrtps_cpp.hpp
+[1.735s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone_list__rosidl_typesupport_fastrtps_cpp.hpp
+[1.735s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.737s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item__rosidl_typesupport_introspection_cpp.hpp
+[1.738s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holder__rosidl_typesupport_introspection_cpp.hpp
+[1.739s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_holders__rosidl_typesupport_introspection_cpp.hpp
+[1.739s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_list__rosidl_typesupport_introspection_cpp.hpp
+[1.741s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/item_log__rosidl_typesupport_introspection_cpp.hpp
+[1.741s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot__rosidl_typesupport_introspection_cpp.hpp
+[1.742s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/robot_list__rosidl_typesupport_introspection_cpp.hpp
+[1.743s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone__rosidl_typesupport_introspection_cpp.hpp
+[1.743s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/include/assessment_interfaces/assessment_interfaces/msg/detail/zone_list__rosidl_typesupport_introspection_cpp.hpp
+[1.744s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/environment/pythonpath.sh
+[1.745s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/environment/pythonpath.dsv
+[1.745s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[1.746s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.747s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.748s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[1.751s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/__init__.py
+[1.751s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/_assessment_interfaces_s.ep.rosidl_typesupport_c.c
+[1.752s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/_assessment_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.752s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/_assessment_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.753s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/assessment_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.753s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/assessment_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.755s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/assessment_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.755s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/libassessment_interfaces__rosidl_generator_py.so
+[1.756s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/__init__.py
+[1.756s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item.py
+[1.757s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item_holder.py
+[1.757s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item_holder_s.c
+[1.758s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item_holders.py
+[1.758s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item_holders_s.c
+[1.759s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item_list.py
+[1.759s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item_list_s.c
+[1.760s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item_log.py
+[1.761s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item_log_s.c
+[1.762s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_item_s.c
+[1.763s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_robot.py
+[1.763s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_robot_list.py
+[1.764s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_robot_list_s.c
+[1.764s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_robot_s.c
+[1.765s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_zone.py
+[1.766s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_zone_list.py
+[1.766s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_zone_list_s.c
+[1.766s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg/_zone_s.c
+[1.772s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/assessment_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.772s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/assessment_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.778s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/assessment_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.778s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/ItemLog.idl
+[1.778s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/ItemHolder.idl
+[1.778s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/ItemHolders.idl
+[1.779s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/Item.idl
+[1.779s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/ItemList.idl
+[1.785s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/Zone.idl
+[1.785s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/ZoneList.idl
+[1.785s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/Robot.idl
+[1.785s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/RobotList.idl
+[1.786s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/ItemLog.msg
+[1.786s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/ItemHolder.msg
+[1.786s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/ItemHolders.msg
+[1.786s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/Item.msg
+[1.788s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/ItemList.msg
+[1.789s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/Zone.msg
+[1.790s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/ZoneList.msg
+[1.790s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/Robot.msg
+[1.792s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/msg/RobotList.msg
+[1.793s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/ament_index/resource_index/package_run_dependencies/assessment_interfaces
+[1.793s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/ament_index/resource_index/parent_prefix_path/assessment_interfaces
+[1.793s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/environment/ament_prefix_path.sh
+[1.796s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/environment/ament_prefix_path.dsv
+[1.798s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/environment/path.sh
+[1.798s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/environment/path.dsv
+[1.798s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/local_setup.bash
+[1.799s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/local_setup.sh
+[1.799s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/local_setup.zsh
+[1.801s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/local_setup.dsv
+[1.802s] -- Symlinking: /workspace/install/assessment_interfaces/share/assessment_interfaces/package.dsv
+[1.842s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/ament_index/resource_index/packages/assessment_interfaces
+[1.842s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.842s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.842s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.842s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.842s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.843s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.843s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.843s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/assessment_interfacesConfig.cmake
+[1.843s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/assessment_interfacesConfig-version.cmake
+[1.844s] -- Up-to-date symlink: /workspace/install/assessment_interfaces/share/assessment_interfaces/package.xml
+[1.844s] -- Up-to-date: /workspace/install/assessment_interfaces/lib/libassessment_interfaces__rosidl_generator_c.so
+[1.847s] -- Up-to-date: /workspace/install/assessment_interfaces/lib/libassessment_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.847s] -- Up-to-date: /workspace/install/assessment_interfaces/lib/libassessment_interfaces__rosidl_typesupport_introspection_c.so
+[1.851s] -- Up-to-date: /workspace/install/assessment_interfaces/lib/libassessment_interfaces__rosidl_typesupport_c.so
+[1.851s] -- Up-to-date: /workspace/install/assessment_interfaces/lib/libassessment_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.853s] -- Up-to-date: /workspace/install/assessment_interfaces/lib/libassessment_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.853s] -- Up-to-date: /workspace/install/assessment_interfaces/lib/libassessment_interfaces__rosidl_typesupport_cpp.so
+[1.955s] Listing '/workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces'...
+[1.956s] Listing '/workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages/assessment_interfaces/msg'...
+[1.971s] -- Up-to-date: /workspace/install/assessment_interfaces/lib/libassessment_interfaces__rosidl_generator_py.so
+[1.971s] -- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/export_assessment_interfaces__rosidl_generator_cExport.cmake
+[1.972s] -- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/export_assessment_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.972s] -- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/export_assessment_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.972s] -- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/export_assessment_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.972s] -- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/assessment_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.972s] -- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/assessment_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.973s] -- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/assessment_interfaces__rosidl_typesupport_cExport.cmake
+[1.979s] -- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/assessment_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.979s] -- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/export_assessment_interfaces__rosidl_generator_cppExport.cmake
+[1.979s] -- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/export_assessment_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.980s] -- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/export_assessment_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.980s] -- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/assessment_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.980s] -- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/assessment_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.980s] -- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/assessment_interfaces__rosidl_typesupport_cppExport.cmake
+[1.984s] -- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/assessment_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.985s] -- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/export_assessment_interfaces__rosidl_generator_pyExport.cmake
+[1.985s] -- Up-to-date: /workspace/install/assessment_interfaces/share/assessment_interfaces/cmake/export_assessment_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.992s] Invoked command in '/workspace/build/assessment_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/build/assessment_interfaces

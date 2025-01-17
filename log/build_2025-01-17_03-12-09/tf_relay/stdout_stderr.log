@@ -1,0 +1,17 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing tf_relay.egg-info/PKG-INFO
+writing dependency_links to tf_relay.egg-info/dependency_links.txt
+writing entry points to tf_relay.egg-info/entry_points.txt
+writing requirements to tf_relay.egg-info/requires.txt
+writing top-level names to tf_relay.egg-info/top_level.txt
+reading manifest file 'tf_relay.egg-info/SOURCES.txt'
+writing manifest file 'tf_relay.egg-info/SOURCES.txt'
+running build_ext
+Creating /workspace/install/tf_relay/lib/python3.10/site-packages/tf-relay.egg-link (link to .)
+Installing relay script to /workspace/install/tf_relay/lib/tf_relay
+
+Installed /workspace/build/tf_relay
+running symlink_data

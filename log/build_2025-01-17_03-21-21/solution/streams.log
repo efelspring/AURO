@@ -1,0 +1,20 @@
+[1.766s] Invoking command in '/workspace/build/solution': PYTHONPATH=/workspace/build/solution/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/solution/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/solution/build --no-deps symlink_data
+[2.358s] running develop
+[2.358s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.358s]   warnings.warn(
+[2.654s] running egg_info
+[2.655s] writing solution.egg-info/PKG-INFO
+[2.655s] writing dependency_links to solution.egg-info/dependency_links.txt
+[2.655s] writing entry points to solution.egg-info/entry_points.txt
+[2.656s] writing requirements to solution.egg-info/requires.txt
+[2.656s] writing top-level names to solution.egg-info/top_level.txt
+[2.660s] reading manifest file 'solution.egg-info/SOURCES.txt'
+[2.661s] writing manifest file 'solution.egg-info/SOURCES.txt'
+[2.664s] running build_ext
+[2.665s] Creating /workspace/install/solution/lib/python3.10/site-packages/solution.egg-link (link to .)
+[2.666s] Installing data_logger script to /workspace/install/solution/lib/solution
+[2.666s] Installing robot_controller script to /workspace/install/solution/lib/solution
+[2.669s] 
+[2.670s] Installed /workspace/build/solution
+[2.670s] running symlink_data
+[2.703s] Invoked command in '/workspace/build/solution' returned '0': PYTHONPATH=/workspace/build/solution/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/solution/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/solution/build --no-deps symlink_data

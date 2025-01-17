@@ -1,0 +1,186 @@
+[0.034s] Invoking command in '/workspace/build/auro_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/build/auro_interfaces -- -j4 -l4
+[0.612s] [  1%] Built target auro_interfaces__cpp
+[0.614s] [ 12%] Built target auro_interfaces__rosidl_generator_c
+[0.614s] [ 12%] Built target ament_cmake_python_symlink_auro_interfaces
+[0.614s] [ 26%] Built target auro_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.614s] [ 34%] Built target auro_interfaces__rosidl_typesupport_cpp
+[0.615s] [ 46%] Built target auro_interfaces__rosidl_typesupport_fastrtps_c
+[0.615s] [ 57%] Built target auro_interfaces__rosidl_typesupport_introspection_cpp
+[0.615s] [ 68%] Built target auro_interfaces__rosidl_typesupport_c
+[0.615s] [ 79%] Built target auro_interfaces__rosidl_typesupport_introspection_c
+[0.615s] [ 79%] Built target auro_interfaces
+[0.615s] [ 80%] Built target auro_interfaces__py
+[0.615s] [ 90%] Built target auro_interfaces__rosidl_generator_py
+[0.625s] [ 93%] Built target auro_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.634s] [ 96%] Built target auro_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.639s] [100%] Built target auro_interfaces__rosidl_typesupport_c__pyext
+[0.869s] running egg_info
+[0.871s] writing auro_interfaces.egg-info/PKG-INFO
+[0.871s] writing dependency_links to auro_interfaces.egg-info/dependency_links.txt
+[0.871s] writing top-level names to auro_interfaces.egg-info/top_level.txt
+[0.874s] reading manifest file 'auro_interfaces.egg-info/SOURCES.txt'
+[0.876s] writing manifest file 'auro_interfaces.egg-info/SOURCES.txt'
+[0.921s] [100%] Built target ament_cmake_python_build_auro_interfaces_egg
+[1.059s] Invoked command in '/workspace/build/auro_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/build/auro_interfaces -- -j4 -l4
+[1.376s] Invoking command in '/workspace/build/auro_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/build/auro_interfaces
+[1.391s] -- Install configuration: ""
+[1.392s] -- Execute custom install script
+[1.392s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/ament_index/resource_index/rosidl_interfaces/auro_interfaces
+[1.394s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/direction__functions.h
+[1.396s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/direction__struct.h
+[1.396s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/direction__type_support.h
+[1.398s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item__functions.h
+[1.399s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item__struct.h
+[1.400s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item__type_support.h
+[1.401s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item_list__functions.h
+[1.401s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item_list__struct.h
+[1.401s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item_list__type_support.h
+[1.401s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/string_with_pose__functions.h
+[1.401s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/string_with_pose__struct.h
+[1.401s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/string_with_pose__type_support.h
+[1.401s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/direction.h
+[1.401s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/item.h
+[1.406s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/item_list.h
+[1.406s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.406s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/string_with_pose.h
+[1.406s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/detail/item_request__functions.h
+[1.406s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/detail/item_request__struct.h
+[1.407s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/detail/item_request__type_support.h
+[1.407s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/item_request.h
+[1.410s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/environment/library_path.sh
+[1.410s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/environment/library_path.dsv
+[1.411s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/direction__rosidl_typesupport_fastrtps_c.h
+[1.412s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item__rosidl_typesupport_fastrtps_c.h
+[1.412s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item_list__rosidl_typesupport_fastrtps_c.h
+[1.413s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/string_with_pose__rosidl_typesupport_fastrtps_c.h
+[1.413s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.413s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/detail/item_request__rosidl_typesupport_fastrtps_c.h
+[1.413s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/direction__builder.hpp
+[1.413s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/direction__struct.hpp
+[1.413s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/direction__traits.hpp
+[1.413s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item__builder.hpp
+[1.414s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item__struct.hpp
+[1.414s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item__traits.hpp
+[1.414s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item_list__builder.hpp
+[1.414s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item_list__struct.hpp
+[1.414s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item_list__traits.hpp
+[1.414s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/string_with_pose__builder.hpp
+[1.414s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/string_with_pose__struct.hpp
+[1.417s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/string_with_pose__traits.hpp
+[1.417s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/direction.hpp
+[1.418s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/item.hpp
+[1.418s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/item_list.hpp
+[1.418s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/string_with_pose.hpp
+[1.419s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/detail/item_request__builder.hpp
+[1.419s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/detail/item_request__struct.hpp
+[1.420s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/detail/item_request__traits.hpp
+[1.420s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/item_request.hpp
+[1.420s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/direction__rosidl_typesupport_fastrtps_cpp.hpp
+[1.420s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item__rosidl_typesupport_fastrtps_cpp.hpp
+[1.421s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item_list__rosidl_typesupport_fastrtps_cpp.hpp
+[1.422s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/string_with_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[1.422s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.424s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/detail/item_request__rosidl_typesupport_fastrtps_cpp.hpp
+[1.425s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/direction__rosidl_typesupport_introspection_c.h
+[1.426s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item__rosidl_typesupport_introspection_c.h
+[1.426s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item_list__rosidl_typesupport_introspection_c.h
+[1.427s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/string_with_pose__rosidl_typesupport_introspection_c.h
+[1.427s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.427s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/detail/item_request__rosidl_typesupport_introspection_c.h
+[1.429s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/direction__rosidl_typesupport_introspection_cpp.hpp
+[1.429s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item__rosidl_typesupport_introspection_cpp.hpp
+[1.429s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/item_list__rosidl_typesupport_introspection_cpp.hpp
+[1.430s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/msg/detail/string_with_pose__rosidl_typesupport_introspection_cpp.hpp
+[1.430s] -- Up-to-date symlink: /workspace/install/auro_interfaces/include/auro_interfaces/auro_interfaces/srv/detail/item_request__rosidl_typesupport_introspection_cpp.hpp
+[1.431s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/environment/pythonpath.sh
+[1.432s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/environment/pythonpath.dsv
+[1.432s] -- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[1.433s] -- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.433s] -- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.435s] -- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[1.436s] -- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/__init__.py
+[1.436s] -- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/_auro_interfaces_s.ep.rosidl_typesupport_c.c
+[1.437s] -- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/_auro_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.437s] -- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/_auro_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.438s] -- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/auro_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.439s] -- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/auro_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.439s] -- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/auro_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.439s] -- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/libauro_interfaces__rosidl_generator_py.so
+[1.441s] -- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg/__init__.py
+[1.442s] -- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg/_direction.py
+[1.442s] -- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg/_direction_s.c
+[1.443s] -- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg/_item.py
+[1.443s] -- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg/_item_list.py
+[1.444s] -- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg/_item_list_s.c
+[1.444s] -- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg/_item_s.c
+[1.445s] -- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg/_string_with_pose.py
+[1.445s] -- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg/_string_with_pose_s.c
+[1.446s] -- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/srv/__init__.py
+[1.446s] -- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/srv/_item_request.py
+[1.447s] -- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/srv/_item_request_s.c
+[1.448s] -- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/auro_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.448s] -- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/auro_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.449s] -- Up-to-date symlink: /workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/auro_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.450s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/msg/StringWithPose.idl
+[1.450s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/msg/Item.idl
+[1.451s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/msg/ItemList.idl
+[1.451s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/msg/Direction.idl
+[1.452s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/srv/ItemRequest.idl
+[1.452s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/msg/StringWithPose.msg
+[1.453s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/msg/Item.msg
+[1.453s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/msg/ItemList.msg
+[1.454s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/msg/Direction.msg
+[1.454s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/srv/ItemRequest.srv
+[1.455s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/srv/ItemRequest_Request.msg
+[1.456s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/srv/ItemRequest_Response.msg
+[1.457s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/ament_index/resource_index/package_run_dependencies/auro_interfaces
+[1.458s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/ament_index/resource_index/parent_prefix_path/auro_interfaces
+[1.458s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/environment/ament_prefix_path.sh
+[1.459s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/environment/ament_prefix_path.dsv
+[1.459s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/environment/path.sh
+[1.460s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/environment/path.dsv
+[1.460s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/local_setup.bash
+[1.461s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/local_setup.sh
+[1.462s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/local_setup.zsh
+[1.462s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/local_setup.dsv
+[1.463s] -- Symlinking: /workspace/install/auro_interfaces/share/auro_interfaces/package.dsv
+[1.481s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/ament_index/resource_index/packages/auro_interfaces
+[1.481s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.481s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.482s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.482s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.482s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.484s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.484s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.484s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/auro_interfacesConfig.cmake
+[1.484s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/auro_interfacesConfig-version.cmake
+[1.484s] -- Up-to-date symlink: /workspace/install/auro_interfaces/share/auro_interfaces/package.xml
+[1.484s] -- Up-to-date: /workspace/install/auro_interfaces/lib/libauro_interfaces__rosidl_generator_c.so
+[1.485s] -- Up-to-date: /workspace/install/auro_interfaces/lib/libauro_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.485s] -- Up-to-date: /workspace/install/auro_interfaces/lib/libauro_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.485s] -- Up-to-date: /workspace/install/auro_interfaces/lib/libauro_interfaces__rosidl_typesupport_introspection_c.so
+[1.487s] -- Up-to-date: /workspace/install/auro_interfaces/lib/libauro_interfaces__rosidl_typesupport_c.so
+[1.489s] -- Up-to-date: /workspace/install/auro_interfaces/lib/libauro_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.489s] -- Up-to-date: /workspace/install/auro_interfaces/lib/libauro_interfaces__rosidl_typesupport_cpp.so
+[1.549s] Listing '/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces'...
+[1.549s] Listing '/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/msg'...
+[1.549s] Listing '/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages/auro_interfaces/srv'...
+[1.562s] -- Up-to-date: /workspace/install/auro_interfaces/lib/libauro_interfaces__rosidl_generator_py.so
+[1.563s] -- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/export_auro_interfaces__rosidl_generator_cExport.cmake
+[1.564s] -- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/export_auro_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.566s] -- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/export_auro_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.567s] -- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/export_auro_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.567s] -- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/export_auro_interfaces__rosidl_generator_cppExport.cmake
+[1.568s] -- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/export_auro_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.568s] -- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/export_auro_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.568s] -- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/auro_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.568s] -- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/auro_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.568s] -- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/auro_interfaces__rosidl_typesupport_cExport.cmake
+[1.568s] -- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/auro_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.568s] -- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/auro_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.570s] -- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/auro_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.580s] -- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/auro_interfaces__rosidl_typesupport_cppExport.cmake
+[1.580s] -- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/auro_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.580s] -- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/export_auro_interfaces__rosidl_generator_pyExport.cmake
+[1.580s] -- Up-to-date: /workspace/install/auro_interfaces/share/auro_interfaces/cmake/export_auro_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.587s] Invoked command in '/workspace/build/auro_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/build/auro_interfaces

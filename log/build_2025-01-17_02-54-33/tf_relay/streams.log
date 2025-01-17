@@ -1,0 +1,19 @@
+[1.930s] Invoking command in '/workspace/build/tf_relay': PYTHONPATH=/workspace/build/tf_relay/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/tf_relay/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/tf_relay/build --no-deps symlink_data
+[2.459s] running develop
+[2.460s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.461s]   warnings.warn(
+[2.664s] running egg_info
+[2.666s] writing tf_relay.egg-info/PKG-INFO
+[2.666s] writing dependency_links to tf_relay.egg-info/dependency_links.txt
+[2.668s] writing entry points to tf_relay.egg-info/entry_points.txt
+[2.668s] writing requirements to tf_relay.egg-info/requires.txt
+[2.668s] writing top-level names to tf_relay.egg-info/top_level.txt
+[2.670s] reading manifest file 'tf_relay.egg-info/SOURCES.txt'
+[2.672s] writing manifest file 'tf_relay.egg-info/SOURCES.txt'
+[2.674s] running build_ext
+[2.676s] Creating /workspace/install/tf_relay/lib/python3.10/site-packages/tf-relay.egg-link (link to .)
+[2.677s] Installing relay script to /workspace/install/tf_relay/lib/tf_relay
+[2.677s] 
+[2.677s] Installed /workspace/build/tf_relay
+[2.677s] running symlink_data
+[2.747s] Invoked command in '/workspace/build/tf_relay' returned '0': PYTHONPATH=/workspace/build/tf_relay/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/tf_relay/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/tf_relay/build --no-deps symlink_data

@@ -299,7 +299,7 @@ def generate_launch_description():
     
     declare_use_rviz_cmd = DeclareLaunchArgument(
         'use_rviz',
-        default_value='True',
+        default_value='False',
         description='Whether to start RViz')
     
     declare_rviz_config_file_cmd = DeclareLaunchArgument(

@@ -1,5 +1,6 @@
 import random
 import math
+import time
 from geometry_msgs.msg import Twist
 from std_msgs.msg import String
 from assessment.item_sensor import ItemSensor
@@ -11,18 +12,28 @@ from rclpy.node import Node
 class RobotController(Node):
     def __init__(self):
         super().__init__('robot_controller')
-        self.publisher = self.create_publisher(Twist, '/cmd_vel', 10)
+        #self.publisher = self.create_publisher(Twist, 'cmd_vel', 10)
         self.timer = self.create_timer(0.1, self.control_loop)
 
         self.item_sensor = ItemSensor()
         self.lidar_sensor = LidarNode()
         self.priority_manager = PriorityManagerNode()
         self.robot_sensor = RobotSensor()
+        
+        self.last_command_time = time.time()
+        self.command_hold_duration = 1.0  # Hold each command for 1 second
+        
+        # Parameters
+        self.declare_parameter('namespace', '')
+        self.namespace = self.get_parameter('namespace').get_parameter_value().string_value
 
         self.priority_manager.set_priority('seeking item')
         
         self.target_item = None  # The currently targeted item
-        self.item_list = []  # Stores the list of detected items
+        self.item_list = []  # Stores the list of detected items    
+        
+        # Velocity publisher
+        self.cmd_vel_publisher = self.create_publisher(Twist, 'tf', 10)
 
         # Subscribe to the ItemSensor's published list of detected items
         self.subscription = self.create_subscription(String, '/detected_items', self.item_callback, 10)
@@ -55,10 +66,20 @@ class RobotController(Node):
                 self.move_to_item()
 
     def random_movement(self):
-        twist = Twist()
-        twist.linear.x = random.uniform(0.0, 0.5)
-        twist.angular.z = random.uniform(-0.5, 0.5)
-        self.publisher.publish(twist)
+        
+        if time.time() - self.last_command_time >= self.command_hold_duration:
+            twist = Twist()
+            twist.linear.x = random.uniform(0.1, 0.5)  # Set a minimum speed
+            twist.angular.z = random.uniform(-0.5, 0.5)  # Allow full angular range
+            self.cmd_vel_publisher.publish(twist)
+            self.get_logger().info(
+                f"Publishing random movement: linear.x={twist.linear.x}, angular.z={twist.angular.z}"
+            )        
+        
+        #twist = Twist()
+        #twist.linear.x = 0.2
+        #twist.angular.z = 0.0
+        #self.cmd_vel_publisher.publish(twist)
 
     def align_with_item(self):
         twist = Twist()
