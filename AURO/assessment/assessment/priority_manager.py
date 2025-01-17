@@ -36,6 +36,12 @@ class PriorityManagerNode(Node):
         # Publishers
         self.collision_avoid_publisher = self.create_publisher(Bool, self.collision_avoid_topic, 10)
         self.priority_publisher = self.create_publisher(Int32, self.priority_topic, 10)
+        self.priority_map = {
+            0: 'seeking item',
+            1: 'found item',
+            2: 'has item'
+        }
+        self.current_priority = 0  # Default to 'seeking item'
 
         # Nav2 Action Client
         self.nav_to_pose_client = ActionClient(self, NavigateToPose, 'navigate_to_pose')
@@ -44,6 +50,25 @@ class PriorityManagerNode(Node):
         self.create_timer(1.0, self.broadcast_priority)
 
         self.get_logger().info(f"PriorityManagerNode started for robot {self.robot_id}")
+
+    def set_priority(self, state):
+        """Sets the priority state."""
+        if state not in self.priority_map.values():
+            raise ValueError(f"Invalid priority state: {state}")
+
+        # Find the integer key for the state
+        self.current_priority = [k for k, v in self.priority_map.items() if v == state][0]
+
+        # Publish the priority as an Int32
+        msg = Int32()
+        msg.data = self.current_priority
+        self.priority_publisher.publish(msg)
+        self.get_logger().info(f"Priority set to: {state}")
+
+    def get_priority(self):
+        """Returns the current priority state."""
+        return self.priority_map[self.current_priority]
+
 
     def priority_callback(self, msg: Int32):
         """Receive priority state updates from other robots."""

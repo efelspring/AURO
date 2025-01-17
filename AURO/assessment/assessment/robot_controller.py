@@ -1,10 +1,11 @@
 import random
 import math
 from geometry_msgs.msg import Twist
-from item_sensor import ItemSensor
-from lidar_sensor import LidarSensor
-from priority_manager import PriorityManager
-from robot_sensor import RobotSensor
+from std_msgs.msg import String
+from assessment.item_sensor import ItemSensor
+from assessment.lidar_sensor import LidarNode
+from assessment.priority_manager import PriorityManagerNode
+from assessment.robot_sensor import RobotSensor
 from rclpy.node import Node
 
 class RobotController(Node):
@@ -14,32 +15,44 @@ class RobotController(Node):
         self.timer = self.create_timer(0.1, self.control_loop)
 
         self.item_sensor = ItemSensor()
-        self.lidar_sensor = LidarSensor()
-        self.priority_manager = PriorityManager()
+        self.lidar_sensor = LidarNode()
+        self.priority_manager = PriorityManagerNode()
         self.robot_sensor = RobotSensor()
 
         self.priority_manager.set_priority('seeking item')
+        
+        self.target_item = None  # The currently targeted item
+        self.item_list = []  # Stores the list of detected items
+
+        # Subscribe to the ItemSensor's published list of detected items
+        self.subscription = self.create_subscription(String, '/detected_items', self.item_callback, 10)
+        
+    def item_callback(self, msg):
+        """Callback to handle the list of detected items."""
+        self.item_list = msg.data.split(',')  # Assuming items are comma-separated strings
+        if self.item_list:
+            self.target_item = self.item_list[0]  # Select the first item as the target
+
 
     def control_loop(self):
         current_priority = self.priority_manager.get_priority()
 
         if current_priority == 'seeking item':
             self.random_movement()
-            detected_item = self.item_sensor.detect_item()
-
-            if detected_item:
-                item_distance = self.lidar_sensor.get_distance_to_item(detected_item)
+            
+            if self.target_item:  # Check if an item is detected
+                item_distance = self.lidar_sensor.get_distance_to_item(self.target_item)
                 if item_distance and item_distance < 1.5:  # Example threshold
                     self.priority_manager.set_priority('found item')
-                    self.item = detected_item
-                    self.item_distance = item_distance
         
         elif current_priority == 'found item':
-            self.align_with_item()
-            self.priority_manager.set_priority('has item')
+            if self.target_item:
+                self.align_with_item()
+                self.priority_manager.set_priority('has item')
 
         elif current_priority == 'has item':
-            self.move_to_item()
+            if self.target_item:
+                self.move_to_item()
 
     def random_movement(self):
         twist = Twist()
@@ -66,10 +79,18 @@ class RobotController(Node):
             twist.linear.x = 0
             self.priority_manager.set_priority('seeking item')
         self.publisher.publish(twist)
-
-if __name__ == '__main__':
+        
+def main():
     import rclpy
     rclpy.init()
     node = RobotController()
-    rclpy.spin(node)
-    rclpy.shutdown()
+    try:
+        rclpy.spin(node)
+    except KeyboardInterrupt:
+        pass
+    finally:
+        node.destroy_node()
+        rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()

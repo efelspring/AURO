@@ -1,0 +1,26 @@
+[1.235s] Invoking command in '/workspace/build/assessment': AMENT_PREFIX_PATH=/workspace/install/auro_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/install/auro_interfaces LD_LIBRARY_PATH=/workspace/install/auro_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/workspace/build/assessment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/assessment/lib/python3.10/site-packages:/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/assessment/build --no-deps symlink_data
+[1.566s] running develop
+[1.567s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.567s]   warnings.warn(
+[1.765s] running egg_info
+[1.765s] writing assessment.egg-info/PKG-INFO
+[1.765s] writing dependency_links to assessment.egg-info/dependency_links.txt
+[1.766s] writing entry points to assessment.egg-info/entry_points.txt
+[1.766s] writing requirements to assessment.egg-info/requires.txt
+[1.766s] writing top-level names to assessment.egg-info/top_level.txt
+[1.770s] reading manifest file 'assessment.egg-info/SOURCES.txt'
+[1.772s] writing manifest file 'assessment.egg-info/SOURCES.txt'
+[1.774s] running build_ext
+[1.775s] Creating /workspace/install/assessment/lib/python3.10/site-packages/assessment.egg-link (link to .)
+[1.776s] Installing collision_detector script to /workspace/install/assessment/lib/assessment
+[1.776s] Installing item_manager script to /workspace/install/assessment/lib/assessment
+[1.776s] Installing item_sensor script to /workspace/install/assessment/lib/assessment
+[1.777s] Installing lidar_sensor script to /workspace/install/assessment/lib/assessment
+[1.777s] Installing priority_manager script to /workspace/install/assessment/lib/assessment
+[1.777s] Installing robot_controller script to /workspace/install/assessment/lib/assessment
+[1.777s] Installing robot_sensor script to /workspace/install/assessment/lib/assessment
+[1.778s] Installing zone_sensor script to /workspace/install/assessment/lib/assessment
+[1.778s] 
+[1.778s] Installed /workspace/build/assessment
+[1.780s] running symlink_data
+[1.813s] Invoked command in '/workspace/build/assessment' returned '0': AMENT_PREFIX_PATH=/workspace/install/auro_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/install/auro_interfaces LD_LIBRARY_PATH=/workspace/install/auro_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/workspace/build/assessment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/assessment/lib/python3.10/site-packages:/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspace/build/assessment/build --no-deps symlink_data
