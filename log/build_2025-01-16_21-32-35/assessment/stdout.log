@@ -1,0 +1,49 @@
+running develop
+running egg_info
+writing assessment.egg-info/PKG-INFO
+writing dependency_links to assessment.egg-info/dependency_links.txt
+writing entry points to assessment.egg-info/entry_points.txt
+writing requirements to assessment.egg-info/requires.txt
+writing top-level names to assessment.egg-info/top_level.txt
+reading manifest file 'assessment.egg-info/SOURCES.txt'
+writing manifest file 'assessment.egg-info/SOURCES.txt'
+running build_ext
+Creating /workspace/install/assessment/lib/python3.10/site-packages/assessment.egg-link (link to .)
+Installing collision_detector script to /workspace/install/assessment/lib/assessment
+Installing item_manager script to /workspace/install/assessment/lib/assessment
+Installing item_sensor script to /workspace/install/assessment/lib/assessment
+Installing lidar_sensor script to /workspace/install/assessment/lib/assessment
+Installing priority_manager script to /workspace/install/assessment/lib/assessment
+Installing robot_controller script to /workspace/install/assessment/lib/assessment
+Installing robot_sensor script to /workspace/install/assessment/lib/assessment
+Installing zone_sensor script to /workspace/install/assessment/lib/assessment
+
+Installed /workspace/build/assessment
+running symlink_data
+symbolically linking /workspace/build/assessment/resource/assessment -> /workspace/install/assessment/share/ament_index/resource_index/packages
+symbolically linking /workspace/build/assessment/package.xml -> /workspace/install/assessment/share/assessment
+symbolically linking /workspace/build/assessment/models/media/materials/scripts/outline_vertex_shader.glsl -> /workspace/install/assessment/share/assessment/models/media/materials/scripts
+symbolically linking /workspace/build/assessment/models/media/materials/scripts/assessment_materials.material -> /workspace/install/assessment/share/assessment/models/media/materials/scripts
+symbolically linking /workspace/build/assessment/models/media/materials/scripts/outline_fragment_shader.glsl -> /workspace/install/assessment/share/assessment/models/media/materials/scripts
+symbolically linking /workspace/build/assessment/models/waffle_pi_common/model.config -> /workspace/install/assessment/share/assessment/models/waffle_pi_common
+symbolically linking /workspace/build/assessment/models/waffle_pi_common/meshes/lds_smooth.dae -> /workspace/install/assessment/share/assessment/models/waffle_pi_common/meshes
+symbolically linking /workspace/build/assessment/models/waffle_pi_common/meshes/waffle_pi_base_smooth.dae -> /workspace/install/assessment/share/assessment/models/waffle_pi_common/meshes
+symbolically linking /workspace/build/assessment/models/waffle_pi_common/meshes/tire_smooth.dae -> /workspace/install/assessment/share/assessment/models/waffle_pi_common/meshes
+symbolically linking /workspace/build/assessment/models/waffle_pi/model.config -> /workspace/install/assessment/share/assessment/models/waffle_pi
+symbolically linking /workspace/build/assessment/models/waffle_pi/model.sdf -> /workspace/install/assessment/share/assessment/models/waffle_pi
+symbolically linking /workspace/build/assessment/models/item/model.config -> /workspace/install/assessment/share/assessment/models/item
+symbolically linking /workspace/build/assessment/models/item/model.sdf -> /workspace/install/assessment/share/assessment/models/item
+symbolically linking /workspace/build/assessment/models/assessment_world/model.config -> /workspace/install/assessment/share/assessment/models/assessment_world
+symbolically linking /workspace/build/assessment/models/assessment_world/model.sdf -> /workspace/install/assessment/share/assessment/models/assessment_world
+symbolically linking /workspace/build/assessment/launch/bringup_launch.py -> /workspace/install/assessment/share/assessment/launch/
+symbolically linking /workspace/build/assessment/launch/assessment_launch.py -> /workspace/install/assessment/share/assessment/launch/
+symbolically linking /workspace/build/assessment/launch/rviz_launch.py -> /workspace/install/assessment/share/assessment/launch/
+symbolically linking /workspace/build/assessment/launch/spawn_robot_launch.py -> /workspace/install/assessment/share/assessment/launch/
+symbolically linking /workspace/build/assessment/worlds/assessment_world.world -> /workspace/install/assessment/share/assessment/worlds/
+symbolically linking /workspace/build/assessment/rviz/namespaced_nav2.rviz -> /workspace/install/assessment/share/assessment/rviz/
+symbolically linking /workspace/build/assessment/rviz/namespaced.rviz -> /workspace/install/assessment/share/assessment/rviz/
+symbolically linking /workspace/build/assessment/params/nav2_params_namespaced.yaml -> /workspace/install/assessment/share/assessment/params/
+symbolically linking /workspace/build/assessment/maps/assessment_world.pgm -> /workspace/install/assessment/share/assessment/maps/
+symbolically linking /workspace/build/assessment/maps/assessment_world.yaml -> /workspace/install/assessment/share/assessment/maps/
+symbolically linking /workspace/build/assessment/config/initial_poses.yaml -> /workspace/install/assessment/share/assessment/config/
+symbolically linking /workspace/build/assessment/config/rviz_windows.yaml -> /workspace/install/assessment/share/assessment/config/

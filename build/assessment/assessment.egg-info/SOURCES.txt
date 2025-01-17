@@ -1,7 +1,15 @@
 package.xml
 setup.cfg
 setup.py
+../../build/assessment/assessment.egg-info/PKG-INFO
+../../build/assessment/assessment.egg-info/SOURCES.txt
+../../build/assessment/assessment.egg-info/dependency_links.txt
+../../build/assessment/assessment.egg-info/entry_points.txt
+../../build/assessment/assessment.egg-info/requires.txt
+../../build/assessment/assessment.egg-info/top_level.txt
+../../build/assessment/assessment.egg-info/zip-safe
 assessment/__init__.py
+assessment/back_and_forth_controller.py
 assessment/collision_detector.py
 assessment/item_manager.py
 assessment/item_sensor.py

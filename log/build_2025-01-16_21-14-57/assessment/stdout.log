@@ -1,0 +1,85 @@
+running develop
+Removing /workspace/install/assessment/lib/python3.10/site-packages/assessment.egg-link (link to .)
+running egg_info
+writing ../../build/assessment/assessment.egg-info/PKG-INFO
+writing dependency_links to ../../build/assessment/assessment.egg-info/dependency_links.txt
+writing entry points to ../../build/assessment/assessment.egg-info/entry_points.txt
+writing requirements to ../../build/assessment/assessment.egg-info/requires.txt
+writing top-level names to ../../build/assessment/assessment.egg-info/top_level.txt
+reading manifest file '../../build/assessment/assessment.egg-info/SOURCES.txt'
+writing manifest file '../../build/assessment/assessment.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspace/build/assessment/build
+creating /workspace/build/assessment/build/lib
+creating /workspace/build/assessment/build/lib/assessment
+copying assessment/robot_controller.py -> /workspace/build/assessment/build/lib/assessment
+copying assessment/item_manager.py -> /workspace/build/assessment/build/lib/assessment
+copying assessment/zone_sensor.py -> /workspace/build/assessment/build/lib/assessment
+copying assessment/__init__.py -> /workspace/build/assessment/build/lib/assessment
+copying assessment/lidar_sensor.py -> /workspace/build/assessment/build/lib/assessment
+copying assessment/priority_manager.py -> /workspace/build/assessment/build/lib/assessment
+copying assessment/collision_detector.py -> /workspace/build/assessment/build/lib/assessment
+copying assessment/item_sensor.py -> /workspace/build/assessment/build/lib/assessment
+copying assessment/robot_sensor.py -> /workspace/build/assessment/build/lib/assessment
+running install
+running install_lib
+creating /workspace/install/assessment/lib/python3.10/site-packages/assessment
+copying /workspace/build/assessment/build/lib/assessment/robot_controller.py -> /workspace/install/assessment/lib/python3.10/site-packages/assessment
+copying /workspace/build/assessment/build/lib/assessment/item_manager.py -> /workspace/install/assessment/lib/python3.10/site-packages/assessment
+copying /workspace/build/assessment/build/lib/assessment/zone_sensor.py -> /workspace/install/assessment/lib/python3.10/site-packages/assessment
+copying /workspace/build/assessment/build/lib/assessment/__init__.py -> /workspace/install/assessment/lib/python3.10/site-packages/assessment
+copying /workspace/build/assessment/build/lib/assessment/lidar_sensor.py -> /workspace/install/assessment/lib/python3.10/site-packages/assessment
+copying /workspace/build/assessment/build/lib/assessment/priority_manager.py -> /workspace/install/assessment/lib/python3.10/site-packages/assessment
+copying /workspace/build/assessment/build/lib/assessment/collision_detector.py -> /workspace/install/assessment/lib/python3.10/site-packages/assessment
+copying /workspace/build/assessment/build/lib/assessment/item_sensor.py -> /workspace/install/assessment/lib/python3.10/site-packages/assessment
+copying /workspace/build/assessment/build/lib/assessment/robot_sensor.py -> /workspace/install/assessment/lib/python3.10/site-packages/assessment
+byte-compiling /workspace/install/assessment/lib/python3.10/site-packages/assessment/robot_controller.py to robot_controller.cpython-310.pyc
+byte-compiling /workspace/install/assessment/lib/python3.10/site-packages/assessment/item_manager.py to item_manager.cpython-310.pyc
+byte-compiling /workspace/install/assessment/lib/python3.10/site-packages/assessment/zone_sensor.py to zone_sensor.cpython-310.pyc
+byte-compiling /workspace/install/assessment/lib/python3.10/site-packages/assessment/__init__.py to __init__.cpython-310.pyc
+byte-compiling /workspace/install/assessment/lib/python3.10/site-packages/assessment/lidar_sensor.py to lidar_sensor.cpython-310.pyc
+byte-compiling /workspace/install/assessment/lib/python3.10/site-packages/assessment/priority_manager.py to priority_manager.cpython-310.pyc
+byte-compiling /workspace/install/assessment/lib/python3.10/site-packages/assessment/collision_detector.py to collision_detector.cpython-310.pyc
+byte-compiling /workspace/install/assessment/lib/python3.10/site-packages/assessment/item_sensor.py to item_sensor.cpython-310.pyc
+byte-compiling /workspace/install/assessment/lib/python3.10/site-packages/assessment/robot_sensor.py to robot_sensor.cpython-310.pyc
+running install_data
+copying resource/assessment -> /workspace/install/assessment/share/ament_index/resource_index/packages
+copying package.xml -> /workspace/install/assessment/share/assessment
+copying models/media/materials/scripts/outline_vertex_shader.glsl -> /workspace/install/assessment/share/assessment/models/media/materials/scripts
+copying models/media/materials/scripts/assessment_materials.material -> /workspace/install/assessment/share/assessment/models/media/materials/scripts
+copying models/media/materials/scripts/outline_fragment_shader.glsl -> /workspace/install/assessment/share/assessment/models/media/materials/scripts
+copying models/waffle_pi_common/model.config -> /workspace/install/assessment/share/assessment/models/waffle_pi_common
+copying models/waffle_pi_common/meshes/lds_smooth.dae -> /workspace/install/assessment/share/assessment/models/waffle_pi_common/meshes
+copying models/waffle_pi_common/meshes/waffle_pi_base_smooth.dae -> /workspace/install/assessment/share/assessment/models/waffle_pi_common/meshes
+copying models/waffle_pi_common/meshes/tire_smooth.dae -> /workspace/install/assessment/share/assessment/models/waffle_pi_common/meshes
+copying models/waffle_pi/model.config -> /workspace/install/assessment/share/assessment/models/waffle_pi
+copying models/waffle_pi/model.sdf -> /workspace/install/assessment/share/assessment/models/waffle_pi
+copying models/item/model.config -> /workspace/install/assessment/share/assessment/models/item
+copying models/item/model.sdf -> /workspace/install/assessment/share/assessment/models/item
+copying models/assessment_world/model.config -> /workspace/install/assessment/share/assessment/models/assessment_world
+copying models/assessment_world/model.sdf -> /workspace/install/assessment/share/assessment/models/assessment_world
+copying launch/bringup_launch.py -> /workspace/install/assessment/share/assessment/launch/
+copying launch/assessment_launch.py -> /workspace/install/assessment/share/assessment/launch/
+copying launch/rviz_launch.py -> /workspace/install/assessment/share/assessment/launch/
+copying launch/spawn_robot_launch.py -> /workspace/install/assessment/share/assessment/launch/
+copying worlds/assessment_world.world -> /workspace/install/assessment/share/assessment/worlds/
+copying rviz/namespaced_nav2.rviz -> /workspace/install/assessment/share/assessment/rviz/
+copying rviz/namespaced.rviz -> /workspace/install/assessment/share/assessment/rviz/
+copying params/nav2_params_namespaced.yaml -> /workspace/install/assessment/share/assessment/params/
+copying maps/assessment_world.pgm -> /workspace/install/assessment/share/assessment/maps/
+copying maps/assessment_world.yaml -> /workspace/install/assessment/share/assessment/maps/
+copying config/initial_poses.yaml -> /workspace/install/assessment/share/assessment/config/
+copying config/rviz_windows.yaml -> /workspace/install/assessment/share/assessment/config/
+running install_egg_info
+Copying ../../build/assessment/assessment.egg-info to /workspace/install/assessment/lib/python3.10/site-packages/assessment-0.0.0-py3.10.egg-info
+running install_scripts
+Installing collision_detector script to /workspace/install/assessment/lib/assessment
+Installing item_manager script to /workspace/install/assessment/lib/assessment
+Installing item_sensor script to /workspace/install/assessment/lib/assessment
+Installing lidar_sensor script to /workspace/install/assessment/lib/assessment
+Installing priority_manager script to /workspace/install/assessment/lib/assessment
+Installing robot_controller script to /workspace/install/assessment/lib/assessment
+Installing robot_sensor script to /workspace/install/assessment/lib/assessment
+Installing zone_sensor script to /workspace/install/assessment/lib/assessment
+writing list of installed files to '/workspace/build/assessment/install.log'

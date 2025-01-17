@@ -1,0 +1,31 @@
+[0.692s] Invoking command in '/workspace/AURO/assessment': AMENT_PREFIX_PATH=/workspace/install/auro_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/install/auro_interfaces LD_LIBRARY_PATH=/workspace/install/auro_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/workspace/build/assessment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/assessment/lib/python3.10/site-packages:/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/assessment build --build-base /workspace/build/assessment/build install --record /workspace/build/assessment/install.log --single-version-externally-managed install_data
+[0.938s] running egg_info
+[0.938s] writing ../../build/assessment/assessment.egg-info/PKG-INFO
+[0.939s] writing dependency_links to ../../build/assessment/assessment.egg-info/dependency_links.txt
+[0.939s] writing entry points to ../../build/assessment/assessment.egg-info/entry_points.txt
+[0.939s] writing requirements to ../../build/assessment/assessment.egg-info/requires.txt
+[0.939s] writing top-level names to ../../build/assessment/assessment.egg-info/top_level.txt
+[0.942s] reading manifest file '../../build/assessment/assessment.egg-info/SOURCES.txt'
+[0.943s] writing manifest file '../../build/assessment/assessment.egg-info/SOURCES.txt'
+[0.943s] running build
+[0.943s] running build_py
+[0.944s] copying assessment/robot_controller.py -> /workspace/build/assessment/build/lib/assessment
+[0.944s] running install
+[0.945s] running install_lib
+[0.946s] copying /workspace/build/assessment/build/lib/assessment/robot_controller.py -> /workspace/install/assessment/lib/python3.10/site-packages/assessment
+[0.947s] byte-compiling /workspace/install/assessment/lib/python3.10/site-packages/assessment/robot_controller.py to robot_controller.cpython-310.pyc
+[0.947s] running install_data
+[0.949s] running install_egg_info
+[0.951s] removing '/workspace/install/assessment/lib/python3.10/site-packages/assessment-0.0.0-py3.10.egg-info' (and everything under it)
+[0.951s] Copying ../../build/assessment/assessment.egg-info to /workspace/install/assessment/lib/python3.10/site-packages/assessment-0.0.0-py3.10.egg-info
+[0.952s] running install_scripts
+[0.973s] Installing collision_detector script to /workspace/install/assessment/lib/assessment
+[0.973s] Installing item_manager script to /workspace/install/assessment/lib/assessment
+[0.974s] Installing item_sensor script to /workspace/install/assessment/lib/assessment
+[0.974s] Installing lidar_sensor script to /workspace/install/assessment/lib/assessment
+[0.974s] Installing priority_manager script to /workspace/install/assessment/lib/assessment
+[0.974s] Installing robot_controller script to /workspace/install/assessment/lib/assessment
+[0.974s] Installing robot_sensor script to /workspace/install/assessment/lib/assessment
+[0.974s] Installing zone_sensor script to /workspace/install/assessment/lib/assessment
+[0.975s] writing list of installed files to '/workspace/build/assessment/install.log'
+[0.998s] Invoked command in '/workspace/AURO/assessment' returned '0': AMENT_PREFIX_PATH=/workspace/install/auro_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/install/auro_interfaces LD_LIBRARY_PATH=/workspace/install/auro_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/workspace/build/assessment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/assessment/lib/python3.10/site-packages:/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/assessment build --build-base /workspace/build/assessment/build install --record /workspace/build/assessment/install.log --single-version-externally-managed install_data

@@ -1,87 +1,75 @@
-import rclpy
-from rclpy.node import Node
-from sensor_msgs.msg import LaserScan
-from geometry_msgs.msg import Twist
-from nav_msgs.msg import Odometry
+import random
 import math
+from geometry_msgs.msg import Twist
+from item_sensor import ItemSensor
+from lidar_sensor import LidarSensor
+from priority_manager import PriorityManager
+from robot_sensor import RobotSensor
+from rclpy.node import Node
 
-class robot_controller(Node):
+class RobotController(Node):
     def __init__(self):
         super().__init__('robot_controller')
-
-        # Parameters
-        self.declare_parameter('namespace', '')
-        self.namespace = self.get_parameter('namespace').get_parameter_value().string_value
-
-        # Topics (with namespace support)
-        self.lidar_topic = f'{self.namespace}/scan'
-        self.cmd_vel_topic = f'{self.namespace}/cmd_vel'
-        self.odom_topic = f'{self.namespace}/odom'
-
-        # Lidar data
-        self.lidar_data = None
-
-        # Robot velocity publisher
-        self.cmd_vel_publisher = self.create_publisher(Twist, self.cmd_vel_topic, 10)
-
-        # Subscriptions
-        self.create_subscription(LaserScan, self.lidar_topic, self.lidar_callback, 10)
-        self.create_subscription(Odometry, self.odom_topic, self.odom_callback, 10)
-
-        # Timer to control the robot
+        self.publisher = self.create_publisher(Twist, '/cmd_vel', 10)
         self.timer = self.create_timer(0.1, self.control_loop)
 
-        self.get_logger().info(f"robot Controller Node initialized for namespace: {self.namespace}")
+        self.item_sensor = ItemSensor()
+        self.lidar_sensor = LidarSensor()
+        self.priority_manager = PriorityManager()
+        self.robot_sensor = RobotSensor()
 
-    def lidar_callback(self, msg):
-        """Process Lidar data."""
-        self.lidar_data = msg.ranges
-
-    def odom_callback(self, msg):
-        """Process Odometry data (can be used for navigation tasks)."""
-        # Example: Read the current position and orientation
-        position = msg.pose.pose.position
-        orientation = msg.pose.pose.orientation
-        self.get_logger().info(f"Position: {position}, Orientation: {orientation}")
+        self.priority_manager.set_priority('seeking item')
 
     def control_loop(self):
-        """Main control loop to operate the robot."""
-        if self.lidar_data is None:
-            self.get_logger().info("Waiting for LiDAR data...")
-            return
+        current_priority = self.priority_manager.get_priority()
 
-        # Example: Basic obstacle avoidance
-        min_distance = min(self.lidar_data)
-        min_angle = self.lidar_data.index(min_distance)
+        if current_priority == 'seeking item':
+            self.random_movement()
+            detected_item = self.item_sensor.detect_item()
 
-        # Threshold for stopping
-        stop_distance = 0.5  # meters
+            if detected_item:
+                item_distance = self.lidar_sensor.get_distance_to_item(detected_item)
+                if item_distance and item_distance < 1.5:  # Example threshold
+                    self.priority_manager.set_priority('found item')
+                    self.item = detected_item
+                    self.item_distance = item_distance
+        
+        elif current_priority == 'found item':
+            self.align_with_item()
+            self.priority_manager.set_priority('has item')
 
-        # Twist message to control the robot
+        elif current_priority == 'has item':
+            self.move_to_item()
+
+    def random_movement(self):
         twist = Twist()
+        twist.linear.x = random.uniform(0.0, 0.5)
+        twist.angular.z = random.uniform(-0.5, 0.5)
+        self.publisher.publish(twist)
 
-        if min_distance < stop_distance:
-            self.get_logger().info(f"Obstacle detected at {min_distance} meters, angle {min_angle}")
-            twist.linear.x = 0.0
-            twist.angular.z = 0.5  # Turn to avoid obstacle
+    def align_with_item(self):
+        twist = Twist()
+        item_angle = self.item_sensor.get_item_angle(self.item)
+        if math.fabs(item_angle) > 0.1:  # Example threshold for alignment
+            twist.angular.z = 0.3 if item_angle > 0 else -0.3
         else:
-            twist.linear.x = 0.2  # Move forward
-            twist.angular.z = 0.0
+            twist.angular.z = 0
+        self.publisher.publish(twist)
 
-        # Publish the velocity command
-        self.cmd_vel_publisher.publish(twist)
+    def move_to_item(self):
+        twist = Twist()
+        distance = self.lidar_sensor.get_distance_to_item(self.item)
 
-def main(args=None):
-    rclpy.init(args=args)
-    node = robot_controller()
-
-    try:
-        rclpy.spin(node)
-    except KeyboardInterrupt:
-        node.get_logger().info("Shutting down robot Controller Node")
-    finally:
-        node.destroy_node()
-        rclpy.shutdown()
+        if distance and distance > 0.3:  # Example stopping threshold
+            twist.linear.x = 0.5
+        else:
+            twist.linear.x = 0
+            self.priority_manager.set_priority('seeking item')
+        self.publisher.publish(twist)
 
 if __name__ == '__main__':
-    main()
+    import rclpy
+    rclpy.init()
+    node = RobotController()
+    rclpy.spin(node)
+    rclpy.shutdown()

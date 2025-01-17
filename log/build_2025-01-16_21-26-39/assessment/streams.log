@@ -1,0 +1,28 @@
+[0.868s] Invoking command in '/workspace/AURO/assessment': AMENT_PREFIX_PATH=/workspace/install/auro_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/install/auro_interfaces LD_LIBRARY_PATH=/workspace/install/auro_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/workspace/build/assessment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/assessment/lib/python3.10/site-packages:/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/assessment build --build-base /workspace/build/assessment/build install --record /workspace/build/assessment/install.log --single-version-externally-managed install_data
+[1.113s] running egg_info
+[1.114s] writing ../../build/assessment/assessment.egg-info/PKG-INFO
+[1.114s] writing dependency_links to ../../build/assessment/assessment.egg-info/dependency_links.txt
+[1.114s] writing entry points to ../../build/assessment/assessment.egg-info/entry_points.txt
+[1.115s] writing requirements to ../../build/assessment/assessment.egg-info/requires.txt
+[1.115s] writing top-level names to ../../build/assessment/assessment.egg-info/top_level.txt
+[1.117s] reading manifest file '../../build/assessment/assessment.egg-info/SOURCES.txt'
+[1.118s] writing manifest file '../../build/assessment/assessment.egg-info/SOURCES.txt'
+[1.119s] running build
+[1.119s] running build_py
+[1.119s] running install
+[1.120s] running install_lib
+[1.121s] running install_data
+[1.122s] running install_egg_info
+[1.124s] removing '/workspace/install/assessment/lib/python3.10/site-packages/assessment-0.0.0-py3.10.egg-info' (and everything under it)
+[1.125s] Copying ../../build/assessment/assessment.egg-info to /workspace/install/assessment/lib/python3.10/site-packages/assessment-0.0.0-py3.10.egg-info
+[1.126s] running install_scripts
+[1.149s] Installing collision_detector script to /workspace/install/assessment/lib/assessment
+[1.149s] Installing item_manager script to /workspace/install/assessment/lib/assessment
+[1.149s] Installing item_sensor script to /workspace/install/assessment/lib/assessment
+[1.149s] Installing lidar_sensor script to /workspace/install/assessment/lib/assessment
+[1.149s] Installing priority_manager script to /workspace/install/assessment/lib/assessment
+[1.150s] Installing robot_controller script to /workspace/install/assessment/lib/assessment
+[1.150s] Installing robot_sensor script to /workspace/install/assessment/lib/assessment
+[1.150s] Installing zone_sensor script to /workspace/install/assessment/lib/assessment
+[1.151s] writing list of installed files to '/workspace/build/assessment/install.log'
+[1.174s] Invoked command in '/workspace/AURO/assessment' returned '0': AMENT_PREFIX_PATH=/workspace/install/auro_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/install/auro_interfaces LD_LIBRARY_PATH=/workspace/install/auro_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/workspace/build/assessment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/assessment/lib/python3.10/site-packages:/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/assessment build --build-base /workspace/build/assessment/build install --record /workspace/build/assessment/install.log --single-version-externally-managed install_data

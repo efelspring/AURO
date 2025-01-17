@@ -1,0 +1,105 @@
+[0.000000] (-) TimerEvent: {}
+[0.000200] (-) JobUnselected: {'identifier': 'assessment_interfaces'}
+[0.000301] (-) JobUnselected: {'identifier': 'auro_interfaces'}
+[0.000354] (-) JobUnselected: {'identifier': 'solution'}
+[0.000392] (-) JobUnselected: {'identifier': 'tf_relay'}
+[0.000430] (assessment) JobQueued: {'identifier': 'assessment', 'dependencies': OrderedDict([('auro_interfaces', '/workspace/install/auro_interfaces')])}
+[0.000472] (assessment) JobStarted: {'identifier': 'assessment'}
+[0.099139] (-) TimerEvent: {}
+[0.199421] (-) TimerEvent: {}
+[0.299680] (-) TimerEvent: {}
+[0.399928] (-) TimerEvent: {}
+[0.500238] (-) TimerEvent: {}
+[0.600475] (-) TimerEvent: {}
+[0.683524] (assessment) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/workspace/build/assessment/build'], 'cwd': '/workspace/build/assessment', 'env': {'HOSTNAME': '8ccf6a3641d8', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/workspace/install/auro_interfaces/lib:/workspace/install/assessment_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins', 'HOME': '/root', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/workspace/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/workspace/install/tf_relay:/workspace/install/solution:/workspace/install/assessment:/workspace/install/auro_interfaces:/workspace/install/assessment_interfaces:/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'PWD': '/workspace/build/assessment', 'TURTLEBOT3_MODEL': 'waffle_pi', 'LC_ALL': 'C.UTF-8', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'PYTHONPATH': '/workspace/build/assessment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/assessment/lib/python3.10/site-packages:/workspace/build/tf_relay:/workspace/install/tf_relay/lib/python3.10/site-packages:/workspace/build/solution:/workspace/install/solution/lib/python3.10/site-packages:/workspace/build/assessment:/workspace/install/assessment/lib/python3.10/site-packages:/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages:/workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/install/auro_interfaces:/workspace/install/assessment_interfaces'}, 'shell': False}
+[0.700608] (-) TimerEvent: {}
+[0.800896] (-) TimerEvent: {}
+[0.901206] (-) TimerEvent: {}
+[0.958163] (assessment) StdoutLine: {'line': b'running develop\n'}
+[0.958623] (assessment) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.958740] (assessment) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.001326] (-) TimerEvent: {}
+[1.101587] (-) TimerEvent: {}
+[1.142169] (assessment) StdoutLine: {'line': b'Removing /workspace/install/assessment/lib/python3.10/site-packages/assessment.egg-link (link to .)\n'}
+[1.168017] (assessment) CommandEnded: {'returncode': 0}
+[1.169015] (assessment) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/assessment', 'build', '--build-base', '/workspace/build/assessment/build', 'install', '--record', '/workspace/build/assessment/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/workspace/AURO/assessment', 'env': {'HOSTNAME': '8ccf6a3641d8', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/workspace/install/auro_interfaces/lib:/workspace/install/assessment_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins', 'HOME': '/root', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/workspace/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/workspace/install/tf_relay:/workspace/install/solution:/workspace/install/assessment:/workspace/install/auro_interfaces:/workspace/install/assessment_interfaces:/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'PWD': '/workspace/build/assessment', 'TURTLEBOT3_MODEL': 'waffle_pi', 'LC_ALL': 'C.UTF-8', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'PYTHONPATH': '/workspace/build/assessment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/assessment/lib/python3.10/site-packages:/workspace/build/tf_relay:/workspace/install/tf_relay/lib/python3.10/site-packages:/workspace/build/solution:/workspace/install/solution/lib/python3.10/site-packages:/workspace/build/assessment:/workspace/install/assessment/lib/python3.10/site-packages:/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages:/workspace/install/assessment_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/install/auro_interfaces:/workspace/install/assessment_interfaces'}, 'shell': False}
+[1.201659] (-) TimerEvent: {}
+[1.301953] (-) TimerEvent: {}
+[1.402245] (-) TimerEvent: {}
+[1.415044] (assessment) StdoutLine: {'line': b'running egg_info\n'}
+[1.415773] (assessment) StdoutLine: {'line': b'writing ../../build/assessment/assessment.egg-info/PKG-INFO\n'}
+[1.415982] (assessment) StdoutLine: {'line': b'writing dependency_links to ../../build/assessment/assessment.egg-info/dependency_links.txt\n'}
+[1.416162] (assessment) StdoutLine: {'line': b'writing entry points to ../../build/assessment/assessment.egg-info/entry_points.txt\n'}
+[1.416356] (assessment) StdoutLine: {'line': b'writing requirements to ../../build/assessment/assessment.egg-info/requires.txt\n'}
+[1.416526] (assessment) StdoutLine: {'line': b'writing top-level names to ../../build/assessment/assessment.egg-info/top_level.txt\n'}
+[1.418813] (assessment) StdoutLine: {'line': b"reading manifest file '../../build/assessment/assessment.egg-info/SOURCES.txt'\n"}
+[1.420156] (assessment) StdoutLine: {'line': b"writing manifest file '../../build/assessment/assessment.egg-info/SOURCES.txt'\n"}
+[1.420363] (assessment) StdoutLine: {'line': b'running build\n'}
+[1.420474] (assessment) StdoutLine: {'line': b'running build_py\n'}
+[1.421072] (assessment) StdoutLine: {'line': b'running install\n'}
+[1.421529] (assessment) StdoutLine: {'line': b'running install_lib\n'}
+[1.422413] (assessment) StdoutLine: {'line': b'creating /workspace/install/assessment/lib/python3.10/site-packages/assessment\n'}
+[1.422596] (assessment) StdoutLine: {'line': b'copying /workspace/build/assessment/build/lib/assessment/robot_controller.py -> /workspace/install/assessment/lib/python3.10/site-packages/assessment\n'}
+[1.422754] (assessment) StdoutLine: {'line': b'copying /workspace/build/assessment/build/lib/assessment/item_manager.py -> /workspace/install/assessment/lib/python3.10/site-packages/assessment\n'}
+[1.422907] (assessment) StdoutLine: {'line': b'copying /workspace/build/assessment/build/lib/assessment/zone_sensor.py -> /workspace/install/assessment/lib/python3.10/site-packages/assessment\n'}
+[1.423053] (assessment) StdoutLine: {'line': b'copying /workspace/build/assessment/build/lib/assessment/__init__.py -> /workspace/install/assessment/lib/python3.10/site-packages/assessment\n'}
+[1.423217] (assessment) StdoutLine: {'line': b'copying /workspace/build/assessment/build/lib/assessment/lidar_sensor.py -> /workspace/install/assessment/lib/python3.10/site-packages/assessment\n'}
+[1.423324] (assessment) StdoutLine: {'line': b'copying /workspace/build/assessment/build/lib/assessment/priority_manager.py -> /workspace/install/assessment/lib/python3.10/site-packages/assessment\n'}
+[1.423454] (assessment) StdoutLine: {'line': b'copying /workspace/build/assessment/build/lib/assessment/collision_detector.py -> /workspace/install/assessment/lib/python3.10/site-packages/assessment\n'}
+[1.423602] (assessment) StdoutLine: {'line': b'copying /workspace/build/assessment/build/lib/assessment/back_and_forth_controller.py -> /workspace/install/assessment/lib/python3.10/site-packages/assessment\n'}
+[1.423736] (assessment) StdoutLine: {'line': b'copying /workspace/build/assessment/build/lib/assessment/item_sensor.py -> /workspace/install/assessment/lib/python3.10/site-packages/assessment\n'}
+[1.423873] (assessment) StdoutLine: {'line': b'copying /workspace/build/assessment/build/lib/assessment/robot_sensor.py -> /workspace/install/assessment/lib/python3.10/site-packages/assessment\n'}
+[1.424658] (assessment) StdoutLine: {'line': b'byte-compiling /workspace/install/assessment/lib/python3.10/site-packages/assessment/robot_controller.py to robot_controller.cpython-310.pyc\n'}
+[1.425562] (assessment) StdoutLine: {'line': b'byte-compiling /workspace/install/assessment/lib/python3.10/site-packages/assessment/item_manager.py to item_manager.cpython-310.pyc\n'}
+[1.430227] (assessment) StdoutLine: {'line': b'byte-compiling /workspace/install/assessment/lib/python3.10/site-packages/assessment/zone_sensor.py to zone_sensor.cpython-310.pyc\n'}
+[1.431494] (assessment) StdoutLine: {'line': b'byte-compiling /workspace/install/assessment/lib/python3.10/site-packages/assessment/__init__.py to __init__.cpython-310.pyc\n'}
+[1.431728] (assessment) StdoutLine: {'line': b'byte-compiling /workspace/install/assessment/lib/python3.10/site-packages/assessment/lidar_sensor.py to lidar_sensor.cpython-310.pyc\n'}
+[1.432295] (assessment) StdoutLine: {'line': b'byte-compiling /workspace/install/assessment/lib/python3.10/site-packages/assessment/priority_manager.py to priority_manager.cpython-310.pyc\n'}
+[1.433209] (assessment) StdoutLine: {'line': b'byte-compiling /workspace/install/assessment/lib/python3.10/site-packages/assessment/collision_detector.py to collision_detector.cpython-310.pyc\n'}
+[1.433918] (assessment) StdoutLine: {'line': b'byte-compiling /workspace/install/assessment/lib/python3.10/site-packages/assessment/back_and_forth_controller.py to back_and_forth_controller.cpython-310.pyc\n'}
+[1.434401] (assessment) StdoutLine: {'line': b'byte-compiling /workspace/install/assessment/lib/python3.10/site-packages/assessment/item_sensor.py to item_sensor.cpython-310.pyc\n'}
+[1.435876] (assessment) StdoutLine: {'line': b'byte-compiling /workspace/install/assessment/lib/python3.10/site-packages/assessment/robot_sensor.py to robot_sensor.cpython-310.pyc\n'}
+[1.436910] (assessment) StdoutLine: {'line': b'running install_data\n'}
+[1.437132] (assessment) StdoutLine: {'line': b'copying resource/assessment -> /workspace/install/assessment/share/ament_index/resource_index/packages\n'}
+[1.437315] (assessment) StdoutLine: {'line': b'copying package.xml -> /workspace/install/assessment/share/assessment\n'}
+[1.437484] (assessment) StdoutLine: {'line': b'copying models/media/materials/scripts/outline_vertex_shader.glsl -> /workspace/install/assessment/share/assessment/models/media/materials/scripts\n'}
+[1.437818] (assessment) StdoutLine: {'line': b'copying models/media/materials/scripts/assessment_materials.material -> /workspace/install/assessment/share/assessment/models/media/materials/scripts\n'}
+[1.438127] (assessment) StdoutLine: {'line': b'copying models/media/materials/scripts/outline_fragment_shader.glsl -> /workspace/install/assessment/share/assessment/models/media/materials/scripts\n'}
+[1.438424] (assessment) StdoutLine: {'line': b'copying models/waffle_pi_common/model.config -> /workspace/install/assessment/share/assessment/models/waffle_pi_common\n'}
+[1.438704] (assessment) StdoutLine: {'line': b'copying models/waffle_pi_common/meshes/lds_smooth.dae -> /workspace/install/assessment/share/assessment/models/waffle_pi_common/meshes\n'}
+[1.439044] (assessment) StdoutLine: {'line': b'copying models/waffle_pi_common/meshes/waffle_pi_base_smooth.dae -> /workspace/install/assessment/share/assessment/models/waffle_pi_common/meshes\n'}
+[1.439330] (assessment) StdoutLine: {'line': b'copying models/waffle_pi_common/meshes/tire_smooth.dae -> /workspace/install/assessment/share/assessment/models/waffle_pi_common/meshes\n'}
+[1.439674] (assessment) StdoutLine: {'line': b'copying models/waffle_pi/model.config -> /workspace/install/assessment/share/assessment/models/waffle_pi\n'}
+[1.439856] (assessment) StdoutLine: {'line': b'copying models/waffle_pi/model.sdf -> /workspace/install/assessment/share/assessment/models/waffle_pi\n'}
+[1.440106] (assessment) StdoutLine: {'line': b'copying models/item/model.config -> /workspace/install/assessment/share/assessment/models/item\n'}
+[1.440358] (assessment) StdoutLine: {'line': b'copying models/item/model.sdf -> /workspace/install/assessment/share/assessment/models/item\n'}
+[1.440650] (assessment) StdoutLine: {'line': b'copying models/assessment_world/model.config -> /workspace/install/assessment/share/assessment/models/assessment_world\n'}
+[1.440840] (assessment) StdoutLine: {'line': b'copying models/assessment_world/model.sdf -> /workspace/install/assessment/share/assessment/models/assessment_world\n'}
+[1.441069] (assessment) StdoutLine: {'line': b'copying launch/bringup_launch.py -> /workspace/install/assessment/share/assessment/launch/\n'}
+[1.441218] (assessment) StdoutLine: {'line': b'copying launch/assessment_launch.py -> /workspace/install/assessment/share/assessment/launch/\n'}
+[1.441375] (assessment) StdoutLine: {'line': b'copying launch/rviz_launch.py -> /workspace/install/assessment/share/assessment/launch/\n'}
+[1.441566] (assessment) StdoutLine: {'line': b'copying launch/spawn_robot_launch.py -> /workspace/install/assessment/share/assessment/launch/\n'}
+[1.441746] (assessment) StdoutLine: {'line': b'copying worlds/assessment_world.world -> /workspace/install/assessment/share/assessment/worlds/\n'}
+[1.442115] (assessment) StdoutLine: {'line': b'copying rviz/namespaced_nav2.rviz -> /workspace/install/assessment/share/assessment/rviz/\n'}
+[1.442419] (assessment) StdoutLine: {'line': b'copying rviz/namespaced.rviz -> /workspace/install/assessment/share/assessment/rviz/\n'}
+[1.442667] (assessment) StdoutLine: {'line': b'copying params/nav2_params_namespaced.yaml -> /workspace/install/assessment/share/assessment/params/\n'}
+[1.442914] (assessment) StdoutLine: {'line': b'copying maps/assessment_world.pgm -> /workspace/install/assessment/share/assessment/maps/\n'}
+[1.443181] (assessment) StdoutLine: {'line': b'copying maps/assessment_world.yaml -> /workspace/install/assessment/share/assessment/maps/\n'}
+[1.443388] (assessment) StdoutLine: {'line': b'copying config/initial_poses.yaml -> /workspace/install/assessment/share/assessment/config/\n'}
+[1.443649] (assessment) StdoutLine: {'line': b'copying config/rviz_windows.yaml -> /workspace/install/assessment/share/assessment/config/\n'}
+[1.443885] (assessment) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.445733] (assessment) StdoutLine: {'line': b'Copying ../../build/assessment/assessment.egg-info to /workspace/install/assessment/lib/python3.10/site-packages/assessment-0.0.0-py3.10.egg-info\n'}
+[1.446834] (assessment) StdoutLine: {'line': b'running install_scripts\n'}
+[1.467985] (assessment) StdoutLine: {'line': b'Installing collision_detector script to /workspace/install/assessment/lib/assessment\n'}
+[1.468218] (assessment) StdoutLine: {'line': b'Installing item_manager script to /workspace/install/assessment/lib/assessment\n'}
+[1.468362] (assessment) StdoutLine: {'line': b'Installing item_sensor script to /workspace/install/assessment/lib/assessment\n'}
+[1.468494] (assessment) StdoutLine: {'line': b'Installing lidar_sensor script to /workspace/install/assessment/lib/assessment\n'}
+[1.468637] (assessment) StdoutLine: {'line': b'Installing priority_manager script to /workspace/install/assessment/lib/assessment\n'}
+[1.468779] (assessment) StdoutLine: {'line': b'Installing robot_controller script to /workspace/install/assessment/lib/assessment\n'}
+[1.468923] (assessment) StdoutLine: {'line': b'Installing robot_sensor script to /workspace/install/assessment/lib/assessment\n'}
+[1.469045] (assessment) StdoutLine: {'line': b'Installing zone_sensor script to /workspace/install/assessment/lib/assessment\n'}
+[1.469865] (assessment) StdoutLine: {'line': b"writing list of installed files to '/workspace/build/assessment/install.log'\n"}
+[1.493756] (assessment) CommandEnded: {'returncode': 0}
+[1.502588] (-) TimerEvent: {}
+[1.508778] (assessment) JobEnded: {'identifier': 'assessment', 'rc': 0}
+[1.509740] (-) EventReactorShutdown: {}

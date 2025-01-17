@@ -1,0 +1,186 @@
+[0.140s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'assessment']
+[0.140s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['assessment'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fccf2745bd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fccf2745660>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fccf2745660>>, mixin_verb=('build',))
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.300s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.301s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.301s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/workspace'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(AURO) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(AURO) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(AURO) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(AURO) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(AURO) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(AURO) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(AURO) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(AURO) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(AURO) by extension 'ros'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(AURO) by extensions ['cmake', 'python']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(AURO) by extension 'cmake'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(AURO) by extension 'python'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(AURO) by extensions ['python_setup_py']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(AURO) by extension 'python_setup_py'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment) by extension 'ros'
+[0.317s] DEBUG:colcon.colcon_core.package_identification:Package 'AURO/assessment' with type 'ros.ament_python' and name 'assessment'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment_interfaces) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment_interfaces) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment_interfaces) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment_interfaces) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment_interfaces) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment_interfaces) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment_interfaces) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/assessment_interfaces) by extension 'ros'
+[0.318s] DEBUG:colcon.colcon_core.package_identification:Package 'AURO/assessment_interfaces' with type 'ros.ament_cmake' and name 'assessment_interfaces'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/auro_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/auro_interfaces) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/auro_interfaces) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/auro_interfaces) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/auro_interfaces) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/auro_interfaces) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/auro_interfaces) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/auro_interfaces) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/auro_interfaces) by extension 'ros'
+[0.320s] DEBUG:colcon.colcon_core.package_identification:Package 'AURO/auro_interfaces' with type 'ros.ament_cmake' and name 'auro_interfaces'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/solution) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/solution) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/solution) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/solution) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/solution) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/solution) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/solution) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/solution) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/solution) by extension 'ros'
+[0.320s] DEBUG:colcon.colcon_core.package_identification:Package 'AURO/solution' with type 'ros.ament_python' and name 'solution'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/tf_relay) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/tf_relay) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/tf_relay) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/tf_relay) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/tf_relay) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/tf_relay) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/tf_relay) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/tf_relay) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(AURO/tf_relay) by extension 'ros'
+[0.321s] DEBUG:colcon.colcon_core.package_identification:Package 'AURO/tf_relay' with type 'ros.ament_python' and name 'tf_relay'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(assessment.egg-info) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(assessment.egg-info) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(assessment.egg-info) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(assessment.egg-info) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(assessment.egg-info) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(assessment.egg-info) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(assessment.egg-info) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(assessment.egg-info) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(assessment.egg-info) by extension 'ros'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(assessment.egg-info) by extensions ['cmake', 'python']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(assessment.egg-info) by extension 'cmake'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(assessment.egg-info) by extension 'python'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(assessment.egg-info) by extensions ['python_setup_py']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(assessment.egg-info) by extension 'python_setup_py'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.344s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'assessment_interfaces' in 'AURO/assessment_interfaces'
+[0.344s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'auro_interfaces' in 'AURO/auro_interfaces'
+[0.344s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'solution' in 'AURO/solution'
+[0.344s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tf_relay' in 'AURO/tf_relay'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'assessment' build argument 'cmake_args' from command line to 'None'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'assessment' build argument 'cmake_target' from command line to 'None'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'assessment' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'assessment' build argument 'cmake_clean_cache' from command line to 'False'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'assessment' build argument 'cmake_clean_first' from command line to 'False'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'assessment' build argument 'cmake_force_configure' from command line to 'False'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'assessment' build argument 'ament_cmake_args' from command line to 'None'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'assessment' build argument 'catkin_cmake_args' from command line to 'None'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'assessment' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.345s] DEBUG:colcon.colcon_core.verb:Building package 'assessment' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/build/assessment', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/install/assessment', 'merge_install': False, 'path': '/workspace/AURO/assessment', 'symlink_install': False, 'test_result_base': None}
+[0.345s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.346s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.347s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspace/AURO/assessment' with build type 'ament_python'
+[0.347s] Level 1:colcon.colcon_core.shell:create_environment_hook('assessment', 'ament_prefix_path')
+[0.350s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/assessment/share/assessment/hook/ament_prefix_path.ps1'
+[0.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/assessment/share/assessment/hook/ament_prefix_path.dsv'
+[0.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/assessment/share/assessment/hook/ament_prefix_path.sh'
+[0.352s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.352s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.630s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspace/AURO/assessment'
+[0.630s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.630s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/build/assessment': LD_LIBRARY_PATH=/workspace/install/auro_interfaces/lib:/workspace/install/assessment_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/workspace/build/assessment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/assessment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /workspace/build/assessment/build
+[1.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/build/assessment' returned '0': LD_LIBRARY_PATH=/workspace/install/auro_interfaces/lib:/workspace/install/assessment_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/workspace/build/assessment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/assessment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /workspace/build/assessment/build
+[1.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/AURO/assessment': LD_LIBRARY_PATH=/workspace/install/auro_interfaces/lib:/workspace/install/assessment_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/workspace/build/assessment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/assessment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/assessment build --build-base /workspace/build/assessment/build install --record /workspace/build/assessment/install.log --single-version-externally-managed install_data --force
+[1.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/AURO/assessment' returned '0': LD_LIBRARY_PATH=/workspace/install/auro_interfaces/lib:/workspace/install/assessment_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/workspace/build/assessment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/assessment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/assessment build --build-base /workspace/build/assessment/build install --record /workspace/build/assessment/install.log --single-version-externally-managed install_data --force
+[1.827s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/assessment' for CMake module files
+[1.828s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/assessment' for CMake config files
+[1.829s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/assessment/lib'
+[1.830s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/assessment/bin'
+[1.830s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/assessment/lib/pkgconfig/assessment.pc'
+[1.830s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/assessment/lib/python3.10/site-packages'
+[1.830s] Level 1:colcon.colcon_core.shell:create_environment_hook('assessment', 'pythonpath')
+[1.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/assessment/share/assessment/hook/pythonpath.ps1'
+[1.831s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/assessment/share/assessment/hook/pythonpath.dsv'
+[1.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/assessment/share/assessment/hook/pythonpath.sh'
+[1.832s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/assessment/bin'
+[1.832s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(assessment)
+[1.833s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/assessment/share/assessment/package.ps1'
+[1.833s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/assessment/share/assessment/package.dsv'
+[1.834s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/assessment/share/assessment/package.sh'
+[1.835s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/assessment/share/assessment/package.bash'
+[1.836s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/assessment/share/assessment/package.zsh'
+[1.837s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/assessment/share/colcon-core/packages/assessment)
+[1.837s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.837s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.837s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.838s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.844s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.844s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.845s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.845s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.847s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[1.847s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.848s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/install/local_setup.ps1'
+[1.849s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspace/install/_local_setup_util_ps1.py'
+[1.851s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/install/setup.ps1'
+[1.852s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/install/local_setup.sh'
+[1.853s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspace/install/_local_setup_util_sh.py'
+[1.853s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/install/setup.sh'
+[1.870s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/install/local_setup.bash'
+[1.870s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/install/setup.bash'
+[1.871s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/install/local_setup.zsh'
+[1.872s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/install/setup.zsh'

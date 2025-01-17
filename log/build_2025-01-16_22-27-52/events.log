@@ -1,0 +1,50 @@
+[0.000000] (-) TimerEvent: {}
+[0.000185] (-) JobUnselected: {'identifier': 'assessment_interfaces'}
+[0.000403] (-) JobUnselected: {'identifier': 'auro_interfaces'}
+[0.000792] (-) JobUnselected: {'identifier': 'solution'}
+[0.001159] (-) JobUnselected: {'identifier': 'tf_relay'}
+[0.001194] (assessment) JobQueued: {'identifier': 'assessment', 'dependencies': OrderedDict([('auro_interfaces', '/workspace/install/auro_interfaces')])}
+[0.001267] (assessment) JobStarted: {'identifier': 'assessment'}
+[0.099731] (-) TimerEvent: {}
+[0.200007] (-) TimerEvent: {}
+[0.300344] (-) TimerEvent: {}
+[0.400612] (-) TimerEvent: {}
+[0.500867] (-) TimerEvent: {}
+[0.601163] (-) TimerEvent: {}
+[0.692663] (assessment) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/assessment', 'build', '--build-base', '/workspace/build/assessment/build', 'install', '--record', '/workspace/build/assessment/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspace/AURO/assessment', 'env': {'HOSTNAME': '8ccf6a3641d8', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/workspace/install/auro_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins', 'HOME': '/root', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/workspace/install/auro_interfaces:/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'PWD': '/workspace/build/assessment', 'TURTLEBOT3_MODEL': 'waffle_pi', 'LC_ALL': 'C.UTF-8', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'PYTHONPATH': '/workspace/build/assessment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/assessment/lib/python3.10/site-packages:/workspace/install/auro_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/install/auro_interfaces'}, 'shell': False}
+[0.701279] (-) TimerEvent: {}
+[0.801572] (-) TimerEvent: {}
+[0.901873] (-) TimerEvent: {}
+[0.938850] (assessment) StdoutLine: {'line': b'running egg_info\n'}
+[0.939507] (assessment) StdoutLine: {'line': b'writing ../../build/assessment/assessment.egg-info/PKG-INFO\n'}
+[0.939765] (assessment) StdoutLine: {'line': b'writing dependency_links to ../../build/assessment/assessment.egg-info/dependency_links.txt\n'}
+[0.940024] (assessment) StdoutLine: {'line': b'writing entry points to ../../build/assessment/assessment.egg-info/entry_points.txt\n'}
+[0.940202] (assessment) StdoutLine: {'line': b'writing requirements to ../../build/assessment/assessment.egg-info/requires.txt\n'}
+[0.940370] (assessment) StdoutLine: {'line': b'writing top-level names to ../../build/assessment/assessment.egg-info/top_level.txt\n'}
+[0.942988] (assessment) StdoutLine: {'line': b"reading manifest file '../../build/assessment/assessment.egg-info/SOURCES.txt'\n"}
+[0.944295] (assessment) StdoutLine: {'line': b"writing manifest file '../../build/assessment/assessment.egg-info/SOURCES.txt'\n"}
+[0.944498] (assessment) StdoutLine: {'line': b'running build\n'}
+[0.944621] (assessment) StdoutLine: {'line': b'running build_py\n'}
+[0.944768] (assessment) StdoutLine: {'line': b'copying assessment/robot_controller.py -> /workspace/build/assessment/build/lib/assessment\n'}
+[0.945470] (assessment) StdoutLine: {'line': b'running install\n'}
+[0.945928] (assessment) StdoutLine: {'line': b'running install_lib\n'}
+[0.946798] (assessment) StdoutLine: {'line': b'copying /workspace/build/assessment/build/lib/assessment/robot_controller.py -> /workspace/install/assessment/lib/python3.10/site-packages/assessment\n'}
+[0.947738] (assessment) StdoutLine: {'line': b'byte-compiling /workspace/install/assessment/lib/python3.10/site-packages/assessment/robot_controller.py to robot_controller.cpython-310.pyc\n'}
+[0.948547] (assessment) StdoutLine: {'line': b'running install_data\n'}
+[0.949764] (assessment) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.951679] (assessment) StdoutLine: {'line': b"removing '/workspace/install/assessment/lib/python3.10/site-packages/assessment-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.952077] (assessment) StdoutLine: {'line': b'Copying ../../build/assessment/assessment.egg-info to /workspace/install/assessment/lib/python3.10/site-packages/assessment-0.0.0-py3.10.egg-info\n'}
+[0.953108] (assessment) StdoutLine: {'line': b'running install_scripts\n'}
+[0.974274] (assessment) StdoutLine: {'line': b'Installing collision_detector script to /workspace/install/assessment/lib/assessment\n'}
+[0.974517] (assessment) StdoutLine: {'line': b'Installing item_manager script to /workspace/install/assessment/lib/assessment\n'}
+[0.974715] (assessment) StdoutLine: {'line': b'Installing item_sensor script to /workspace/install/assessment/lib/assessment\n'}
+[0.974887] (assessment) StdoutLine: {'line': b'Installing lidar_sensor script to /workspace/install/assessment/lib/assessment\n'}
+[0.975055] (assessment) StdoutLine: {'line': b'Installing priority_manager script to /workspace/install/assessment/lib/assessment\n'}
+[0.975225] (assessment) StdoutLine: {'line': b'Installing robot_controller script to /workspace/install/assessment/lib/assessment\n'}
+[0.975381] (assessment) StdoutLine: {'line': b'Installing robot_sensor script to /workspace/install/assessment/lib/assessment\n'}
+[0.975540] (assessment) StdoutLine: {'line': b'Installing zone_sensor script to /workspace/install/assessment/lib/assessment\n'}
+[0.976394] (assessment) StdoutLine: {'line': b"writing list of installed files to '/workspace/build/assessment/install.log'\n"}
+[0.999203] (assessment) CommandEnded: {'returncode': 0}
+[1.002189] (-) TimerEvent: {}
+[1.012600] (assessment) JobEnded: {'identifier': 'assessment', 'rc': 0}
+[1.013538] (-) EventReactorShutdown: {}

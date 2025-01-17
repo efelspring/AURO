@@ -1,0 +1,81 @@
+[0.684s] Invoking command in '/workspace/build/assessment': LD_LIBRARY_PATH=/workspace/install/auro_interfaces/lib:/workspace/install/assessment_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/workspace/build/assessment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/assessment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /workspace/build/assessment/build
+[0.958s] running develop
+[0.958s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.958s]   warnings.warn(
+[1.142s] Removing /workspace/install/assessment/lib/python3.10/site-packages/assessment.egg-link (link to .)
+[1.168s] Invoked command in '/workspace/build/assessment' returned '0': LD_LIBRARY_PATH=/workspace/install/auro_interfaces/lib:/workspace/install/assessment_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/workspace/build/assessment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/assessment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /workspace/build/assessment/build
+[1.169s] Invoking command in '/workspace/AURO/assessment': LD_LIBRARY_PATH=/workspace/install/auro_interfaces/lib:/workspace/install/assessment_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/workspace/build/assessment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/assessment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/assessment build --build-base /workspace/build/assessment/build install --record /workspace/build/assessment/install.log --single-version-externally-managed install_data --force
+[1.415s] running egg_info
+[1.415s] writing ../../build/assessment/assessment.egg-info/PKG-INFO
+[1.416s] writing dependency_links to ../../build/assessment/assessment.egg-info/dependency_links.txt
+[1.416s] writing entry points to ../../build/assessment/assessment.egg-info/entry_points.txt
+[1.416s] writing requirements to ../../build/assessment/assessment.egg-info/requires.txt
+[1.416s] writing top-level names to ../../build/assessment/assessment.egg-info/top_level.txt
+[1.418s] reading manifest file '../../build/assessment/assessment.egg-info/SOURCES.txt'
+[1.420s] writing manifest file '../../build/assessment/assessment.egg-info/SOURCES.txt'
+[1.420s] running build
+[1.420s] running build_py
+[1.421s] running install
+[1.421s] running install_lib
+[1.422s] creating /workspace/install/assessment/lib/python3.10/site-packages/assessment
+[1.422s] copying /workspace/build/assessment/build/lib/assessment/robot_controller.py -> /workspace/install/assessment/lib/python3.10/site-packages/assessment
+[1.422s] copying /workspace/build/assessment/build/lib/assessment/item_manager.py -> /workspace/install/assessment/lib/python3.10/site-packages/assessment
+[1.423s] copying /workspace/build/assessment/build/lib/assessment/zone_sensor.py -> /workspace/install/assessment/lib/python3.10/site-packages/assessment
+[1.423s] copying /workspace/build/assessment/build/lib/assessment/__init__.py -> /workspace/install/assessment/lib/python3.10/site-packages/assessment
+[1.423s] copying /workspace/build/assessment/build/lib/assessment/lidar_sensor.py -> /workspace/install/assessment/lib/python3.10/site-packages/assessment
+[1.423s] copying /workspace/build/assessment/build/lib/assessment/priority_manager.py -> /workspace/install/assessment/lib/python3.10/site-packages/assessment
+[1.423s] copying /workspace/build/assessment/build/lib/assessment/collision_detector.py -> /workspace/install/assessment/lib/python3.10/site-packages/assessment
+[1.423s] copying /workspace/build/assessment/build/lib/assessment/back_and_forth_controller.py -> /workspace/install/assessment/lib/python3.10/site-packages/assessment
+[1.423s] copying /workspace/build/assessment/build/lib/assessment/item_sensor.py -> /workspace/install/assessment/lib/python3.10/site-packages/assessment
+[1.423s] copying /workspace/build/assessment/build/lib/assessment/robot_sensor.py -> /workspace/install/assessment/lib/python3.10/site-packages/assessment
+[1.424s] byte-compiling /workspace/install/assessment/lib/python3.10/site-packages/assessment/robot_controller.py to robot_controller.cpython-310.pyc
+[1.425s] byte-compiling /workspace/install/assessment/lib/python3.10/site-packages/assessment/item_manager.py to item_manager.cpython-310.pyc
+[1.430s] byte-compiling /workspace/install/assessment/lib/python3.10/site-packages/assessment/zone_sensor.py to zone_sensor.cpython-310.pyc
+[1.431s] byte-compiling /workspace/install/assessment/lib/python3.10/site-packages/assessment/__init__.py to __init__.cpython-310.pyc
+[1.431s] byte-compiling /workspace/install/assessment/lib/python3.10/site-packages/assessment/lidar_sensor.py to lidar_sensor.cpython-310.pyc
+[1.432s] byte-compiling /workspace/install/assessment/lib/python3.10/site-packages/assessment/priority_manager.py to priority_manager.cpython-310.pyc
+[1.433s] byte-compiling /workspace/install/assessment/lib/python3.10/site-packages/assessment/collision_detector.py to collision_detector.cpython-310.pyc
+[1.434s] byte-compiling /workspace/install/assessment/lib/python3.10/site-packages/assessment/back_and_forth_controller.py to back_and_forth_controller.cpython-310.pyc
+[1.434s] byte-compiling /workspace/install/assessment/lib/python3.10/site-packages/assessment/item_sensor.py to item_sensor.cpython-310.pyc
+[1.436s] byte-compiling /workspace/install/assessment/lib/python3.10/site-packages/assessment/robot_sensor.py to robot_sensor.cpython-310.pyc
+[1.437s] running install_data
+[1.437s] copying resource/assessment -> /workspace/install/assessment/share/ament_index/resource_index/packages
+[1.437s] copying package.xml -> /workspace/install/assessment/share/assessment
+[1.437s] copying models/media/materials/scripts/outline_vertex_shader.glsl -> /workspace/install/assessment/share/assessment/models/media/materials/scripts
+[1.437s] copying models/media/materials/scripts/assessment_materials.material -> /workspace/install/assessment/share/assessment/models/media/materials/scripts
+[1.438s] copying models/media/materials/scripts/outline_fragment_shader.glsl -> /workspace/install/assessment/share/assessment/models/media/materials/scripts
+[1.438s] copying models/waffle_pi_common/model.config -> /workspace/install/assessment/share/assessment/models/waffle_pi_common
+[1.438s] copying models/waffle_pi_common/meshes/lds_smooth.dae -> /workspace/install/assessment/share/assessment/models/waffle_pi_common/meshes
+[1.439s] copying models/waffle_pi_common/meshes/waffle_pi_base_smooth.dae -> /workspace/install/assessment/share/assessment/models/waffle_pi_common/meshes
+[1.439s] copying models/waffle_pi_common/meshes/tire_smooth.dae -> /workspace/install/assessment/share/assessment/models/waffle_pi_common/meshes
+[1.439s] copying models/waffle_pi/model.config -> /workspace/install/assessment/share/assessment/models/waffle_pi
+[1.439s] copying models/waffle_pi/model.sdf -> /workspace/install/assessment/share/assessment/models/waffle_pi
+[1.440s] copying models/item/model.config -> /workspace/install/assessment/share/assessment/models/item
+[1.440s] copying models/item/model.sdf -> /workspace/install/assessment/share/assessment/models/item
+[1.440s] copying models/assessment_world/model.config -> /workspace/install/assessment/share/assessment/models/assessment_world
+[1.440s] copying models/assessment_world/model.sdf -> /workspace/install/assessment/share/assessment/models/assessment_world
+[1.441s] copying launch/bringup_launch.py -> /workspace/install/assessment/share/assessment/launch/
+[1.441s] copying launch/assessment_launch.py -> /workspace/install/assessment/share/assessment/launch/
+[1.441s] copying launch/rviz_launch.py -> /workspace/install/assessment/share/assessment/launch/
+[1.441s] copying launch/spawn_robot_launch.py -> /workspace/install/assessment/share/assessment/launch/
+[1.441s] copying worlds/assessment_world.world -> /workspace/install/assessment/share/assessment/worlds/
+[1.442s] copying rviz/namespaced_nav2.rviz -> /workspace/install/assessment/share/assessment/rviz/
+[1.442s] copying rviz/namespaced.rviz -> /workspace/install/assessment/share/assessment/rviz/
+[1.442s] copying params/nav2_params_namespaced.yaml -> /workspace/install/assessment/share/assessment/params/
+[1.443s] copying maps/assessment_world.pgm -> /workspace/install/assessment/share/assessment/maps/
+[1.443s] copying maps/assessment_world.yaml -> /workspace/install/assessment/share/assessment/maps/
+[1.443s] copying config/initial_poses.yaml -> /workspace/install/assessment/share/assessment/config/
+[1.443s] copying config/rviz_windows.yaml -> /workspace/install/assessment/share/assessment/config/
+[1.443s] running install_egg_info
+[1.445s] Copying ../../build/assessment/assessment.egg-info to /workspace/install/assessment/lib/python3.10/site-packages/assessment-0.0.0-py3.10.egg-info
+[1.446s] running install_scripts
+[1.468s] Installing collision_detector script to /workspace/install/assessment/lib/assessment
+[1.468s] Installing item_manager script to /workspace/install/assessment/lib/assessment
+[1.468s] Installing item_sensor script to /workspace/install/assessment/lib/assessment
+[1.468s] Installing lidar_sensor script to /workspace/install/assessment/lib/assessment
+[1.468s] Installing priority_manager script to /workspace/install/assessment/lib/assessment
+[1.468s] Installing robot_controller script to /workspace/install/assessment/lib/assessment
+[1.469s] Installing robot_sensor script to /workspace/install/assessment/lib/assessment
+[1.469s] Installing zone_sensor script to /workspace/install/assessment/lib/assessment
+[1.469s] writing list of installed files to '/workspace/build/assessment/install.log'
+[1.494s] Invoked command in '/workspace/AURO/assessment' returned '0': LD_LIBRARY_PATH=/workspace/install/auro_interfaces/lib:/workspace/install/assessment_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/workspace/build/assessment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/assessment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/assessment build --build-base /workspace/build/assessment/build install --record /workspace/build/assessment/install.log --single-version-externally-managed install_data --force
